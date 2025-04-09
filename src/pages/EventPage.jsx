@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom'
 const EventPage = ({ department }) => {
   const { eventname } = useParams()
   const [istrue, setIstrue] = React.useState(true)
+  
   return (
     <div className="text-white p-8">
       <h1 className="text-3xl font-bold">{department.toUpperCase()} Department</h1>

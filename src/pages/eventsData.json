@@ -1,18 +1,16 @@
 [
-{
-    "eventName": "Infinity Hunt",
-    "eventDescription":
+{   
+    "eventName": "Infinity Hunt", 
+    "eventDescription": 
       "Infinity Hunt is a thrilling treasure hunt-style event that combines the excitement of discovery with the challenge of mental acuity. The event features a unique combination of aptitude questions, coding challenges, and engaging puzzles. Participants will solve clues, crack codes, and race against time to reach the final destination.",
     "hostDepartment": "CSE",
-    "eventDay": "day1 or day2",
+    "eventDay": "day1 or day2", 
     "startTime": "9:30 AM",
     "endTime": "3:00 PM",
     "venue": "New Building Labs",
     "eligibleParticipants": "Any students from engineering branch",
     "singleEntryFee": "100",
     "groupEntryFee": "400",
-    "registrationFormLink": "",
-    "qrLink": "",
     "prizeMoney": {
       "first": "3000",
       "second": "2000",
@@ -49,19 +47,30 @@
       {
         "title": "Round 1 – Aptitude Clash",
         "description":
-          "Participants will face logic-based aptitude and reasoning questions. Top scorers will move to the next round."
+          "Participants will face logic-based aptitude and reasoning questions. Top scorers will move to the next round.",
+          "startTime":"9:30 AM"
       },
       {
         "title": "Round 2 – Code Crypt",
         "description":
-          "A coding challenge where participants solve puzzles or decode logic to find clues."
+          "A coding challenge where participants solve puzzles or decode logic to find clues.",
+            "startTime":"11:00 AM"
       },
       {
         "title": "Final Round – The Hunt",
         "description":
-          "The ultimate treasure hunt round across the venue, filled with hidden clues, riddles, and tech puzzles."
+          "The ultimate treasure hunt round across the venue, filled with hidden clues, riddles, and tech puzzles.",
+            "startTime":"1:00 PM"
       }
     ],
+
+    "registration": {
+      "registrationFormLink": "https://example.com/register",
+      "qrLink": "/images/qr-code.png",
+      "startDate": "2023-10-01",
+      "endDate": "2023-10-15"
+    },
+
     "others": {
       "warnings": [
         "Carry your college ID cards.",
@@ -83,6 +92,28 @@
         "name": "CodeSphere",
         "logo": "/sponsors/codesphere.png"
       }
+    ],
+    "faqs": [
+        {
+            "question": "Can I participate alone?",
+            "answer":
+            "Yes, you can register as an individual or in a group of up to 4 members."
+        },
+        {
+            "question": "What if I miss the registration deadline?",
+            "answer":
+            "Unfortunately, late registrations will not be accepted. Please register before the deadline."
+        },
+        {
+            "question": "Is there any age limit for participants?",
+            "answer":
+            "No, there is no age limit. All engineering students are welcome to participate."
+        },
+        {
+            "question": "Will food be provided during the event?",
+            "answer":
+            "Yes, lunch and refreshments will be provided to all participants."
+        }
     ]
   }
 ]
