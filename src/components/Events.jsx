@@ -13,7 +13,7 @@ const Events = () => {
               description: 'Competitive coding event for problem solvers.',
               logo: 'src/assets/react.svg',
               formLink: 'https://example.com/form/cse-codeclash',
-              route: '/event/code-clash',
+              route: '/events/cse/code-clash',
             },
             {
               title: 'Debug Duel',

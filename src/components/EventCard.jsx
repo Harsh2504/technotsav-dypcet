@@ -18,11 +18,11 @@ const EventCard = ({ dept }) => {
     const rotateX = ((y - centerY) / centerY) * 10;
     const rotateY = ((x - centerX) / centerX) * -10;
 
-    card.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateZ(20px)`;
+    card.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
 
     const shineX = ((x / rect.width) * 100).toFixed(2);
     const shineY = ((y / rect.height) * 100).toFixed(2);
-    shine.style.background = `radial-gradient(circle at ${shineX}% ${shineY}%, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0))`;
+    shine.style.background = `radial-gradient(circle at ${shineX}% ${shineY}%, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0))`;
   };
 
   const handleMouseLeave = (e) => {
@@ -31,12 +31,12 @@ const EventCard = ({ dept }) => {
     const shine = card.querySelector('#shine-effect');
     light.style.opacity = 0;
     shine.style.background = 'none';
-    card.style.transform = 'rotateX(0deg) rotateY(0deg) translateZ(0px)';
+    card.style.transform = 'rotateX(0deg) rotateY(0deg)';
   };
 
   return (
     <div
-      className="w-80 md:w-80  group bg-[linear-gradient(135deg,_#111827,_#4B5563,_#111827,_#4B5563,_#111827)] p-12 flex flex-col justify-start items-center gap-4 rounded-xl shadow-[0_4px_30px_rgba(0,0,0,0.3)] relative overflow-hidden transition-transform duration-300 min-h-[300px] "
+      className="w-80 group relative p-8 flex flex-col items-center justify-between gap-4 rounded-2xl overflow-hidden shadow-[0_10px_40px_rgba(0,0,0,0.6)] transition-transform duration-300 bg-[linear-gradient(145deg,_#0a0a0a,_#1c1c1c,_#3e3e3e,_#1c1c1c,_#0a0a0a)] border border-gray-800"
       style={{ perspective: '1000px' }}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
@@ -46,14 +46,15 @@ const EventCard = ({ dept }) => {
         id="cursor-light"
         className="absolute pointer-events-none"
         style={{
-          background: 'radial-gradient(circle, rgba(0, 200, 255, 0.5) 0%, rgba(0, 200, 255, 0) 60%)',
-          width: '50px',
-          height: '50px',
+          background: 'radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 60%)',
+          width: '100px',
+          height: '100px',
           borderRadius: '50%',
           transform: 'translate(-50%, -50%)',
           position: 'absolute',
-          transition: 'opacity 0.2s ease',
+          transition: 'opacity 0.3s ease',
           opacity: 0,
+          zIndex: 10,
         }}
       ></div>
 
@@ -62,15 +63,15 @@ const EventCard = ({ dept }) => {
         className="absolute inset-0 pointer-events-none"
         style={{
           background: 'none',
-          transition: 'background 0.2s ease',
-          
+          transition: 'background 0.3s ease',
+          zIndex: 5,
         }}
       ></div>
 
-      {/* Content wrapper */}
-      <div className="relative h-32 w-full flex flex-col items-center justify-center gap-2">
+       {/* Content wrapper */}
+       <div className="relative h-32 w-full flex flex-col items-center justify-center gap-2">
         {/* Title */}
-        <div className="absolute top-0 text-2xl fustat-heading text-white transition-opacity duration-300 spacecrusaders-heading">
+        <div className="absolute top-0 text-2xl fustat-heading text-white transition-opacity duration-300">
           {dept.title}
         </div>
 

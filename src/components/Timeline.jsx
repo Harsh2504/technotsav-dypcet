@@ -4,7 +4,7 @@ export default function Timeline() {
   return (
     <>
             <h1 className='text-6xl mb-14 my-10 w-screen text-center spacecrusaders-heading'>Timeline</h1>
-    <div className='px-10 md:px-40 py-10'>
+    <div className='px-10 md:px-50 py-10'>
       <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
         <li>
             <div className="timeline-middle">
@@ -20,7 +20,8 @@ export default function Timeline() {
             </svg>
             </div>
             <div className="timeline-start mb-10 md:text-end">
-            <time className="font-mono italic">1984</time>
+            <time className="font-mono italic items-center justify-center rounded-full bg-blue-100 my-5 text-xs font-semibold uppercase text-blue-600 h-6 w-20 px-2 py-2">24th Apr, 2025</time>
+
             <div className="text-lg font-black">First Macintosh computer</div>
             The Apple Macintosh—later rebranded as the Macintosh 128K—is the original Apple Macintosh
             personal computer. It played a pivotal role in establishing desktop publishing as a general
