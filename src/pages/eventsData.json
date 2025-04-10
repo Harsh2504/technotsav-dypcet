@@ -1,6 +1,6 @@
 [
   {   
-    "eventName": "Infinity Hunt", 
+    "eventName": "Infinity War", 
     "eventDescription": 
       "Infinity Hunt is a thrilling treasure hunt-style event that combines the excitement of discovery with the challenge of mental acuity. The event features a unique combination of aptitude questions, coding challenges, and engaging puzzles. Participants will solve clues, crack codes, and race against time to reach the final destination.",
     "hostDepartment": "CSE",
@@ -119,7 +119,7 @@
   },
   
   {
-    "eventName": "Code Rumble",
+    "eventName": "Royal Rumble",
     "eventDescription": "CodeRumble is a fast-paced competitive coding and debugging event designed to test participants’ problem-solving skills under pressure. This event includes logical challenges, real-world debugging, and algorithm optimization rounds.",
     "hostDepartment": "CSE",
     "eventDay": "day2",
@@ -216,6 +216,11 @@
       }
     ]
   },
+
+
+
+
+
 
   {
     "eventName": "Launch Pad",
@@ -338,8 +343,8 @@
   },
 
   {
-    "eventName": "Dare to Battle 1.0",
-    "eventDescription": "The Dare to Battel 1.0 is an exciting esports competition hosted by DYPCET Kasba Bawda , bringing together students for an action-packed series of matches in BGMI and Free Fire. This tournament offers players the chance to showcase their gaming skills and compete for amazing prizes in a thrilling and competitive environment. Whether you're an avid gamer or just looking to watch some intense matches, this event promises to be an unforgettable experience for all involved. With a structured format and a focus on fair play, the tournament is open to all College Student providing an inclusive platform for both casual players and seasoned professionals to participate. Join us for an electrifying event filled with fun, teamwork, and plenty of action.\n",
+    "eventName": "Dare to Battle",
+    "eventDescription": "The Dare to Battle 1.0 is an exciting esports competition hosted by DYPCET Kasba Bawda , bringing together students for an action-packed series of matches in BGMI and Free Fire. This tournament offers players the chance to showcase their gaming skills and compete for amazing prizes in a thrilling and competitive environment. Whether you're an avid gamer or just looking to watch some intense matches, this event promises to be an unforgettable experience for all involved. With a structured format and a focus on fair play, the tournament is open to all College Student providing an inclusive platform for both casual players and seasoned professionals to participate. Join us for an electrifying event filled with fun, teamwork, and plenty of action.\n",
     "hostDepartment": "AIML",
     "eventDay": "1",
     "startTime": "10:00 AM",
@@ -402,6 +407,12 @@
     "sponsors": [],
     "faqs": []
   },
+
+
+
+
+  
+
 
   {
     "eventName": "Unsinkable Designs",
@@ -607,6 +618,11 @@
     "faqs": []
   },
 
+
+
+
+
+
   {
     "eventName": "Project competition",
     "eventDescription": "",
@@ -764,6 +780,11 @@
     "sponsors": [],
     "faqs": []
   },
+
+
+
+
+
 
   {
     "eventName": "Setu Bandha Re",
@@ -960,6 +981,11 @@
     "faqs": []
   },
 
+
+
+
+
+
   {
     "eventName": "Android App Development Competition",
     "eventDescription": "",
@@ -1129,6 +1155,9 @@
     "sponsors": [],
     "faqs": []
   },
+
+
+
 
   {
     "eventName": "Robo Race",
@@ -1408,6 +1437,9 @@
     "faqs": []
   },
   
+
+
+
   {
     "eventName": "Project Competition",
     "eventDescription": "",
@@ -1586,12 +1618,8 @@
 
 
 
-
-
-
-
   {
-    "eventName": "Blender Workshop & Competition",
+    "eventName": "Blender Workshop",
     "eventDescription": "The Blender 3D Modeling Workshop & Competition is a hands-on learning experience designed to teach participants the fundamentals of 3D modeling, texturing, lighting, and basic animation using Blender, an industry-standard, open-source 3D software. Ideal for beginners and intermediate learners, the workshop helps unlock creative potential while providing practical skills applicable to game development, animation, product design, and more. Participants will not only build their portfolios but also compete to showcase their talent, win prizes, and receive certificates, all while networking with like-minded creatives and learning from experienced mentors.",
     "hostDepartment": "ECELL",
     "eventDay": "3",
@@ -1638,7 +1666,7 @@
     ],
     "eventRounds": [],
     "registration": {
-      "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLSe2WhpUEoNHftkvDg6wx7bfIZSjg1TKrsoqSmgmr2yZQFtBw/ viewform?usp=header",
+      "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLSe2WhpUEoNHftkvDg6wx7bfIZSjg1TKrsoqSmgmr2yZQFtBw/viewform?usp=header",
       "qrLink": "",
       "startDate": "11 April 2025",
       "endDate": "23 April 2025"

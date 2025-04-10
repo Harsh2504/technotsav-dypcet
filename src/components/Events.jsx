@@ -9,57 +9,57 @@ const Events = () => {
           name: 'Computer Science Engineering',
           events: [
             {
-              title: 'Code Clash',
-              description: 'Competitive coding event for problem solvers.',
+              title: 'Android App Development Competition',
+              description: 'A competitive showcase of innovative Android applications designed and developed by participants.',
               logo: 'src/assets/react.svg',
-              formLink: 'https://example.com/form/cse-codeclash',
-              route: '/events/cse/code-clash',
+              formLink: 'https://forms.gle/ZDk7saKFrxWFt9o5A',
+              route: '/events/cse/android-app-development-competition',
             },
             {
-              title: 'Debug Duel',
-              description: 'A race to find and fix bugs in real-time.',
+              title: 'Infinity Hunt',
+              description: 'Treasure hunt style event filled with puzzles, coding challenges, and mystery trails.',
               logo: 'src/assets/react.svg',
-              formLink: 'https://example.com/form/cse-debugduel',
-              route: '/event/debug-duel',
+              formLink: 'https://forms.gle/rPEdVgzPxxiLNcJ68',
+              route: '/events/cse/infinity-hunt',
             },
             {
-              title: 'HackMaze',
-              description: 'Navigate through logic puzzles and hacking challenges.',
+              title: 'Code Sprint',
+              description: 'Relay-style team coding competition involving debugging, problem-solving, and fast-paced challenges.',
               logo: 'src/assets/react.svg',
-              formLink: 'https://example.com/form/cse-hackmaze',
-              route: '/event/hackmaze',
+              formLink: 'https://forms.gle/vPCGzVFZdjiAcMAx5',
+              route: '/events/cse/code-sprint',
             },
           ],
         },
-      },
+      },      
       {
         aiml: {
           name: 'Artificial Intelligence & Machine Learning',
           events: [
             {
-              title: 'AI Quest',
-              description: 'Test your knowledge of AI concepts and tools.',
+              title: 'Launch Pad',
+              description: 'Pitch your product or idea to expert judges.',
               logo: 'src/assets/react.svg',
-              formLink: 'https://example.com/form/aiml-aiquest',
-              route: '/event/ai-quest',
+              formLink: 'https://forms.gle/6KGSfg5h1kAXaknu6',
+              route: '/events/aiml/launch-pad'
             },
             {
-              title: 'Model Madness',
-              description: 'Build ML models to solve real-world problems.',
+              title: 'Poster Intelli Quest',
+              description: 'Showcase AI ideas through engaging poster presentations.',
               logo: 'src/assets/react.svg',
-              formLink: 'https://example.com/form/aiml-modelmadness',
-              route: '/event/model-madness',
+              formLink: 'https://forms.gle/yQ5BjzBSBhvN1yz37',
+              route: '/events/aiml/poster-intelli-quest'
             },
             {
-              title: 'Vision Vault',
-              description: 'Compete in a computer vision challenge.',
+              title: 'Dare to Battle 1.0',
+              description: 'Esports event for BGMI and Free Fire enthusiasts.',
               logo: 'src/assets/react.svg',
-              formLink: 'https://example.com/form/aiml-visionvault',
-              route: '/event/vision-vault',
-            },
-          ],
-        },
-      },
+              formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeFV3lT4fh_QSWSLjUxoQu47gNMp9KRZtIiTSC_YyBPtDhq0g/viewform?usp=sf_link',
+              route: '/events/aiml/dare-to-battle-1-0'
+            }
+          ]
+        }
+      },      
       {
         mech: {
           name: 'Mechanical Engineering',
@@ -68,48 +68,175 @@ const Events = () => {
               title: 'Robo Race',
               description: 'Race your custom-built bots on our technical track.',
               logo: 'src/assets/react.svg',
-              formLink: 'https://example.com/form/mech-roborace',
-              route: '/event/robo-race',
+              formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSd_rZd84hAqKXISQynoi3ncQ3XSwo8-cVeeymwln7mrp3Q6Sw/viewform?usp=header',
+              route: '/events/mech/robo-race',
             },
             {
-              title: 'Robo Clash',
-              description: 'Bot battles for mechanical glory.',
+              title: 'CAD Clash',
+              description: 'National-level design competition for CAD software skills.',
               logo: 'src/assets/react.svg',
-              formLink: 'https://example.com/form/mech-roboclash',
-              route: '/event/robo-clash',
+              formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSd_rZd84hAqKXISQynoi3ncQ3XSwo8-cVeeymwln7mrp3Q6Sw/viewform?usp=header',
+              route: '/events/mech/cad-clash',
             },
-            
+            {
+              title: 'Tech Debate',
+              description: 'Technical debate competition on current engineering topics.',
+              logo: 'src/assets/react.svg',
+              formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSd_rZd84hAqKXISQynoi3ncQ3XSwo8-cVeeymwln7mrp3Q6Sw/viewform?usp=header',
+              route: '/events/mech/tech-debate',
+            },
           ],
         },
       },
+      
       {
         civil: {
           name: 'Civil Engineering',
           events: [
             {
-              title: 'Bridge Battle',
-              description: 'Build the strongest bridge using provided materials.',
+              title: 'Setu Bandha Re',
+              description: 'Model bridges promote the study and application of engineering and help students develop “hands-on” skills...',
               logo: 'src/assets/react.svg',
-              formLink: 'https://example.com/form/civil-bridgebattle',
-              route: '/event/bridge-battle',
+              formLink: 'https://forms.gle/9SJMFgBoh7bCpcVEA',
+              route: '/events/civil/setu-bandha-re',
             },
             {
-              title: 'Tower Tussle',
-              description: 'Construct the tallest and sturdiest tower.',
+              title: 'Cube Crush Challenge',
+              description: 'Test your understanding of concrete mix design and aim to achieve 40 N/mm² strength in 7 days...',
               logo: 'src/assets/react.svg',
-              formLink: 'https://example.com/form/civil-towertussle',
-              route: '/event/tower-tussle',
+              formLink: 'https://forms.gle/9SJMFgBoh7bCpcVEA',
+              route: '/events/civil/cube-crush-challenge',
             },
             {
-              title: 'Survey Sprint',
-              description: 'Compete in land surveying and leveling tasks.',
+              title: 'The Designer',
+              description: 'Showcase your skills in CAD by solving real-world design problems using AutoCAD.',
               logo: 'src/assets/react.svg',
-              formLink: 'https://example.com/form/civil-surveysprint',
-              route: '/event/survey-sprint',
+              formLink: 'https://forms.gle/9SJMFgBoh7bCpcVEA',
+              route: '/events/civil/the-designer',
             },
           ],
         },
       },
+      {
+        "e&tc": {
+          name: 'Electronic & Telecommunication Engineering',
+          events: [
+            {
+              title: 'Project Competition',
+              description: 'Display and present your electronics and telecom-related projects to win exciting prizes!',
+              logo: 'src/assets/react.svg',
+              formLink: 'https://forms.gle/uGh83F49w3MmtauN9',
+              route: '/events/e&tc/project-competition',
+            },
+            {
+              title: 'Robo Soccer',
+              description: 'Design and control robots to compete in a soccer match. Goals, tactics, and fun await!',
+              logo: 'src/assets/react.svg',
+              formLink: 'https://forms.gle/uGh83F49w3MmtauN9',
+              route: '/events/e&tc/robo-soccer',
+            },
+            {
+              title: 'Drone Competition',
+              description: 'Show off your drone piloting and innovation in this aerial challenge aimed at societal impact.',
+              logo: 'src/assets/react.svg',
+              formLink: 'https://forms.gle/uGh83F49w3MmtauN9',
+              route: '/events/e&tc/drone-competition',
+            },
+          ],
+        }
+      },  
+
+      {
+        chem: {
+          name: 'Chemical Engineering',
+          events: [
+            {
+              title: 'Project Competition',
+              description: 'Showcase your innovative projects that contribute to chemical, biotech, pharma, or environmental fields for societal betterment.',
+              logo: 'src/assets/react.svg',
+              formLink: 'https://forms.gle/wxoMCHkB9nDajgvr5',
+              route: '/events/chem/project-competition',
+            },
+            {
+              title: 'Product Development',
+              description: 'Bring and present your innovative product with live samples and informative PPTs—aimed at solving real-world problems.',
+              logo: 'src/assets/react.svg',
+              formLink: 'https://forms.gle/wxoMCHkB9nDajgvr5',
+              route: '/events/chem/product-development',
+            },
+            {
+              title: 'Model Competition',
+              description: 'Present experimental setups or working models with a 7-minute explanation and a 3-minute Q&A session.',
+              logo: 'src/assets/react.svg',
+              formLink: 'https://forms.gle/wxoMCHkB9nDajgvr5',
+              route: '/events/chem/model-competition',
+            },
+          ],
+        },
+      },      
+      {
+        arch: {
+          name: 'Architecture Engineering',
+          events: [
+            {
+              title: 'Unsinkable Designs',
+              description: 'Design and build floating structures that redefine liveable spaces on water, testing buoyancy and creativity.',
+              logo: 'src/assets/react.svg',
+              formLink: 'https://docs.google.com/forms/d/e/1FAIpQLScZ-JrXi4hygMN3bkfwH2Vuk7StStZEO8z-CdYXf0NXewkyjQ/viewform',
+              route: '/events/arch/unsinkable-designs',
+            },
+            {
+              title: 'Design Relay',
+              description: 'A fast-paced design challenge where teams solve creative tasks in a relay format.',
+              logo: 'src/assets/react.svg',
+              formLink: 'https://docs.google.com/forms/d/e/1FAIpQLScZ-JrXi4hygMN3bkfwH2Vuk7StStZEO8z-CdYXf0NXewkyjQ/viewform',
+              route: '/events/arch/design-relay',
+            },
+            {
+              title: 'Quiz Battle',
+              description: 'A competitive quiz event testing engineering concepts, logical thinking, and teamwork.',
+              logo: 'src/assets/react.svg',
+              formLink: 'https://docs.google.com/forms/d/e/1FAIpQLScZ-JrXi4hygMN3bkfwH2Vuk7StStZEO8z-CdYXf0NXewkyjQ/viewform',
+              route: '/events/arch/quiz-battle',
+            },
+          ],
+        },
+      },
+      {
+        ecell: {
+          name: 'Entrepreneurship Cell',
+          events: [
+            {
+              title: 'Blender Workshop & Competition',
+              description: 'A hands-on workshop and competition on 3D modeling, texturing, lighting, and animation using Blender. Ideal for beginners & intermediate learners looking to boost their creative portfolio.',
+              logo: 'src/assets/react.svg',
+              formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSe2WhpUEoNHftkvDg6wx7bfIZSjg1TKrsoqSmgmr2yZQFtBw/viewform?usp=header',
+              route: '/events/ecell/blender-workshop',
+            },
+            {
+              title: 'IPL Auction',
+              description: 'Form your Dream11 team by bidding on your favorite players with a ₹100 crore purse in this intense and strategic auction competition, preceded by a thrilling IPL quiz.',
+              logo: 'src/assets/react.svg',
+              formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfyYVfahF4HxNZc7Zn6KXUch6lsJ4yoabYTJMSvKOSEhrkbsw/viewform?usp=header',
+              route: '/events/ecell/ipl-auction',
+            },
+            {
+              title: 'Reel Rumble',
+              description: 'A solo reel-making contest capturing the essence of Technotsav over two days. Shoot, edit, and submit a 90-second reel to showcase your creativity and content creation skills.',
+              logo: 'src/assets/react.svg',
+              formLink: '', // No separate form link provided, uses coordinator submission
+              route: '/events/ecell/reel-rumble',
+            },
+            {
+              title: 'Technical Paper Presentation',
+              description: 'Present your innovative research and technical papers across futuristic engineering domains including AI, Robotics, Cybersecurity, and more....',
+              logo: 'src/assets/react.svg', // replace with actual logo path if available
+              formLink: 'https://forms.gle/LETfKW8fReEtLX4D8',
+              route: '/events/ecell/technical-paper-presentation',
+            }
+          ],
+        }
+      }
     ],
   };
   

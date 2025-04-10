@@ -36,7 +36,7 @@ const EventCard = ({ dept }) => {
 
   return (
     <div
-      className="w-80 group relative p-8 flex flex-col items-center justify-between gap-4 rounded-2xl overflow-hidden shadow-[0_10px_40px_rgba(0,0,0,0.6)] transition-transform duration-300 bg-[linear-gradient(145deg,_#0a0a0a,_#1c1c1c,_#3e3e3e,_#1c1c1c,_#0a0a0a)] border border-gray-800"
+      className="w-80 group relative px-4 py-8 flex flex-col items-center justify-between gap-4 rounded-2xl overflow-hidden shadow-[0_10px_40px_rgba(0,0,0,0.6)] transition-transform duration-300 bg-[linear-gradient(145deg,_#0a0a0a,_#1c1c1c,_#3e3e3e,_#1c1c1c,_#0a0a0a)] border border-gray-800"
       style={{ perspective: '1000px' }}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
@@ -71,18 +71,18 @@ const EventCard = ({ dept }) => {
        {/* Content wrapper */}
        <div className="relative h-32 w-full flex flex-col items-center justify-center gap-2">
         {/* Title */}
-        <div className="absolute top-0 text-2xl fustat-heading text-white transition-opacity duration-300">
+        <div className="absolute top-0 text-2xl text-center fustat-heading text-white transition-opacity duration-300">
           {dept.title}
         </div>
 
         {/* Logo */}
-        <div className="absolute top-12">
+        {/* <div className="absolute top-12">
           <img
             src={dept.logo}
             alt={dept.title}
             className="w-32 transition-opacity duration-300 group-hover:opacity-0"
           />
-        </div>
+        </div> */}
 
         {/* Description */}
         <div className="absolute top-50 md:bottom-0 md:top-16 text-gray-300 text-center opacity-100 md:opacity-0 transition-opacity duration-300 group-hover:opacity-100 px-4 manrope-paragraph">
