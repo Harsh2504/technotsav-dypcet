@@ -6,6 +6,9 @@ import EventOther from "../components/Event/EventOther";
 import EventSponsers from "../components/Event/EventSponsers";
 import EventFAQ from "../components/Event/EventFAQ";
 import EventHero from "../components/Event/EventHero";
+import EventRounds from "../components/Event/EventRounds";
+import EventDescription from "../components/Event/EventDescription";
+
 import eventsDataPool from "./eventsData.json";
 
 const EventPage = ({ department }) => {
@@ -13,7 +16,7 @@ const EventPage = ({ department }) => {
   const [eventData, setEventData] = useState(null);
 
   useEffect(() => {
-    const formattedName = eventname.replace(/-/g, " ").toLowerCase();
+    const formattedName = eventname.replace(/-/g, " ").toLowerCase();//infinity-hunt ---> infinty hunt
 
     const foundEvent = eventsDataPool.find(
       (event) =>
@@ -31,17 +34,19 @@ const EventPage = ({ department }) => {
   }
 
   return (
-    <div className="text-black p-8">
-      <h1 className="text-3xl font-bold">
+    <div className="text-black">
+      {/* <h1 className="text-3xl font-bold">
         {department.toUpperCase()} Department
       </h1>
       <h2 className="text-2xl mt-4 font-black gradient">
         Event Name: {eventData?.eventName || "N/A"}
       </h2>
 
-      <p className="mt-4 text-black">{eventData.eventDescription}</p>
+      <p className="mt-4 text-black">{eventData.eventDescription}</p> */}
 
       <EventHero {...eventData} />
+      <EventDescription {...eventData} />
+      <EventRounds {...eventData} />
 
       {eventData.rulesAndRegulations.length > 0 && (
         <EventRulesAndRegulations rules={eventData.rulesAndRegulations} />

@@ -33,22 +33,20 @@ html,body{
   
   @font-face {
     font-family: 'SpaceCrusaders';
-    src: url('../src/assets/space_crusaders/Space\ Crusaders.ttf') format('truetype');
+    src: url('/fonts/space_crusaders/Space Crusaders.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .spacecrusaders-heading {
+    font-family: 'SpaceCrusaders', sans-serif;
     font-weight: normal;
     font-style: normal;
   }
 
-
-
-  .spacecrusaders-heading {
-    font-family: "Fustat";
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
-
   .gradient {
-    background: linear-gradient(to bottom, #2c4072, #3a5c9c, #4d78c7, #5f89d4, #759ad1);
+    /* background: linear-gradient(to bottom,#2c4072,#4d6fb5); */
+    background: linear-gradient(to bottom, #30538e,#5c89ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }

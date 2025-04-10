@@ -8,7 +8,7 @@ const EventRulesAndRegulations = ({rules}) => {
             {rules.map((rule, index) => (
               <div
                 key={index}
-                className="border border-gray-200 w-96 md:w-auto rounded-2xl p-5 shadow-sm hover:shadow-md transition-all duration-300 bg-white"
+                className="border border-gray-200 w-96 md:min-w-3xl rounded-2xl p-5 shadow-sm hover:shadow-md transition-all duration-300 bg-white"
               >
                 <h3 className="text-xl font-semibold text-indigo-600 mb-2 flex items-center gap-2 fustat-heading">
                   <span className="inline-block w-18 md:w-auto text-center bg-indigo-100 text-indigo-700 rounded-full px-3 py-1 fustat-heading text-sm font-medium">
