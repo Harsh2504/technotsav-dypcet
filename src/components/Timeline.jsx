@@ -3,7 +3,7 @@ import React from 'react'
 export default function Timeline() {
   return (
     <>
-            <h1 className='text-6xl mb-14 my-10 w-screen text-center spacecrusaders-heading'>Timeline</h1>
+    <h1 className='text-6xl mb-14 my-10 w-screen text-center spacecrusaders-heading'>Timeline</h1>
     <div className='px-10 md:px-50 py-10'>
       <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
         <li>

@@ -6,7 +6,7 @@ export default function EventPrizes({prizes}) {
   return (
         <div className='px-40 py-20 min-h-screen'>
         <h2 className="text-3xl font-bold text-center text-gray-800 fustat-heading">Event</h2>
-        <h1 className="text-7xl font-bold text-center fustat-heading gradient">Prizes</h1>
+        <h1 className="text-7xl font-bold text-center fustat-heading gradient mb-3">Prizes</h1>
         <div className='flex py-5 justify-center items-end gap-10 flex-wrap'>
 
         <div className='w-80 h-104 group relative flex flex-col items-center justify-center gap-5 rounded-2xl overflow-hidden shadow-[0_10px_40px_rgba(0,0,0,0.6)] transition-transform duration-300 bg-[linear-gradient(145deg,_#0a0a0a,_#1c1c1c,_#3e3e3e,_#1c1c1c,_#0a0a0a)] border border-gray-800'>
@@ -42,7 +42,7 @@ export default function EventPrizes({prizes}) {
           </div>
         </div>
         </div>
-        <h2 className="text-2xl font-medium text-center text-gray-800 monorope-paragraph">Participation certificates for all the participants.</h2>
+        <h2 className="mt-2 text-2xl font-medium text-center text-gray-800 monorope-paragraph">Participation certificates for all the participants.</h2>
     </div>
   )
 }
