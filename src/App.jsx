@@ -6,10 +6,12 @@ import Footer from './components/Footer'
 import EventPage from './pages/EventPage'
 import EventEntry from './pages/EventEntry'
 import './index.css'
+import { Analytics } from "@vercel/analytics/react"
 function App() {
 
   return (
     <>
+    <Analytics/> 
       <Router>
         <Routes>
           <Route path="/" element={<Landing />} />
