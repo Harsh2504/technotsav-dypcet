@@ -1,6 +1,5 @@
 import React, { forwardRef } from 'react'
 
-import React from 'react'
 import { FaUser,FaUsers } from "react-icons/fa";
 const EventRegisteration = ({
     singleEntryFee,
