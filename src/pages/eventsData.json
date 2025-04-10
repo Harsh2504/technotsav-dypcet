@@ -115,5 +115,105 @@
             "Yes, lunch and refreshments will be provided to all participants."
         }
     ]
+  },
+  
+  {
+    "eventName": "Code Rumble",
+    "eventDescription": "CodeRumble is a fast-paced competitive coding and debugging event designed to test participants’ problem-solving skills under pressure. This event includes logical challenges, real-world debugging, and algorithm optimization rounds.",
+    "hostDepartment": "CSE",
+    "eventDay": "day2",
+    "startTime": "10:00 AM",
+    "endTime": "2:30 PM",
+    "venue": "IT Seminar Hall",
+    "eligibleParticipants": "Open to all engineering students with a basic understanding of programming.",
+    "singleEntryFee": "50",
+    "groupEntryFee": "200",
+    "prizeMoney": {
+      "first": "2500",
+      "second": "1500",
+      "third": "1000"
+    },
+    "rulesAndRegulations": [
+      {
+        "title": "No Internet Access",
+        "description": "Participants are not allowed to use the internet during coding rounds unless explicitly permitted in a challenge."
+      },
+      {
+        "title": "Individual Effort",
+        "description": "Each participant must solve problems independently. Collaboration during solo rounds will result in disqualification."
+      },
+      {
+        "title": "Respect Time Limits",
+        "description": "Each round has strict time constraints. Late submissions will not be evaluated."
+      },
+      {
+        "title": "Software & Environment",
+        "description": "All coding must be done in the provided software environment. External IDEs or tools are not allowed."
+      }
+    ],
+    "eventRounds": [
+      {
+        "title": "Round 1 – Bug Bash",
+        "description": "Identify and fix bugs in code snippets under a time constraint.",
+        "startTime": "10:00 AM"
+      },
+      {
+        "title": "Round 2 – Algo Blitz",
+        "description": "Solve algorithmic problems with increasing difficulty. Partial scoring will be based on test case coverage.",
+        "startTime": "11:30 AM"
+      },
+      {
+        "title": "Final Round – Code Sprint",
+        "description": "A real-world scenario problem with edge cases and optimization needs.",
+        "startTime": "1:00 PM"
+      }
+    ],
+    "registration": {
+      "registrationFormLink": "https://example.com/coderumble/register",
+      "qrLink": "/images/coderumble-qr.png",
+      "startDate": "2023-10-02",
+      "endDate": "2023-10-12"
+    },
+    "others": {
+      "warnings": [
+        "Bring your college ID card.",
+        "Basic knowledge of C++/Python/Java is expected.",
+        "Be on time for each round."
+      ],
+      "images": [
+        "/images/coderumble1.png",
+        "/images/coderumble2.png"
+      ],
+      "map": "/maps/coderumble-map.pdf"
+    },
+    "sponsors": [
+      {
+        "name": "DevNest",
+        "logo": "/sponsors/devnest.png"
+      },
+      {
+        "name": "ByteBrew",
+        "logo": "/sponsors/bytebrew.png"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I participate in a group?",
+        "answer": "Yes, you can register as a team of 2–4 members for team rounds."
+      },
+      {
+        "question": "Which languages are allowed?",
+        "answer": "You can choose between C++, Java, or Python."
+      },
+      {
+        "question": "Do I need to bring my own laptop?",
+        "answer": "No, systems will be provided. However, you can bring your own if you prefer."
+      },
+      {
+        "question": "Will I get a participation certificate?",
+        "answer": "Yes, all participants will receive certificates."
+      }
+    ]
   }
+  
 ]
