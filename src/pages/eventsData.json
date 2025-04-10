@@ -136,7 +136,7 @@
     },
     "rulesAndRegulations": [
       {
-        "title": "No Internet Access",
+        "title": "",
         "description": "Participants are not allowed to use the internet during coding rounds unless explicitly permitted in a challenge."
       },
       {
@@ -215,7 +215,1666 @@
         "answer": "Yes, all participants will receive certificates."
       }
     ]
-  }
+  },
+
+  {
+    "eventName": "Launch Pad",
+    "eventDescription": "",
+    "hostDepartment": "AIML",
+    "eventDay": "1",
+    "startTime": "10:00 AM",
+    "endTime": "4:00 PM",
+    "venue": "AIML Lab-1 , 2 ,3 and Old Principal cabin",
+    "eligibleParticipants": "Students from all departments",
+    "singleEntryFee": "150",
+    "groupEntryFee": "600",
+    "prizeMoney": {
+      "first": "3000",
+      "second": "2000",
+      "third": "1000"
+    },
+    "rulesAndRegulations": [
+      {
+        "title": "Team Composition",
+        "description": "Each team can consist of 1 to 2 members. Cross-department teams are allowed."
+      },
+      {
+        "title": "Product/Idea Eligibility",
+        "description": "Must be an original idea (not copied). Can be a product, service, or app-based concept (even if product isn’t ready, you can still participate). Should be technically and financially feasible."
+      },
+      {
+        "title": "Pitch Time",
+        "description": "Each team will be given 5 minutes for their pitch. Followed by 2 minutes of Q&A from the judges."
+      },
+      {
+        "title": "Pitch Format (Recommended):",
+        "description": "Problem Statement Proposed Solution / Product Demo (if any) Target Market Business Model Revenue & Cost Structure Marketing Strategy Competitive Advantage Scalability & Future Plans"
+      },
+      {
+        "title": "Presentation Tools",
+        "description": "Teams may use PPTs, prototypes, posters or videos. Projector and laptop will be provided (inform organizers beforehand)."
+      },
+      {
+        "title": "Language",
+        "description": "The pitch must be presented strictly in English."
+      },
+      {
+        "title": "Code of Conduct",
+        "description": "The decision of the judges will be final and binding. Maintain professionalism and mutual respect. Avoid any inappropriate language or remarks."
+      },
+      {
+        "title": "Marking System",
+        "description": "Marking will be done only by professionals. The better the Marketing and Presentation skills, the higher the marks will be. "
+      }
+    ],
+    "eventRounds": [],
+    "registration": {
+      "registrationFormLink": "https://forms.gle/6KGSfg5h1kAXaknu6",
+      "qrLink": "",
+      "startDate": "11 April 2025",
+      "endDate": "23 April 2025"
+    },
+    "others": {
+      "warnings": [],
+      "images": [],
+      "map": ""
+    },
+    "sponsors": [],
+    "faqs": []
+  },
+
+  {
+    "eventName": "Poster Intelli Quest",
+    "eventDescription": "Subject: ‘AI in Action: From Perception to Decision’\nArtificial Intelligence (AI) is revolutionizing the world by enabling machines to perceive, learn, and make decisions like never before. The theme \"AI in Action: From Perception to Decision\" captures the essence of this dynamic journey—starting from how AI systems sense and interpret the world, to how they analyze data and take intelligent actions. This subject explores the various subdomains of AI such as Machine Learning, Deep Learning, Natural Language Processing, Computer Vision, and Expert Systems, each playing a vital role in transforming raw data into actionable insights. From facial recognition to language translation and autonomous driving, AI is embedded in real-world applications all around us. The poster presentation aims to bring out these innovations, showcase creative ideas, and inspire new perspectives on the potential of AI. Participants will dive deep into the AI lifecycle and highlight how perception leads to intelligent decisions in machines. Join us to witness the future unfold through the lens of AI in Action: From Perception to Decision.\n",
+    "hostDepartment": "AIML",
+    "eventDay": "2",
+    "startTime": "10:00 AM",
+    "endTime": "4:00 PM",
+    "venue": "Classroom G1 and G2",
+    "eligibleParticipants": "Open to all undergraduate students",
+    "singleEntryFee": "100",
+    "groupEntryFee": "",
+    "prizeMoney": {
+      "first": "3000",
+      "second": "2000",
+      "third": "1000"
+    },
+    "rulesAndRegulations": [
+      {
+        "title": "Eligibility",
+        "description": "Open to all undergraduate students. Individual or team participation (Max 2 members per team)."
+      },
+      {
+        "title": "Poster Guidelines",
+        "description": "Theme: AI and its Subdomains (ML, DL, NLP, CV, Robotics, Expert Systems, etc.) Poster size: A1 (594 x 841 mm) in portrait/Landscape  orientation. Medium: Digital or hand-made posters (clearly mentioned during registration). Must be self-explanatory and visually engaging. Include title, objective, methodology, and conclusion/impact."
+      },
+      {
+        "title": " Presentation Format",
+        "description": "Each participant/team gets 5 minutes to present + 2 minutes for Q&A. Presenters must explain key points without reading directly from the poster. Use of additional props or slides is not allowed"
+      },
+      {
+        "title": "Judging Criteria",
+        "description": "Relevance to the theme Creativity and visual appeal Clarity of thought and communication Depth of understanding Overall presentation skills"
+      },
+      {
+        "title": "General Rules",
+        "description": "Participants must report 30 minutes before the event starts. Posters must be submitted/approved a day prior. Judges’ decision will be final and binding."
+      }
+    ],
+    "eventRounds": [],
+    "registration": {
+      "registrationFormLink": "https://forms.gle/yQ5BjzBSBhvN1yz37",
+      "qrLink": "",
+      "startDate": "23 April 2025",
+      "endDate": "11 April 2025"
+    },
+    "others": {
+      "warnings": [],
+      "images": [],
+      "map": ""
+    },
+    "sponsors": [],
+    "faqs": []
+  },
+
+  {
+    "eventName": "Dare to Battle 1.0",
+    "eventDescription": "The Dare to Battel 1.0 is an exciting esports competition hosted by DYPCET Kasba Bawda , bringing together students for an action-packed series of matches in BGMI and Free Fire. This tournament offers players the chance to showcase their gaming skills and compete for amazing prizes in a thrilling and competitive environment. Whether you're an avid gamer or just looking to watch some intense matches, this event promises to be an unforgettable experience for all involved. With a structured format and a focus on fair play, the tournament is open to all College Student providing an inclusive platform for both casual players and seasoned professionals to participate. Join us for an electrifying event filled with fun, teamwork, and plenty of action.\n",
+    "hostDepartment": "AIML",
+    "eventDay": "1",
+    "startTime": "10:00 AM",
+    "endTime": "4:00 PM",
+    "venue": "Classroom 307",
+    "eligibleParticipants": "Open to All College Student",
+    "singleEntryFee": "150",
+    "groupEntryFee": "600",
+    "prizeMoney": {
+      "first": "5000",
+      "second": "3000",
+      "third": "1000"
+    },
+    "rulesAndRegulations": [
+      {
+        "title": "Offline Mode",
+        "description": "The game will be played in an Offline  mode. Ensure that you have a stable internet  connection to participate without interruptions. "
+      },
+      {
+        "title": "Cheating and Hacks Policy ",
+        "description": "Any form of cheating or hacking during the game will lead to immediate disqualification  of the entire team. We encourage fair play and sportsmanship. Any suspicious behavior  should be reported to the organizers for review. "
+      },
+      {
+        "title": "Joining Custom Matches ",
+        "description": "All instructions for joining the custom matches will be communicated through the  designated WhatsApp group. Please ensure you are a member of this group to receive  timely updates and essential information regarding match details, including dates,  times, and joining links. "
+      },
+      {
+        "title": "Final Decisions",
+        "description": "All final decisions regarding the game rules, disputes, and any other matters will be  made by the coordinators. Their decisions are final and must be respected by all  participants."
+      },
+      {
+        "title": "No Refunds will be provided",
+        "description": ""
+      },
+      {
+        "title": "Join Only One Game FF/BGMI",
+        "description": ""
+      },
+      {
+        "title": "Point Table - For Free-Fire",
+        "description": "#1 = 12  #2 = 09  #3 = 08  #4 = 07  #5 = 06  #6 = 05  #7 = 04  #8 = 03  #9 = 02  #10 = 01  #11&12=0  1KILL=1 POINTS"
+      },
+      {
+        "title": "Point Table For BGMI",
+        "description": "1 position 10 points  2 position 8 points  3 position 6 points  4 position 5 points  5 position 4 points  6 position 3 points  7 position 2 points  8 to 25 position no points  1 kill = 1 point"
+      }
+    ],
+    "eventRounds": [],
+    "registration": {
+      "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLSeFV3lT4fh_QSWSLjUxoQu47gNMp9KRZtIiTSC_YyBPtDhq0g/viewform?usp=sf_link",
+      "qrLink": "",
+      "startDate": "11 April 2025",
+      "endDate": "23 April 2025"
+    },
+    "others": {
+      "warnings": [],
+      "images": [],
+      "map": ""
+    },
+    "sponsors": [],
+    "faqs": []
+  },
+
+  {
+    "eventName": "Unsinkable Designs",
+    "eventDescription": "Unsinkable Designs: The Floating Challenge\nThis competition is an exciting and innovative competition that invites participants to push the boundaries of design, engineering, and creativity in the world of buoyancy.\n\nDive into the future of architecture with The Floating Challenge, a unique interdisciplinary design competition where creativity meets engineering! This event invites students from all departments to collaborate and push the boundaries of innovation by designing and constructing floating structures — from houseboats to mini floating cities.\nParticipants will apply their technical skills and design sensibilities to create waterproof, buoyant structures capable of maintaining stability on water. The challenge is not just about floating — it's about redefining liveable spaces on water.\nDuring the final test, all models will be placed in water to assess buoyancy, stability, and structural integrity under real conditions. Teams are encouraged to explore sustainable and waterproof materials, drawing inspiration from modern amphibious architecture and marine engineering.\nWhether you're building a floating pavilion or a futuristic water home, this challenge is your platform to innovate, collaborate, and make a splash!\nKey Character:\nTeamwork: Teams can have up to 4 members, and individual participation is allowed.\nDesign Requirements: The design should be capable of floating on water. The or structure should be designed to support a minimum weight.\nSubmission format: A video demonstration or explanation of the design process, making of the structure for scratch as well as a description of the materials and methods used, must accompany the submission.\nModel Size Limitation:\nThe useable area is 10.00 Sq.m. \nThe size of water tank in diameter is 1.14m and depth 0.25m. Model should float easily in the water tank.\nTeams may choose any shape or configuration (e.g., rectangular, modular, circular) within the size limit.\nThere is no fixed height restriction, but the structure must remain balanced, safe, and buoyant during testing.\nModels that exceed the allowed size may be disqualified \n",
+    "hostDepartment": "ARCH",
+    "eventDay": "1",
+    "startTime": "10:00 AM",
+    "endTime": "12:00 PM",
+    "venue": "School of Architecture, DYPSEM, Kasba Bawada, Kolhapur",
+    "eligibleParticipants": "Competition is open to all students, regardless of department. ",
+    "singleEntryFee": "100",
+    "groupEntryFee": "",
+    "prizeMoney": {
+      "first": "3000",
+      "second": "2000",
+      "third": "1500"
+    },
+    "rulesAndRegulations": [
+      {
+        "title": "",
+        "description": "All Participants must remain present at the place of competition, 30 min. before starting of event. Late participants will not be allowed to participate."
+      },
+      {
+        "title": "",
+        "description": "Students are expected to bring their completed model on the day of competition."
+      },
+      {
+        "title": "",
+        "description": "The base must demonstrate buoyancy and hold a minimum weight (to be specified based on competition level – e.g., 500 grams or 1kg)."
+      },
+      {
+        "title": "",
+        "description": "Models must be self-sustaining — no external support or hidden flotation is allowed."
+      },
+      {
+        "title": "",
+        "description": "Models must float for a minimum time duration (e.g., 2 minutes) without capsizing."
+      },
+      {
+        "title": "",
+        "description": "Judges will assess based on: Buoyancy & Stability, Innovation & Design Aesthetics, Structural Integrity, Material Optimization, Sustainability & Creativity."
+      },
+      {
+        "title": "",
+        "description": "Participants are free to use any materials of their choice, though the design must be safe and environmentally friendly.  "
+      },
+      {
+        "title": "",
+        "description": "If any participant is found doing wrong practices, he/she will be disqualified from the event."
+      },
+      {
+        "title": "",
+        "description": "The organizing team is not responsible for any loss or damage to personal materials"
+      }
+    ],
+    "eventRounds": [],
+    "registration": {
+      "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLScZ-JrXi4hygMN3bkfwH2Vuk7StStZEO8z-CdYXf0NXewkyjQ/viewform",
+      "qrLink": "",
+      "startDate": "11 April 2025",
+      "endDate": "23 April 2025"
+    },
+    "others": {
+      "warnings": [
+        "SUGGESTION: Keep weight low — heavier structures are harder to keep afloat Use sealed or closed-cell materials to prevent water absorption. Prioritize eco-friendly or recyclable materials where possible. Reinforce joints and corners with hot glue, zip ties, or waterproof tape."
+      ],
+      "images": [],
+      "map": ""
+    },
+    "sponsors": [],
+    "faqs": []
+  },
+
+  {
+    "eventName": "Design Relay",
+    "eventDescription": "A Design Relay is a collaborative and competitive design challenge where teams of designers work together to complete a series of design tasks, often with a specific theme or objective.  \n\nTopic: The topic will be declared on the day of the competition.\n\nMaterial Requirement:\nParticipants are free to use any type of presentation technique, manual/digital (ppt, photoshop, SketchUp, etc.)\nTeams must compile all their design contents together and create a digital sheet presentation on A2 size.\nParticipants are requested to bring their own materials required for this competition.\n\n\nKey Characteristics:\n1.   Teamwork: Designers work in teams, usually 3-4 members.\n2.   Time-sensitive: Teams have a limited amount of time (e.g., 60-90 minutes) to complete each design task.\n3.   Sequential challenges: Teams participate in a series of design challenges, each building upon the previous one.\n4.   Collaborative problem-solving: Team members work together to brainstorm, sketch, and refine their designs\n\n",
+    "hostDepartment": "ARCH",
+    "eventDay": "1",
+    "startTime": "10:00 AM",
+    "endTime": "12:30 PM",
+    "venue": "School of Architecture, DYPSEM, Kasba Bawada, Kolhapur.",
+    "eligibleParticipants": "Architecture Students",
+    "singleEntryFee": "100",
+    "groupEntryFee": "",
+    "prizeMoney": {
+      "first": "3000",
+      "second": "2000",
+      "third": "1000"
+    },
+    "rulesAndRegulations": [
+      {
+        "title": "",
+        "description": "Team should consist of minimum 3 and 4 maximum members."
+      },
+      {
+        "title": "",
+        "description": "Participants are encouraged to collaborate within their team and share ideas freely."
+      },
+      {
+        "title": "",
+        "description": "Each group will get 2.5 hours to complete their design."
+      },
+      {
+        "title": "",
+        "description": "Participants should switch design responsibilities after a predefined time interval."
+      },
+      {
+        "title": "",
+        "description": "The order of design rotation (who designs first, second, and third) should be maintained throughout the challenge."
+      },
+      {
+        "title": "",
+        "description": "Pre discussion time will be 15 min before the start of the competition."
+      },
+      {
+        "title": "",
+        "description": "Any use of plagiarized content, designs, or ideas will result in disqualification."
+      },
+      {
+        "title": "",
+        "description": "Any violation of the rules, submission guidelines, or misconduct may lead to disqualification."
+      },
+      {
+        "title": "",
+        "description": "The participating teams should be present at the venue 30 minutes before the competition starts."
+      },
+      {
+        "title": "",
+        "description": "No late or on spot entries will be entertained. "
+      }
+    ],
+    "eventRounds": [],
+    "registration": {
+      "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLScZ-JrXi4hygMN3bkfwH2Vuk7StStZEO8z-CdYXf0NXewkyjQ/viewform",
+      "qrLink": "",
+      "startDate": "11 April 2025",
+      "endDate": "23 April 2025"
+    },
+    "others": {
+      "warnings": [],
+      "images": [],
+      "map": ""
+    },
+    "sponsors": [],
+    "faqs": []
+  },
+
+  {
+    "eventName": "Quiz Battle",
+    "eventDescription": "This competition is designed to challenge participants' critical thinking and problem-solving skills while encouraging them to delve deeper into various aspects. This competition aims to inspire creativity and innovation in the field by presenting participants with questions and scenarios that require both technical knowledge and out-of-the-box thinking.\n\nThe competition will be conducted in teams, with each team consisting of 2 members. Teams will compete through multiple rounds, each focusing on different facets of engineering. These rounds will test participants' ability to apply theoretical knowledge to practical scenarios, push their creative boundaries, and collaborate effectively under time constraints.",
+    "hostDepartment": "ARCH",
+    "eventDay": "1",
+    "startTime": "10:00 AM",
+    "endTime": "01:00 PM",
+    "venue": "School of Architecture, DYPSEM, Kasba Bawada, Kolhapur.",
+    "eligibleParticipants": "Open for all department",
+    "singleEntryFee": "100",
+    "groupEntryFee": "",
+    "prizeMoney": {
+      "first": "3000",
+      "second": "2000",
+      "third": "1000"
+    },
+    "rulesAndRegulations": [
+      {
+        "title": "",
+        "description": "All Participants must remain present at the place of competition, 30 min. before starting of event. Late participants will not be allowed to participate."
+      },
+      {
+        "title": "",
+        "description": "Each group must consist of only two members. Students can collaborate across departments and participate in pairs for the competition. "
+      },
+      {
+        "title": "",
+        "description": "Participants should maintain respect towards the host, judges, and other competitors throughout the event."
+      },
+      {
+        "title": "",
+        "description": "All decisions made by the judges are final. No disputes regarding scores or decisions will be entertained."
+      },
+      {
+        "title": "",
+        "description": "Any team found violating the competition rules (e.g., cheating, disruptive behavior, using unauthorized materials) will be immediately disqualified from the competition."
+      },
+      {
+        "title": "",
+        "description": "Registration will be open till 22nd April 2025 till 12.00 noon."
+      }
+    ],
+    "eventRounds": [],
+    "registration": {
+      "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLScZ-JrXi4hygMN3bkfwH2Vuk7StStZEO8z-CdYXf0NXewkyjQ/viewform",
+      "qrLink": "",
+      "startDate": "11 April 2025",
+      "endDate": "23 April 2025"
+    },
+    "others": {
+      "warnings": [],
+      "images": [],
+      "map": ""
+    },
+    "sponsors": [],
+    "faqs": []
+  },
+
+  {
+    "eventName": "Project competition",
+    "eventDescription": "",
+    "hostDepartment": "CHEM",
+    "eventDay": "1",
+    "startTime": "9:00 AM",
+    "endTime": "4:00 PM",
+    "venue": "Chemical Engineering Department",
+    "eligibleParticipants": "All UG students",
+    "singleEntryFee": "100",
+    "groupEntryFee": "500",
+    "prizeMoney": {
+      "first": "3000",
+      "second": "2000",
+      "third": "1000"
+    },
+    "rulesAndRegulations": [
+      {
+        "title": "",
+        "description": "There shall be minimum 3 and maximum 5 members in a team."
+      },
+      {
+        "title": "",
+        "description": "Project should be in following areas :-Chemical, biotechnology, pharmaceutical, nanotechnology, environmental and any project related to betterment of society."
+      },
+      {
+        "title": "",
+        "description": "Students can prepare PPT presentation to give the information about the project."
+      },
+      {
+        "title": "",
+        "description": "Project will be evaluated on the basis of Usefulness to the society, Enovation, Cost effective, feasibility and understanding."
+      }
+    ],
+    "eventRounds": [],
+    "registration": {
+      "registrationFormLink": "https://forms.gle/wxoMCHkB9nDajgvr5",
+      "qrLink": "",
+      "startDate": "11 April 2025",
+      "endDate": "23 April 2025"
+    },
+    "others": {
+      "warnings": [],
+      "images": [],
+      "map": ""
+    },
+    "sponsors": [],
+    "faqs": []
+  },
+
+  {
+    "eventName": "Product development",
+    "eventDescription": "",
+    "hostDepartment": "CHEM",
+    "eventDay": "1",
+    "startTime": "9:00 AM",
+    "endTime": "4:00 PM",
+    "venue": "Chemical Engineering Department",
+    "eligibleParticipants": "All DYPCET TY students",
+    "singleEntryFee": "100",
+    "groupEntryFee": "400",
+    "prizeMoney": {
+      "first": "3000",
+      "second": "2000",
+      "third": "1000"
+    },
+    "rulesAndRegulations": [
+      {
+        "title": "",
+        "description": "There shall be minimum 3 and maximum 4 members in a team."
+      },
+      {
+        "title": "",
+        "description": "Students should bring the sample of the product and has to showcase along with its information."
+      },
+      {
+        "title": "",
+        "description": "Students can prepare PPT presentation to give the information about the product."
+      },
+      {
+        "title": "",
+        "description": "Product will be evaluated on the basis of Usefulness to the society, Enovation, Cost effective, feasibility and understanding."
+      }
+    ],
+    "eventRounds": [],
+    "registration": {
+      "registrationFormLink": "https://forms.gle/wxoMCHkB9nDajgvr5",
+      "qrLink": "",
+      "startDate": "11 April 2025",
+      "endDate": "23 April 2025"
+    },
+    "others": {
+      "warnings": [],
+      "images": [],
+      "map": ""
+    },
+    "sponsors": [],
+    "faqs": []
+  },
+
+  {
+    "eventName": "Model Competition",
+    "eventDescription": "",
+    "hostDepartment": "CHEM",
+    "eventDay": "2",
+    "startTime": "9:00 AM",
+    "endTime": "4:00 PM",
+    "venue": "Department of Chemical Engineering",
+    "eligibleParticipants": "All UG students",
+    "singleEntryFee": "100",
+    "groupEntryFee": "400",
+    "prizeMoney": {
+      "first": "3000",
+      "second": "2000",
+      "third": "1000"
+    },
+    "rulesAndRegulations": [
+      {
+        "title": "",
+        "description": " Model / Demo of experiment set up allowed."
+      },
+      {
+        "title": "",
+        "description": " Same model/poster presentations are not allowed for other competition."
+      },
+      {
+        "title": "",
+        "description": "During competition bring your own equipment’s/setup/model"
+      },
+      {
+        "title": "",
+        "description": "Time allotted to one group for explanation is 7 minute."
+      },
+      {
+        "title": "",
+        "description": "Question and answer session will be for 3 minute."
+      },
+      {
+        "title": "",
+        "description": "Maximum 3 Participants are allowed per group."
+      }
+    ],
+    "eventRounds": [],
+    "registration": {
+      "registrationFormLink": "https://forms.gle/wxoMCHkB9nDajgvr5",
+      "qrLink": "",
+      "startDate": "11 April 2025",
+      "endDate": "23 April 2025"
+    },
+    "others": {
+      "warnings": [],
+      "images": [],
+      "map": ""
+    },
+    "sponsors": [],
+    "faqs": []
+  },
+
+  {
+    "eventName": "Setu Bandha Re",
+    "eventDescription": "Model bridges promote the study and application of engineering and help students develop “hands-on” skills. Participating students get to experience what it is to be an engineer, designing structures to a set of specifications and then see them perform their function.",
+    "hostDepartment": "CIVIL",
+    "eventDay": "1",
+    "startTime": "9:30 AM",
+    "endTime": "2:00 PM",
+    "venue": "Geo-Technical Engineering lab, Civil Engineering Department.",
+    "eligibleParticipants": "Degree and Diploma Students",
+    "singleEntryFee": "100",
+    "groupEntryFee": "100 (Max 2)",
+    "prizeMoney": {
+      "first": "3000",
+      "second": "2000",
+      "third": "1000"
+    },
+    "rulesAndRegulations": [
+      {
+        "title": "",
+        "description": "Max 2 Participants per team are allowed. "
+      },
+      {
+        "title": "",
+        "description": "Only Ice-cream sticks and Fevicol is allowed. "
+      },
+      {
+        "title": "",
+        "description": "Students can use differentials of total Truss cross section should be limited 100 mm x 100mm only"
+      },
+      {
+        "title": "",
+        "description": "Strength to weight ratio will be calculated and then will be decided"
+      },
+      {
+        "title": "",
+        "description": "Load will be applied at center of the structure."
+      },
+      {
+        "title": "",
+        "description": "Judge’s decision will be final."
+      },
+      {
+        "title": "",
+        "description": "Load to Weight ratio will decide the winner."
+      },
+      {
+        "title": "",
+        "description": "Shape profile id final. Participants can vary internal arrangements of ice-cream sticks."
+      }
+    ],
+    "eventRounds": [],
+    "registration": {
+      "registrationFormLink": "https://forms.gle/9SJMFgBoh7bCpcVEA",
+      "qrLink": "",
+      "startDate": "11 April 2025",
+      "endDate": "23 April 2025"
+    },
+    "others": {
+      "warnings": [],
+      "images": [
+        "https://cdn.discordapp.com/attachments/1359769171042242570/1359966409450324170/Screenshot_2025-04-11_003042.png?ex=67f966ea&is=67f8156a&hm=ccb7a30acf751cf55a16ba93589b516e74765beb081d74570ce48a8cb91e7762&"
+      ],
+      "map": ""
+    },
+    "sponsors": [],
+    "faqs": []
+  },
+
+  {
+    "eventName": "Cube Crush Challenge",
+    "eventDescription": "The CUBE CRUSH CHALLENGE is an exciting and practical event designed to test your understanding of concrete mix design and your ability to achieve a specific compressive strength within a defined timeframe. Participants will be tasked with preparing one single concrete cube with the ambitious target of reaching a compressive strength of 40 N/mm² after a 7-day curing period.\n",
+    "hostDepartment": "CIVIL",
+    "eventDay": "1",
+    "startTime": "10:00 AM",
+    "endTime": "3:30 PM",
+    "venue": "Material Testing lab, Civil Engineering Department.",
+    "eligibleParticipants": "Degree and Diploma Students",
+    "singleEntryFee": "100",
+    "groupEntryFee": "100 (Max 2)",
+    "prizeMoney": {
+      "first": "3000",
+      "second": "2000",
+      "third": "1000"
+    },
+    "rulesAndRegulations": [
+      {
+        "title": "",
+        "description": "Prepare only one concrete cube of 40 N/mm2 compressive strength at 7 days curing period."
+      },
+      {
+        "title": "",
+        "description": "Mix design report should be compulsorily signed by Head of Department of your respective institute. "
+      },
+      {
+        "title": "",
+        "description": "The size of cube should be 150mm X 150mm X 150mm."
+      },
+      {
+        "title": "",
+        "description": "Use of any type of chemical admixture is allowed. "
+      },
+      {
+        "title": "",
+        "description": "Use of fiber/ mesh or any other reinforcement is not allowed."
+      },
+      {
+        "title": "",
+        "description": "Compressive strength nearer to (+/-) 40 N/mm2 will be the winner."
+      },
+      {
+        "title": "",
+        "description": "Strength / weight ratio will be considered for declaration of result."
+      }
+    ],
+    "eventRounds": [],
+    "registration": {
+      "registrationFormLink": "https://forms.gle/9SJMFgBoh7bCpcVEA",
+      "qrLink": "",
+      "startDate": "11 April 2025",
+      "endDate": "23 April 2025"
+    },
+    "others": {
+      "warnings": [],
+      "images": [],
+      "map": ""
+    },
+    "sponsors": [],
+    "faqs": []
+  },
+
+  {
+    "eventName": "The Designer",
+    "eventDescription": "THE DESIGNER event is a dynamic and engaging competition designed to showcase and challenge your skills in Computer-Aided Design (CAD). This event provides a platform for participants to demonstrate their proficiency in creating precise, innovative, and functional digital models using industry-standard CAD software.\nParticipants will be presented with a specific design problem or challenge. The core of the event lies in your ability to translate conceptual ideas and technical specifications into accurate and detailed digital representations.\n",
+    "hostDepartment": "CIVIL",
+    "eventDay": "1",
+    "startTime": "9:30 AM",
+    "endTime": "3:00 PM",
+    "venue": "Computer lab, Civil Engineering Department.",
+    "eligibleParticipants": "Degree and Diploma Students",
+    "singleEntryFee": "100",
+    "groupEntryFee": "",
+    "prizeMoney": {
+      "first": "3000",
+      "second": "2000",
+      "third": "1000"
+    },
+    "rulesAndRegulations": [
+      {
+        "title": "Round 1 – (Scrutiny Round) ",
+        "description": "First round will be of MCQ’s.  Total 25 questions, 2 marks for each correct answer.  There will be negative marking of 1 mark of each wrong answer.  Time limit: 15 min. "
+      },
+      {
+        "title": "Round 2",
+        "description": "Round 2 will be of designing a plan on Auto CAD. Time limit: 1.5 hours Time limit will be strictly considered.  College computers will be provided for the round. No personal laptops are allowed.  Plan must contain all details mentioned in the question.  File must be of minimum size (in KB). "
+      },
+      {
+        "title": "Round 3 – (in case of tie only) ",
+        "description": "Time limit: half an hour."
+      }
+    ],
+    "eventRounds": [
+      {
+        "title": "Round 1 : Scrutiny Round",
+        "description": "First round will be of MCQ’s.  Total 25 questions, 2 marks for each correct answer.  There will be negative marking of 1 mark of each wrong answer.  Time limit: 15 min. ",
+        "startTime": ""
+      },
+      {
+        "title": "Round 2",
+        "description": "Round 2 will be of designing a plan on Auto CAD. Time limit: 1.5 hours Time limit will be strictly considered.  College computers will be provided for the round. No personal laptops are allowed.  Plan must contain all details mentioned in the question.  File must be of minimum size (in KB). ",
+        "startTime": ""
+      },
+      {
+        "title": "Round 3 – (in case of tie only) ",
+        "description": "Time limit: half an hour. ",
+        "startTime": ""
+      }
+    ],
+    "registration": {
+      "registrationFormLink": "https://forms.gle/9SJMFgBoh7bCpcVEA",
+      "qrLink": "",
+      "startDate": "11 April 2025",
+      "endDate": "23 April 2025"
+    },
+    "others": {
+      "warnings": [
+        "If participant is found doing cheating, he/she will be eliminated there itself. ",
+        "Mobiles and other electronic devices are not allowed. "
+      ],
+      "images": [],
+      "map": ""
+    },
+    "sponsors": [],
+    "faqs": []
+  },
+
+  {
+    "eventName": "Android App Development Competition",
+    "eventDescription": "",
+    "hostDepartment": "CSE",
+    "eventDay": "1",
+    "startTime": "10:00 AM",
+    "endTime": "4:00 PM",
+    "venue": "Classroom No. 303",
+    "eligibleParticipants": "Any students from engineering branch  ",
+    "singleEntryFee": "100",
+    "groupEntryFee": "200",
+    "prizeMoney": {
+      "first": "3000",
+      "second": "2000",
+      "third": "1000"
+    },
+    "rulesAndRegulations": [
+      {
+        "title": "Team Structure",
+        "description": "The competition is open to individuals or teams consisting of up to two members."
+      }
+    ],
+    "eventRounds": [
+      {
+        "title": "Presentation & Demonstration Round",
+        "description": "Each team will have a total of 13 minutes, divided as follows: 5 minutes – Presentation of the app concept and its significance. 3 minutes – Live demonstration of the app's functionality. 5 minutes – Question-and-answer session with the judging panel. The evaluation will be based on distinct criteria in each segment.",
+        "startTime": ""
+      }
+    ],
+    "registration": {
+      "registrationFormLink": "https://forms.gle/ZDk7saKFrxWFt9o5A",
+      "qrLink": "",
+      "startDate": "11 April 2025",
+      "endDate": "23 April 2025"
+    },
+    "others": {
+      "warnings": [],
+      "images": [],
+      "map": ""
+    },
+    "sponsors": [],
+    "faqs": []
+  },
+
+
+  {
+    "eventName": "Infinity Hunt",
+    "eventDescription": "Infinity Hunt is a thrilling treasure hunt-style event that combines the excitement of discovery with the challenge of mental acuity.\nThe event features a unique combination of aptitude questions, coding challenges, and engaging puzzles. Participants will solve clues, crack codes, and race against time to reach the final destination\n",
+    "hostDepartment": "CSE",
+    "eventDay": "1",
+    "startTime": "9:30 PM",
+    "endTime": "3:30 PM",
+    "venue": "New Building including Labs, cabins",
+    "eligibleParticipants": "First year to Final Year Students.",
+    "singleEntryFee": "100",
+    "groupEntryFee": "400",
+    "prizeMoney": {
+      "first": "3000",
+      "second": "2000",
+      "third": "1000"
+    },
+    "rulesAndRegulations": [
+      {
+        "title": "Mandatory Attendance",
+        "description": "All participants must report on time and attend the entire event from start to end (9:30 AM to 3:30 PM). Late entries or early exits may lead to disqualification."
+      },
+      {
+        "title": "Group Participation Etiquette",
+        "description": "Groups must stay together during the hunt. Splitting up to solve clues individually is not allowed and will result in penalty points."
+      },
+      {
+        "title": "Respect for Venue",
+        "description": "Participants must not damage property or tamper with equipment in labs, cabins, or buildings. Any such behavior will lead to immediate disqualification."
+      },
+      {
+        "title": "No External Help",
+        "description": "The use of mobile phones, the internet, or assistance from outsiders is strictly prohibited unless specified in a challenge. All answers must be solved independently by the team."
+      },
+      {
+        "title": "Clue Integrity",
+        "description": "Do not remove, hide, or alter any clues once found. If you find a clue meant for another team, report it to the coordinators."
+      }
+    ],
+    "eventRounds": [],
+    "registration": {
+      "registrationFormLink": "https://forms.gle/rPEdVgzPxxiLNcJ68",
+      "qrLink": "",
+      "startDate": "11 April 2025",
+      "endDate": "23 April 2025"
+    },
+    "others": {
+      "warnings": [],
+      "images": [],
+      "map": ""
+    },
+    "sponsors": [],
+    "faqs": []
+  },
+
+
+  {
+    "eventName": "Code Sprint",
+    "eventDescription": "",
+    "hostDepartment": "CSE",
+    "eventDay": "2",
+    "startTime": "9:30 AM",
+    "endTime": "3:30 PM",
+    "venue": "New Building ",
+    "eligibleParticipants": "First year to Final Year Students.",
+    "singleEntryFee": "100",
+    "groupEntryFee": "200 (2P) - 400 (4P)",
+    "prizeMoney": {
+      "first": "3000",
+      "second": "2000",
+      "third": "1000"
+    },
+    "rulesAndRegulations": [
+      {
+        "title": "Team Size",
+        "description": "Each team must consist of a minimum of 2 members and a maximum of 4 members."
+      },
+      {
+        "title": "Registration Fee",
+        "description": "A registration fee of 100 rupees per head must be paid before participating in the competition."
+      },
+      {
+        "title": "Eligibility",
+        "description": "The competition is open to engineering and diploma students only."
+      },
+      {
+        "title": "Code of Conduct",
+        "description": "Participants are expected to maintain a professional and respectful attitude during the competition."
+      },
+      {
+        "title": "Code Relay",
+        "description": "Teams will be given a coding challenge to complete in a relay format. Each team member must contribute to the solution."
+      },
+      {
+        "title": "Debugging",
+        "description": "Teams will be given a buggy code to debug within a set time limit."
+      },
+      {
+        "title": "Code Fire",
+        "description": "Teams will be given a complex coding problem to solve under time pressure, with a twist (e.g., limited resources, unexpected errors)."
+      },
+      {
+        "title": "Time Limits",
+        "description": "Time limits will be strictly enforced for each round."
+      },
+      {
+        "title": "Judging Criteria",
+        "description": "Judges will evaluate teams based on their coding skills, problem-solving abilities, and teamwork."
+      }
+    ],
+    "eventRounds": [],
+    "registration": {
+      "registrationFormLink": "https://forms.gle/vPCGzVFZdjiAcMAx5",
+      "qrLink": "",
+      "startDate": "11 April 2025",
+      "endDate": "23 April 2025"
+    },
+    "others": {
+      "warnings": [],
+      "images": [],
+      "map": ""
+    },
+    "sponsors": [],
+    "faqs": []
+  },
+
+  {
+    "eventName": "Robo Race",
+    "eventDescription": "",
+    "hostDepartment": "MECH",
+    "eventDay": "3",
+    "startTime": "10:00 AM",
+    "endTime": "4:00 PM",
+    "venue": "College lawn",
+    "eligibleParticipants": "Open for all ",
+    "singleEntryFee": "200",
+    "groupEntryFee": "",
+    "prizeMoney": {
+      "first": "3000",
+      "second": "2000",
+      "third": "1000"
+    },
+    "rulesAndRegulations": [
+      {
+        "title": "Timer Start & End",
+        "description": "The timer starts when the robot begins moving from the starting line. The timer stops only when the robot crosses the finish line. If the robot encounters issues during the run, only one opportunity will be given to fix the defects within a limited time."
+      },
+      {
+        "title": "Track Rules",
+        "description": "The robot must stay on the designated track. If the robot goes off-track, it must return to the last checkpoint crossed. The timer will continue running during this time."
+      },
+      {
+        "title": "Penalties",
+        "description": "Skipping any obstacle: 30-second penalty per obstacle. Touching the robot by hand during the race: 10-second penalty per instance."
+      },
+      {
+        "title": "Winning Criteria",
+        "description": "The robot with the lowest total time (including penalties) will be declared the winner."
+      },
+      {
+        "title": "Robot Specifications",
+        "description": "Control: Manually operated (wired or wireless). Size Limit: Maximum 250mm × 250mm × 250mm Weight Limit: Maximum 3 kg Construction: Use of Lego parts or ready-made kits is not allowed."
+      },
+      {
+        "title": "Power Source:",
+        "description": "Maximum 12V battery permitted. Teams must carry an extra battery. Battery failure may result in time loss or disqualification."
+      },
+      {
+        "title": "Track Description",
+        "description": "The track will include rough terrain with various obstacles such as:Ramps,Bridges,Speed breakers, Slippery paths, And more..."
+      },
+      {
+        "title": "Team Rules",
+        "description": "Maximum of 2 members per team."
+      },
+      {
+        "title": "Fair Play",
+        "description": "Damaging the track or interfering with other robots will lead to immediate disqualification."
+      },
+      {
+        "title": "Authority & Rule Changes",
+        "description": "All decisions made by the judges and organizing committee are final and binding. The organizing committee reserves the right to modify the rules at any time."
+      },
+      {
+        "title": "Spot Entry Details",
+        "description": "Spot Entry Fee: ₹200 per team Spot Entry with Robot Provided: ₹250 per team Note: Robots provided by the committee will be allotted on a first-come, first-serve basis (limited availability)."
+      }
+    ],
+    "eventRounds": [],
+    "registration": {
+      "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLSd_rZd84hAqKXISQynoi3ncQ3XSwo8-cVeeymwln7mrp3Q6Sw/viewform?usp=header",
+      "qrLink": "",
+      "startDate": "11 April 2025",
+      "endDate": "23 April 2025"
+    },
+    "others": {
+      "warnings": [],
+      "images": [],
+      "map": ""
+    },
+    "sponsors": [],
+    "faqs": []
+  },
+
+  {
+    "eventName": "CAD Clash",
+    "eventDescription": "The Department of Mechanical Engineering, D. Y. Patil College of Engineering and Technology, Kolhapur (DYPCET) is excited to host a national-level design competition – CAD Clash – as a part of our annual technical event Technostav.\nThis event is specially designed for students who have a passion for computer-aided design and want to showcase their creativity, speed, and technical skills. CAD Clash will test participants' knowledge and hands-on abilities in design software through multiple engaging rounds.\nWhether you're a Diploma or UG student, this is a great opportunity to challenge yourself, learn something new, and compete with talented minds from across the country. Along with the thrill of competition, participants will also enjoy the experience, networking, and recognition.\nGet ready to bring your best design game to the screen – let the clash begin!",
+    "hostDepartment": "MECH",
+    "eventDay": "1",
+    "startTime": "10:00 AM",
+    "endTime": "4:00 PM",
+    "venue": "Classroom 139, CAD Lab 1 &2 , CIII Lab",
+    "eligibleParticipants": "Open for all",
+    "singleEntryFee": "100",
+    "groupEntryFee": "",
+    "prizeMoney": {
+      "first": "3000",
+      "second": "2000",
+      "third": "1000"
+    },
+    "rulesAndRegulations": [
+      {
+        "title": "",
+        "description": "Students from Diploma and Undergraduate (UG) programs are eligible to participate."
+      },
+      {
+        "title": "",
+        "description": "Students must bring their valid College ID card for verification during registration/check-in."
+      },
+      {
+        "title": "",
+        "description": "Only individual participation is allowed.: No team or group entries."
+      },
+      {
+        "title": "",
+        "description": "No malpractice is allowed.: Any form of cheating, copying, or misconduct will lead to immediate disqualification."
+      },
+      {
+        "title": "",
+        "description": "Round 1 (Quiz Round) will be conducted online. Participants must bring their mobile phones with sufficient battery and internet access for this round."
+      },
+      {
+        "title": "",
+        "description": "Round 1 (Quiz Round) and Round 2 (2D Drafting) are elimination rounds. The number of participants eliminated in each round will be decided based on the total number of entries."
+      },
+      {
+        "title": "",
+        "description": "Round 2 will be conducted strictly on AutoCAD. (System for this round will be provided by the organizing team), No other software is allowed for this round."
+      },
+      {
+        "title": "",
+        "description": "UG NX 9.0 will be provided by the organizing team for the final round.: If you wish to use any other CAD software in the final round, you must bring your own laptop with the required software pre-installed, along with a mouse, charger, and necessary accessories."
+      },
+      {
+        "title": "",
+        "description": "Time limits for each round will be announced during the event.: Participants must complete all tasks within the given time."
+      },
+      {
+        "title": "",
+        "description": "In case of a tie in the final round, a surprise modelling task will be given as a tiebreaker."
+      },
+      {
+        "title": "",
+        "description": "Files must be saved and submitted in the specified format.: File naming and formats will be explained during the event."
+      },
+      {
+        "title": "",
+        "description": "Participants are fully responsible for their own devices and software performance.: No technical support will be provided for personal laptops/software."
+      },
+      {
+        "title": "",
+        "description": "Final round will be judged based on: Minimum number of steps/features used – Minimum time taken to complete the design"
+      },
+      {
+        "title": "",
+        "description": "Respectful behavior is mandatory.: Misconduct toward judges, volunteers, or fellow participants will result in disqualification."
+      },
+      {
+        "title": "",
+        "description": "Late arrivals will not be given extra time."
+      },
+      {
+        "title": "",
+        "description": "Depending on the number of entries or other unavoidable circumstances, the organizing committee reserves the right to cancel or modify any round,"
+      },
+      {
+        "title": "",
+        "description": "Participation certificates will be awarded to all verified participants."
+      },
+      {
+        "title": "",
+        "description": "Winners will receive prize money and winning certificates."
+      },
+      {
+        "title": "",
+        "description": "Judges’ decision will be final.: No objections or disputes will be entertained."
+      }
+    ],
+    "eventRounds": [
+      {
+        "title": " Round 1: Quiz Round (Elimination Round)",
+        "description": "This is an online quiz that will test your basic knowledge about CAD software, design standards and general engineering concepts. Participants will need to answer multiple-choice questions within a limited time.",
+        "startTime": ""
+      },
+      {
+        "title": "Round 2: 2D Drafting on AutoCAD (Elimination Round)",
+        "description": "Qualified participants from the quiz round will move to the 2D drawing round. You will be asked to create a 2D drawing of a given drawing using AutoCAD. The type of drawing—Orthographic or Isometric—will be disclosed at the time of the event. This round will test your accuracy, understanding of 2D views, and ability to follow dimensions properly. Note: Only AutoCAD is allowed for this round.",
+        "startTime": ""
+      },
+      {
+        "title": "Round 3: 3D Modelling Round",
+        "description": "Finalists will face a 3D modelling challenge. You will be given a drawing of a mechanical part, and you’ll have to create a 3D model using CAD software. UG NX 9.0 will be provided on the college systems. However, if you prefer to use a different software like SolidWorks, Fusion 360, CATIA etc. you are welcome to use your own laptop – just make sure the software is pre-installed and your device is ready to use. This round will be judged based on how quickly and efficiently you model the part, including the number of steps used.",
+        "startTime": ""
+      }
+    ],
+    "registration": {
+      "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLSd_rZd84hAqKXISQynoi3ncQ3XSwo8-cVeeymwln7mrp3Q6Sw/viewform?usp=header",
+      "qrLink": "",
+      "startDate": "11 April 2025",
+      "endDate": "23 April 2025"
+    },
+    "others": {
+      "warnings": [],
+      "images": [],
+      "map": ""
+    },
+    "sponsors": [],
+    "faqs": []
+  },
+
+  {
+    "eventName": "Tech Debate",
+    "eventDescription": "",
+    "hostDepartment": "MECH",
+    "eventDay": "1",
+    "startTime": "10:00 AM",
+    "endTime": "4:00 PM",
+    "venue": "Classroom 226",
+    "eligibleParticipants": "Open for All",
+    "singleEntryFee": "100",
+    "groupEntryFee": "200 (Max 2P)",
+    "prizeMoney": {
+      "first": "3000",
+      "second": "2000",
+      "third": "1000"
+    },
+    "rulesAndRegulations": [
+      {
+        "title": "Language of conduct",
+        "description": "English"
+      },
+      {
+        "title": "",
+        "description": "Topics will be given on the spot"
+      },
+      {
+        "title": "",
+        "description": "Every participant should speak during the debate"
+      },
+      {
+        "title": "",
+        "description": "Abusive language strictly prohibited"
+      },
+      {
+        "title": "",
+        "description": "Judges decision will be the FINAL"
+      },
+      {
+        "title": "",
+        "description": "Changes may occur in event structure as per the circumstances"
+      }
+    ],
+    "eventRounds": [
+      {
+        "title": "Quiz Round  (Elimination)",
+        "description": "A Quiz on general Engineering eg. Mechanical, Automobile etc",
+        "startTime": ""
+      },
+      {
+        "title": "Tech Debate",
+        "description": " Debate on a technical topic randomly picked from ‘CHITS BOWL’ on the spot. Preparation time of 5 mins with smartphone, then 7 mins for debate, 1 min for conclusion.",
+        "startTime": ""
+      },
+      {
+        "title": "Final Round",
+        "description": " Shortlisted teams from round 2 will pick the chits again for topics, Preparation time of 10 mins, No smartphone allowed, 7 mins for debate, 1 min to conclude.",
+        "startTime": ""
+      }
+    ],
+    "registration": {
+      "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLSd_rZd84hAqKXISQynoi3ncQ3XSwo8-cVeeymwln7mrp3Q6Sw/viewform?usp=header",
+      "qrLink": "",
+      "startDate": "11 April 2025",
+      "endDate": "23 April 2025"
+    },
+    "others": {
+      "warnings": [],
+      "images": [],
+      "map": ""
+    },
+    "sponsors": [],
+    "faqs": []
+  },
   
+  {
+    "eventName": "Project Competition",
+    "eventDescription": "",
+    "hostDepartment": "E&TC",
+    "eventDay": "1",
+    "startTime": "10:00 AM",
+    "endTime": "4:00 PM",
+    "venue": "E&TC Dept. Labs",
+    "eligibleParticipants": "Any Project from Electronics & Telecommunication field",
+    "singleEntryFee": "100",
+    "groupEntryFee": "500",
+    "prizeMoney": {
+      "first": "3000",
+      "second": "2000",
+      "third": "1000"
+    },
+    "rulesAndRegulations": [
+      {
+        "title": "",
+        "description": " Max 5 Participant per team are allowed. "
+      },
+      {
+        "title": "",
+        "description": "Only the registered participants will be allowed to participate in the event."
+      },
+      {
+        "title": "",
+        "description": "The participants should bring their own Laptop/Systems for the presentation / demonstration of their Project."
+      },
+      {
+        "title": "",
+        "description": " The participants should ensure that they have a hardware/software with them required for their Project."
+      },
+      {
+        "title": "",
+        "description": "Every Participated members will get certificates after event "
+      },
+      {
+        "title": "",
+        "description": "Judge's decision will be Final."
+      }
+    ],
+    "eventRounds": [],
+    "registration": {
+      "registrationFormLink": "https://forms.gle/uGh83F49w3MmtauN9",
+      "qrLink": "",
+      "startDate": "11 April 2025",
+      "endDate": "23 April 2025"
+    },
+    "others": {
+      "warnings": [],
+      "images": [],
+      "map": ""
+    },
+    "sponsors": [],
+    "faqs": []
+  },
+
+  {
+    "eventName": "Robo Soccer",
+    "eventDescription": "",
+    "hostDepartment": "E&TC",
+    "eventDay": "1",
+    "startTime": "10:00 AM",
+    "endTime": "4:00 PM",
+    "venue": "College Lawn",
+    "eligibleParticipants": "First year to Final Year Students.",
+    "singleEntryFee": "100",
+    "groupEntryFee": "200 (2P) - 400 (4P)",
+    "prizeMoney": {
+      "first": "3000",
+      "second": "2000",
+      "third": "1000"
+    },
+    "rulesAndRegulations": [
+      {
+        "title": "",
+        "description": "There shall be minimum 2 and maximum 4 members in a team."
+      },
+      {
+        "title": "",
+        "description": "Single Attachment Rule: Each robot is allowed only one attachment for hitting or controlling the ball."
+      },
+      {
+        "title": "",
+        "description": "Qualification Criteria: Any team that scores maximum goals within the 2 halfs of 3-minute match will qualify for the next round. "
+      },
+      {
+        "title": "",
+        "description": "Judge's Decision: The decisions made by the judges regarding results, robot specifications, and other event-related issues are final and binding."
+      },
+      {
+        "title": "",
+        "description": "Size: 25*20*157. Weight 3 kg"
+      }
+    ],
+    "eventRounds": [],
+    "registration": {
+      "registrationFormLink": "https://forms.gle/uGh83F49w3MmtauN9",
+      "qrLink": "",
+      "startDate": "11 April 2025",
+      "endDate": "23 April 2025"
+    },
+    "others": {
+      "warnings": [],
+      "images": [],
+      "map": ""
+    },
+    "sponsors": [],
+    "faqs": []
+  },
+
+  {
+    "eventName": "Drone competition",
+    "eventDescription": "",
+    "hostDepartment": "E&TC",
+    "eventDay": "2",
+    "startTime": "9:30 AM",
+    "endTime": "3:30 PM",
+    "venue": "College Lawn  ",
+    "eligibleParticipants": "First year to Final Year Students.",
+    "singleEntryFee": "100",
+    "groupEntryFee": "200 (2P) - 500 (Max 5P)",
+    "prizeMoney": {
+      "first": "3000",
+      "second": "2000",
+      "third": "1000"
+    },
+    "rulesAndRegulations": [
+      {
+        "title": "",
+        "description": "Drone should be fly only in given area."
+      },
+      {
+        "title": "",
+        "description": "All the connection and control system should be check properly before flight."
+      },
+      {
+        "title": "",
+        "description": "Drone pilot should be well experienced."
+      },
+      {
+        "title": "",
+        "description": "Only stable Drone are allowed to fly"
+      },
+      {
+        "title": "",
+        "description": "Take-off and landing should be in safe way."
+      },
+      {
+        "title": "",
+        "description": "Under any uncertain conditions / malfunctions occurred during the take away, the drone should be moved away from the crowded area & should be landed at safe place."
+      },
+      {
+        "title": "",
+        "description": "Selection will be based on application of drone, how it will be helpful to the society. Judge’s decision will be final."
+      }
+    ],
+    "eventRounds": [],
+    "registration": {
+      "registrationFormLink": "https://forms.gle/uGh83F49w3MmtauN9",
+      "qrLink": "",
+      "startDate": "11 April 2025",
+      "endDate": "23 April 2025"
+    },
+    "others": {
+      "warnings": [],
+      "images": [],
+      "map": ""
+    },
+    "sponsors": [],
+    "faqs": []
+  },
+
+
+
+
+
+
+
+
+
+  {
+    "eventName": "Blender Workshop & Competition",
+    "eventDescription": "The Blender 3D Modeling Workshop & Competition is a hands-on learning experience designed to teach participants the fundamentals of 3D modeling, texturing, lighting, and basic animation using Blender, an industry-standard, open-source 3D software. Ideal for beginners and intermediate learners, the workshop helps unlock creative potential while providing practical skills applicable to game development, animation, product design, and more. Participants will not only build their portfolios but also compete to showcase their talent, win prizes, and receive certificates, all while networking with like-minded creatives and learning from experienced mentors.",
+    "hostDepartment": "ECELL",
+    "eventDay": "3",
+    "startTime": "10:00 AM",
+    "endTime": "4:00 PM",
+    "venue": "CSE Building Labs",
+    "eligibleParticipants": "All students from any department.",
+    "singleEntryFee": "100",
+    "groupEntryFee": "",
+    "prizeMoney": {
+      "first": "3000",
+      "second": "2000",
+      "third": "1000"
+    },
+    "rulesAndRegulations": [
+      {
+        "title": "Punctuality",
+        "description": "All participants must report on time. Late entries may be disqualified."
+      },
+      {
+        "title": "Mandatory Equipment",
+        "description": "Participants must bring their own laptops (with Blender 3.6+ installed) and a mouse."
+      },
+      {
+        "title": "Original Work",
+        "description": "All models must be created during the competition. Pre-made assets are not allowed unless provided by organizers."
+      },
+      {
+        "title": "Respect & Conduct",
+        "description": "Maintain a respectful and collaborative environment. Misconduct may lead to disqualification."
+      },
+      {
+        "title": "Attendance",
+        "description": "Full attendance is mandatory on both days to receive a participation certificate."
+      },
+      {
+        "title": "Competition Rules",
+        "description": "Theme Disclosure: The competition theme will be revealed at the start. Projects must strictly align with the theme. Time Limit: The final 3D model and render must be submitted by the designated deadline (01:00 PM). No External Help: Collaboration or use of internet tutorials during competition hours is not allowed. Submission Format: Final submission must include the .blend file and a rendered image (preferably PNG or JPEG)"
+      },
+      {
+        "title": "Judging Criteria",
+        "description": "Creativity & Concept (30%). Technical Execution (30%). Aesthetic & Detailing (20%). Presentation/Render Quality (20%). Judges' Decision: The decision of the jury will be final and binding."
+      }
+    ],
+    "eventRounds": [],
+    "registration": {
+      "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLSe2WhpUEoNHftkvDg6wx7bfIZSjg1TKrsoqSmgmr2yZQFtBw/ viewform?usp=header",
+      "qrLink": "",
+      "startDate": "11 April 2025",
+      "endDate": "23 April 2025"
+    },
+    "others": {
+      "warnings": [],
+      "images": [],
+      "map": ""
+    },
+    "sponsors": [],
+    "faqs": []
+  },
+
+  {
+    "eventName": "IPL Auction",
+    "eventDescription": "",
+    "hostDepartment": "ECELL",
+    "eventDay": "2",
+    "startTime": "10:00 AM",
+    "endTime": "4:00 PM",
+    "venue": "Classroom 301, CSE lecture hall",
+    "eligibleParticipants": "All students from any department ( Min 3 - Max 4    members per team)",
+    "singleEntryFee": "100",
+    "groupEntryFee": "300 (3P) - 400 (4P)",
+    "prizeMoney": {
+      "first": "5000",
+      "second": "3000",
+      "third": ""
+    },
+    "rulesAndRegulations": [
+      {
+        "title": "Team Composition Rules",
+        "description": "5 Batsmen. 1 Wicket Keeper. 2 All-Rounders. 3 Bowlers. Max 4 Foreign Players. Must not exceed ₹100 crore purse."
+      },
+      {
+        "title": "Bidding Rules",
+        "description": "For players with base prices between ₹1 Cr to ₹10 Cr, the bid increment will be ₹50 Lakhs. For players above ₹10 Cr, the bid increment will be ₹1 Crore. Bidding continues until no higher bid is placed for a few seconds."
+      },
+      {
+        "title": "Winner Criteria",
+        "description": "Team Balance & Player Rating (based on Dream11 stats/performance). Smart use of purse money. Following team composition rules strictly."
+      }
+    ],
+    "eventRounds": [
+      {
+        "title": "Round 1: IPL Quiz - Qualifier Round",
+        "description": "Total teams: 60 (Max 4 members each) Each team (Max 3-4 members) will participate in a 30-question quiz based on IPL trivia and stats. Top 10 scoring teams will qualify for the Mega Auction Round. In case of a tie, 3 bonus questions will be used for elimination.",
+        "startTime": ""
+      },
+      {
+        "title": "Round 2: IPL Mega Auction",
+        "description": "Qualified teams will be assigned one IPL franchise randomly (e.g. MI, CSK, RCB, etc.). Each team will be given a virtual purse of ₹100 Crores. Players will be auctioned one by one with a base price. Teams must bid and buy players to form their Dream11.",
+        "startTime": ""
+      }
+    ],
+    "registration": {
+      "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLSfyYVfahF4HxNZc7Zn6KXUch6lsJ4yoabYTJMSvKOSEhrkbsw/viewform?usp=header",
+      "qrLink": "",
+      "startDate": "11 April 2025",
+      "endDate": "23 April 2025"
+    },
+    "others": {
+      "warnings": [],
+      "images": [],
+      "map": ""
+    },
+    "sponsors": [],
+    "faqs": []
+  },
+
+  {
+    "eventName": "Reel Rumble",
+    "eventDescription": "Reel Rumble is a solo reel-making competition organized under Technotsav 2025, designed to capture the energy, creativity, and vibrance of the fest. Participants will shoot, edit, and submit their reels over the two-day span of the event, showcasing highlights from Day 1 and Day 2 of Technotsav. The competition encourages storytelling, content creation, and smart editing—all within a 90-second reel format.\n",
+    "hostDepartment": "ECELL",
+    "eventDay": "3",
+    "startTime": "9:00 AM (Day 1)",
+    "endTime": "1:00 PM (Day 2)",
+    "venue": "DYPCET",
+    "eligibleParticipants": "Open to all",
+    "singleEntryFee": "150",
+    "groupEntryFee": "",
+    "prizeMoney": {
+      "first": "3000",
+      "second": "2000",
+      "third": "1000"
+    },
+    "rulesAndRegulations": [
+      {
+        "title": "",
+        "description": "Students from Diploma and Undergraduate (UG) programs are eligible to participate."
+      },
+      {
+        "title": "",
+        "description": "Students must bring their valid College ID card for verification during registration/check-in."
+      },
+      {
+        "title": "",
+        "description": "Only individual participation is allowed.: No team or group entries."
+      },
+      {
+        "title": "",
+        "description": "Respectful behaviour is mandatory.: Misconduct toward judges, volunteers, or fellow participants will result in disqualification."
+      },
+      {
+        "title": "",
+        "description": "Late arrivals will not be given extra time."
+      },
+      {
+        "title": "",
+        "description": "Participation certificates will be awarded to all verified participants."
+      },
+      {
+        "title": "",
+        "description": "Winners will receive prize money and winning certificates."
+      },
+      {
+        "title": "",
+        "description": "Judges’ decision will be final.: No objections or disputes will be entertained."
+      },
+      {
+        "title": "",
+        "description": "Participants are fully responsible for their own devices and software performance."
+      },
+      {
+        "title": "Reel Guidelines:",
+        "description": "Solo participation only. Reel Duration: Max 90 seconds. Format: Portrait (9:16), suitable for Instagram. Content must be based on Technotsav Day 1 and Day 2. All footage must be shot within the college premises during the event. Use of copyrighted music or video is strictly prohibited, unless credited. Editing must be completed by Day 2. Participants must carry their own materials (phones, tripods, etc). No spot entries allowed."
+      },
+      {
+        "title": "Posting & Submission",
+        "description": "Submission of the final reel must be made via Google Drive link provided by the coordinators. Reels posted after 1:00 PM will not be considered for evaluation. Instagram Posting (Optional) Participants can post their reel using the official hashtags: #ReelRumble2025 #Technotsav2025.  This offers bonus points and acts as a golden pass to boost their chance of winning."
+      },
+      {
+        "title": "",
+        "description": "Refreshments will be provided to all registered participants(day 1 and day 2) Winning reels will be highlighted during the Closing Ceremony and promoted as event highlights."
+      }
+    ],
+    "eventRounds": [
+      {
+        "title": "Day 1 – Shoot Begins",
+        "description": "Reporting Time: 8:30 AM sharp Shooting Start Time: 9:00 AM (starts with the Opening Ceremony) Participants will begin capturing moments, activities and behind-the-scenes of Technotsav Day 1. Shooting continues through recording all the events, highlights happening on different venues respectively.",
+        "startTime": ""
+      },
+      {
+        "title": "Day 2 – Shoot, Edit & Submit",
+        "description": "Submission Deadline: 1:00 PM (via Google Drive link shared by student coordinator) Note:Drive link will be open from 12:30pm to 1:00pm          Late entries will not be accepted Instagram Bonus (Optional): Participants can also post reels on their Instagram using official event hashtags, which will offer bonus points.",
+        "startTime": ""
+      },
+      {
+        "title": "Post-Lunch",
+        "description": "Judges will evaluate and declare winners. Winning reels will be showcased during the Closing Ceremony.",
+        "startTime": ""
+      }
+    ],
+    "registration": {
+      "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLSf3T2hrqSvEhGkFUhoCeXo3DYO6KvfncZOSUS4OS_aldHDWBQ/viewform?usp=sharing",
+      "qrLink": "",
+      "startDate": "11 April 2025",
+      "endDate": "23 April 2025"
+    },
+    "others": {
+      "warnings": [],
+      "images": [],
+      "map": ""
+    },
+    "sponsors": [],
+    "faqs": []
+  },
+
+  {
+    "eventName": "Technical Paper Presentation",
+    "eventDescription": "",
+    "hostDepartment": "ECELL",
+    "eventDay": "2",
+    "startTime": "9:00 AM",
+    "endTime": "2:00 PM",
+    "venue": "Lab 1 and 2 AIML",
+    "eligibleParticipants": "Open for all department",
+    "singleEntryFee": "100 (Non Refundable)",
+    "groupEntryFee": "",
+    "prizeMoney": {
+      "first": "7000",
+      "second": "5000",
+      "third": "3000"
+    },
+    "rulesAndRegulations": [
+      {
+        "title": "Themes for Paper Presentation",
+        "description": "Role of Healthcare, Biotechnology, and Bioinformatics. Smart Cities and AI-driven Sustainable Infrastructure. Next-Gen Automation and Perception Systems in Robotics and Vehicles. Cybersecurity in the Age of Zero Trust: Challenges and Innovations. Industry 4.0: Digital Twins and Intelligent Manufacturing. Innovations in Renewable Energy and Smart Power Systems. Advances in Embedded Systems and the Internet of Things (IoT). Role of AI/ML, Data Science, and AR/VR in Engineering Disruption. Circular Economy and Zero-Waste Engineering Practices. Trends in Electrical and Hydrogen Vehicle Technologies. Transformative Engineering Innovations for a Sustainable Future. Quantum Computing and Its Emerging Role in Engineering Applications."
+      },
+      {
+        "title": "Rules & Regulations",
+        "description": "The entire event will be conducted in offline mode. The paper must follow the IEEE format or format shared:- https://www.overleaf.com/latex/templates/ieee-conference-template/grfzhhncsfqn. Topic should be technical and research-based (from the given list). Submissions must be original and plagiarism-free. A maximum of 4 participants per team is allowed. Students must bring a valid college ID card for verification during registration/check-in. Participation certificates will be awarded to all verified participants. Winners will receive prize money and winning certificates. The judges’ decision will be final. No objections or disputes will be entertained. Refreshments will be provided to all registered participants."
+      },
+      {
+        "title": "Presentation guidelines",
+        "description": "Presentation Format: PPT must be prepared using the official template provided by the organizing team. (It will be provided later). Paper Submission: Submit your paper to dypcettechnotsav25@gmail.com. Email Subject Line should be: TeamLeaderName_CollegeName_TopicNumber.  Presentation Medium: Use of PowerPoint (.ppt/.pptx) or PDF format is allowed. Time Limit: 6 minutes for presentation, 2 minutes for Q&A with judges."
+      },
+      {
+        "title": "Judging Criteria",
+        "description": "Each presentation will be evaluated by a panel of judges using a standardized score sheet based on the below criteria. Research Depth & Originality. Technical Content & Accuracy. Presentation & Communication Skills. Handling of Questions (Q&A)."
+      },
+      {
+        "title": "Paper Format",
+        "description": "IEEE "
+      },
+      {
+        "title": "PPT must be in ",
+        "description": "format provided by team"
+      },
+      {
+        "title": "Time limit ",
+        "description": "6 Minutes Presentation + 2 Minutes Q&A"
+      },
+      {
+        "title": "Registration/Deadline for paper submission",
+        "description": "21 April 2025"
+      },
+      {
+        "title": "Acceptance will be declared by ",
+        "description": "22 April 2025(via mail)"
+      }
+    ],
+    "eventRounds": [],
+    "registration": {
+      "registrationFormLink": "https://forms.gle/LETfKW8fReEtLX4D8 ",
+      "qrLink": "",
+      "startDate": "11 April 2025",
+      "endDate": "21 April 2025"
+    },
+    "others": {
+      "warnings": [],
+      "images": [],
+      "map": ""
+    },
+    "sponsors": [],
+    "faqs": []
+  }
   
 ]

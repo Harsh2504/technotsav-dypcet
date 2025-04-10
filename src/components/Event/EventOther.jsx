@@ -28,23 +28,23 @@ const EventOther = ({ warnings, images, map }) => {
       )}
 
       {/* Image Previews */}
-      {hasImages && (
-        <div className="mb-8">
-          <h3 className="text-xl font-semibold text-gray-700 mb-4">🖼️ Image Previews</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {images.map((imgSrc, index) => (
-              <img
-                key={index}
-                src={imgSrc}
-                alt={`Preview ${index + 1}`}
-                className="rounded-xl shadow-sm border object-cover h-48 w-full"
-              />
-            ))}
+        {hasImages && (
+          <div className="mb-8">
+            <h3 className="text-xl font-semibold text-gray-700 mb-4">🖼️ Image Previews</h3>
+            <div className="flex flex-wrap justify-center gap-4">
+          {images.map((imgSrc, index) => (
+            <img
+              key={index}
+              src={imgSrc}
+              alt={`Preview ${index + 1}`}
+              className="rounded-xl shadow-sm border object-cover h-48"
+            />
+          ))}
+            </div>
           </div>
-        </div>
-      )}
+        )}
 
-      {/* Map Download */}
+        {/* Map Download */}
       {hasMap && (
         <div className="text-center">
           <a
