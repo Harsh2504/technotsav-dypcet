@@ -34,9 +34,19 @@ const EventPage = ({ department }) => {
 
   console.log(eventData);
   if (!eventData) {
-    return <div className="text-white p-8">Loading or Event not found...</div>;
+    return (
+      <div className='flex flex-col justify-center items-center w-screen min-h-screen bg-[#e3e3e3] bg-[radial-gradient(#00000089,transparent_2px)] [background-size:20px_20px] p-4'>
+        <h1 className='text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-center gradient mb-6 sm:mb-8 fustat-heading'>
+          Event Not Found
+        </h1>
+        <p className='text-lg sm:text-xl md:text-2xl lg:text-3xl text-black/80 font-semibold text-center manrope-paragraph max-w-3xl'>
+          The event you're looking for doesn't exist or is still loading.<br className='hidden sm:block' />Please check back later or verify the event link.
+        </p>
+      </div>
+    );
   }
-
+  
+  
 
   const handleScrollToRegistration = () => {
     if (registrationRef.current) {
