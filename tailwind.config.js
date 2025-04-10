@@ -13,7 +13,11 @@ module.exports = {
           neutral: '#374151',
           base: '#F3F4F6',
         },
+        backgroundImage: {
+          'vertical-cool': 'linear-gradient(to bottom, #2c4072, #3a5c9c, #4d78c7, #6d9ce6, #a0c0ff)',
+        },
       },
+   
     },
     plugins: [],
   };
