@@ -2,7 +2,7 @@ import React from 'react'
 
 const EventRulesAndRegulations = ({rules}) => {
     return (
-        <section className="max-w-4xl mx-auto px-4 py-10">
+        <section className="max-w-4xl mx-auto px-4 py-10 min-h-screen">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-8 fustat-heading">Rules & Regulations</h2>
           <div className="space-y-2 flex flex-col items-center">
             {rules.map((rule, index) => (

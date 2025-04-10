@@ -15,37 +15,37 @@ const EventRegisteration = ({
             <div className="bg-white rounded-2xl shadow-md p-6 space-y-6 bg-[linear-gradient(10deg,_#0a0a0a,_#1c1c1c,_#3e3e3e,_#1c1c1c,_#0a0a0a)]">
                 <div className="flex flex-col sm:flex-row justify-center gap-10 text-center ">
                     <div className=" ">
-                        <p className="text-lg font-medium text-gray-700 mb-2 text-white fustat-heading">
-                            Single Entry
+                        <p className="text-lg font-medium  mb-2 text-white fustat-heading">
+                            Single Entry Fee
                         </p>
                         <button
                             onClick={() => window.open(registrationFormLink, "_blank")}
                             className="bg-white text-indigo-600 px-4 py-1 rounded-full hover:bg-indigo-600 hover:text-white transition-all fustat-heading text-md"
                         >
-                            Register ₹{singleEntryFee}
+                           Pay ₹{singleEntryFee}
                         </button>
                     </div>
                     <div className="">
-                        <p className="text-lg font-medium text-gray-700 mb-2 text-white fustat-heading">
-                            Group Entry
+                        <p className="text-lg font-medium mb-2 text-white fustat-heading">
+                            Group Entry Fee
                         </p>
                         <button
                             onClick={() => window.open(registration.registrationFormLink, "_blank")}
                             className="bg-white text-indigo-600 px-4 py-1 rounded-full hover:bg-indigo-600 hover:text-white transition-all fustat-heading text-md"
                         >
-                            Register ₹{groupEntryFee}
+                          Pay ₹{groupEntryFee}
                         </button>
                     </div>
                 </div>
 
                 <div className="text-center">
-                    <p className="text-gray-600 text-sm text-white manrope-paragraph">
+                    <p className="text-sm text-white manrope-paragraph">
                         Registration Open:{" "}
-                        <span className="font-semibold text-gray-800 text-white">{registration.startDate}</span> to{" "}
-                        <span className="font-semibold text-gray-800 text-white">{registration.endDate}</span>
+                        <span className="font-semibold  text-white">{registration.startDate}</span> to{" "}
+                        <span className="font-semibold  text-white">{registration.endDate}</span>
                     </p>
                 </div>
-
+                
                 <div className="flex justify-center">
                     <div className="p-4 border rounded-xl bg-gray-50">
                         <img
@@ -57,6 +57,18 @@ const EventRegisteration = ({
                             Scan to register
                         </p>
                     </div>
+                </div>
+                <div class="inline-flex items-center justify-center w-full">
+                    <hr class="w-64 h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"/>
+                    <span class="absolute px-3 font-medium text-gray-900 -translate-x-1/2 bg-white left-1/2 dark:text-white dark:bg-[#161616]">or</span>
+                </div>
+                <div className="flex justify-center mb-10">
+                <button
+                            onClick={() => window.open(registration.registrationFormLink, "_blank")}
+                            className="bg-white text-indigo-600 px-4 py-1 rounded-full hover:bg-indigo-600 hover:text-white transition-all fustat-heading text-md"
+                        >
+                         Register Here
+                </button>
                 </div>
             </div>
         </section>

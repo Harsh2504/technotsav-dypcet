@@ -7,9 +7,11 @@ import EventSponsers from "../components/Event/EventSponsers";
 import EventFAQ from "../components/Event/EventFAQ";
 import EventHero from "../components/Event/EventHero";
 import EventRounds from "../components/Event/EventRounds";
+import EventPrizes from "../components/Event/EventPrizes";
 import EventDescription from "../components/Event/EventDescription";
 
 import eventsDataPool from "./eventsData.json";
+import Timeline from "../components/Timeline";
 
 const EventPage = ({ department }) => {
   const { eventname } = useParams(); // assuming you use :eventname in route
@@ -46,8 +48,9 @@ const EventPage = ({ department }) => {
 
       <EventHero {...eventData} />
       <EventDescription {...eventData} />
-      <EventRounds {...eventData} />
-
+      <EventRounds rounds={eventData.eventRounds} />
+      <EventPrizes prizes={eventData.prizeMoney} />
+      <Timeline/>
       {eventData.rulesAndRegulations.length > 0 && (
         <EventRulesAndRegulations rules={eventData.rulesAndRegulations} />
       )}

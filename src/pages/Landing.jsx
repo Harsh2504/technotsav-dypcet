@@ -34,7 +34,7 @@ export default function Landing() {
 
       </div> */}
 
-        <Events />
+      <Events />
 
       <Timeline />
       <FAQ />
