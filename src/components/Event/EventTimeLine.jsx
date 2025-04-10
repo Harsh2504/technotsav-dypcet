@@ -2,11 +2,11 @@ import React from 'react'
 
 export default function EventTimeLine({eventRounds,registration,eventDay}) {
 return (
-    <div className='px-40 py-20 min-h-screen'>
+    <div className='px-5 md:px-40 py-5 md:py-10 min-h-screen'>
 
-        <h2 className="text-3xl font-bold text-center text-gray-800 fustat-heading">Event</h2>
-        <h1 className="text-7xl font-bold text-center fustat-heading gradient">Timeline</h1>
-        <div className='px-10 md:px-50 py-10'>
+        <h2 className="text-xl md:text-3xl font-bold text-center text-gray-800 fustat-heading">Event</h2>
+        <h1 className="text-5xl md:text-7xl font-bold text-center fustat-heading gradient">Timeline</h1>
+        <div className='px-5 md:px-50 py-10'>
             <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
 
             {/* Start Node of Timeline */}
@@ -23,10 +23,10 @@ return (
                         clipRule="evenodd" />
                 </svg>
                 </div>
-                <div className="timeline-start mb-10 md:text-end">
-                <time className="font-mono italic">{registration.startDate}</time>
+                <div className="timeline-start mb-5 md:mb-10 md:text-end manrope-paragraph text-black/70 " >
+                <time className="font-mono italic text-black">{registration.startDate}</time>
 
-                <div className="text-lg font-black">Registration Starts</div>
+                <div className="text-lg font-black fustat-heading text-black">Registration Starts</div>
                 The Apple Macintosh—later rebranded as the Macintosh 128K—is the original Apple Macintosh
                 personal computer. It played a pivotal role in establishing desktop publishing as a general
                 office function. The motherboard, a 9 in (23 cm) CRT monitor, and a floppy drive were housed
@@ -51,9 +51,9 @@ return (
                     clipRule="evenodd" />
                     </svg>
                     </div>
-                    <div className="timeline-end md:mb-10">
-                    <time className="font-mono italic">{registration.endDate}</time>
-                    <div className="text-lg font-black">Registration Ends</div>
+                    <div className="timeline-end mb-5 md:mb-10 manrope-paragraph text-black/70 ">
+                    <time className="font-mono italic text-black">{registration.endDate}</time>
+                    <div className="text-lg font-black fustat-heading text-black">Registration Ends</div>
                     iMac is a family of all-in-one Mac desktop computers designed and built by Apple Inc. It has
                     been the primary part of Apple's consumer desktop offerings since its debut in August 1998,
                     and has evolved through seven distinct forms
@@ -76,9 +76,9 @@ return (
                                         clipRule="evenodd" />
                                 </svg>
                             </div>
-                            <div className="timeline-start mb-10 md:text-end" >
-                                <time className="font-mono italic">{eventDay === 1 ? "24th April, 2025" : "25th April, 2025"}</time>
-                                <div className="text-lg font-black">Day of Event</div>
+                            <div className="timeline-start mb-5 md:mb-10 md:text-end manrope-paragraph text-black/70 " >
+                                <time className="font-mono italic text-black">{eventDay === 1 ? "24th April, 2025" : "25th April, 2025"}</time>
+                                <div className="text-lg font-black fustat-heading text-black">Day of Event</div>
                                 The Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness
                                 tracking, health-oriented capabilities, and wireless telecommunication, and integrates with
                                 iOS and other Apple products and services.
@@ -102,9 +102,9 @@ return (
                                         clipRule="evenodd" />
                                 </svg>
                         </div>
-                        <div className={index % 2 === 0 ?"timeline-end md:mb-10": "timeline-start mb-10 md:text-end"  }>
-                                <time className="font-mono italic">{round.startTime}</time>
-                                <div className="text-lg font-black">{round.title}</div>
+                        <div className={index % 2 === 0 ?"timeline-end mb-5 md:mb-10 manrope-paragraph text-black/70": "timeline-start mb-10 md:text-end manrope-paragraph text-black/70 "  }>
+                                <time className="font-mono italic text-black">{round.startTime}</time>
+                                <div className="text-lg font-black fustat-heading text-black">{round.title}</div>
                                 {round.description}
                         </div>
                         {/* end line */}
@@ -127,9 +127,9 @@ return (
                                 clipRule="evenodd" />
                         </svg>
                         </div>
-                        <div className={eventRounds.length % 2 === 0 ? "timeline-end mb-10 md:text-start" : "timeline-start mb-10 md:text-end" }>
-                        <time className="font-mono italic">2015</time>
-                        <div className="text-lg font-black">End of Event</div>
+                        <div className={eventRounds.length % 2 === 0 ? "timeline-end mb-5 md:mb-10 md:text-start manrope-paragraph text-black/70" : "timeline-start mb-10 md:text-end manrope-paragraph text-black/70 " }>
+                        <time className="font-mono italic text-black">2015</time>
+                        <div className="text-lg font-black fustat-heading text-black">End of Event</div>
                         The Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness
                         tracking, health-oriented capabilities, and wireless telecommunication, and integrates with
                         iOS and other Apple products and services

@@ -116,21 +116,59 @@ const Events = () => {
 
   return (
     <div>
-      <h1 className="text-6xl px-10 md:px-40 my-10 w-screen h-[40px] text-center spacecrusaders-heading">
+      <h1 className="text-5xl md:text-7xl mb-5 md:mb-10  md:my-10 px-5 md:px-40 md:h-20  w-screen  text-center spacecrusaders-heading gradient">
         EVENTS
       </h1>
+      <p className="text-center text-base md:text-lg text-gray-700 mb-3 md:mb-5 px-5 md:px-40 manrope-paragraph">
+      Quickly jump to your department's events by clicking below ..
+    </p>
 
+    <div className="flex flex-wrap justify-center items-center gap-4 mb-10 px-5 md:px-40">
+      {[
+        { id: 'cse', label: 'CSE' },
+        { id: 'aiml', label: 'AIML' },
+        { id: 'mech', label: 'Mechanical' },
+        { id: 'civil', label: 'Civil' },
+        { id: 'e&tc', label: 'E&TC' },
+        { id: 'arch', label: 'Architecture' },
+        { id: 'ecell', label: 'E-Cell' },
+      ].map((dept) => (
+        <>
+        <a
+          key={dept.id}
+          href={`#${dept.id}`}
+          className="  hidden md:block text-sm md:text-base font-medium fustat-heading px-4 py-2 rounded-full border-2 border-[#30538e] text-[#30538e] hover:bg-[#30538e]  hover:text-white transition-all duration-100"
+        >
+          {dept.label}
+        </a>
+        <a
+          key={dept.id}
+          href={`#${dept.id}`}
+          className=" block md:hidden text-sm md:text-base font-medium fustat-heading px-4 py-2 rounded-full border-2 border-[#30538e] text-[#30538e] active:bg-[#30538e]  active:text-white transition-all duration-100"
+        >
+          {dept.label}
+        </a>
+        </>
+      ))}
+    </div>
       {eventData.departments.map((department, index) => {
         const [key, dept] = Object.entries(department)[0];
         return (
           <div
-            key={key}
-            className={`flex flex-col justify-start items-center py-10 md:py-20 px-10 md:px-40 w-screen min-h-screen ${
-              index % 2 === 0 ? 'bg-[#d7d7d7]' : ''
-            }`}
+          key={key}
+          className={`flex flex-col justify-center items-center py-10 md:py-20 px-5 md:px-40 w-screen min-h-screen ${
+            index % 2 === 0
+            ? 'bg-gradient-to-b from-[#e3e3e3] via-[#e3e3e3] to-[#ccd8e3]'
+            : 'bg-gradient-to-b from-[#ccd8e3] via-[#ccd8e3] to-[#e3e3e3]'
+          }`}
           >
             <h1 className="text-4xl md:text-6xl font-bold fustat-heading text-center mb-10">
-              {dept.name}
+              {dept.name.split(' ').map((word, i) => (
+          <span key={i}>
+            <span className="gradient">{word[0]}</span>
+            {word.slice(1)}{' '}
+          </span>
+              ))}
             </h1>
 
             {/* Render each event card */}
@@ -143,9 +181,11 @@ const Events = () => {
           <EventCard key={event.title + idx} dept={event} />
               ))}
             </div>
+
           </div>
         );
       })}
+
     </div>
   );
 };

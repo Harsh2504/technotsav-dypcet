@@ -10,9 +10,9 @@ const EventOther = ({ warnings, images, map }) => {
   if (!hasAnyContent) return null;
 
   return (
-    <section className="max-w-4xl mx-auto px-4 py-10">
+    <section className="max-w-4xl mx-auto px-5 py-10 min-h-screen">
       <h2 className="text-3xl font-bold text-center text-gray-800 mb-8 fustat-heading">
-        Additional Information
+      <span className='gradient text-3xl md:text-5xl'>Additional</span> Information
       </h2>
 
       {/* Warnings */}
@@ -29,7 +29,7 @@ const EventOther = ({ warnings, images, map }) => {
 
       {/* Image Previews */}
         {hasImages && (
-          <div className="mb-8">
+          <div className="mb-8 manrope-paragraph">
             <h3 className="text-xl font-semibold text-gray-700 mb-4">🖼️ Image Previews</h3>
             <div className="flex flex-wrap justify-center gap-4">
           {images.map((imgSrc, index) => (

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useParams } from "react-router-dom";
 import EventRulesAndRegulations from "../components/Event/EventRulesAndRegulations";
 import EventRegisteration from "../components/Event/EventRegisteration";
@@ -14,6 +14,8 @@ import EventTimeline from "../components/Event/EventTimeLine";
 import eventsDataPool from "./eventsData.json";
 
 const EventPage = ({ department }) => {
+  const registrationRef = useRef(null);
+
   const { eventname } = useParams(); // assuming you use :eventname in route
   const [eventData, setEventData] = useState(null);
 
@@ -35,6 +37,14 @@ const EventPage = ({ department }) => {
     return <div className="text-white p-8">Loading or Event not found...</div>;
   }
 
+
+  const handleScrollToRegistration = () => {
+    if (registrationRef.current) {
+      registrationRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+
   return (
     <div className="text-black">
       {/* <h1 className="text-3xl font-bold">
@@ -46,7 +56,7 @@ const EventPage = ({ department }) => {
 
       <p className="mt-4 text-black">{eventData.eventDescription}</p> */}
 
-      <EventHero {...eventData} />
+      <EventHero {...eventData} onRegisterClick={handleScrollToRegistration} />
       <EventDescription {...eventData} />
       <EventRounds rounds={eventData.eventRounds} />
 
@@ -55,7 +65,7 @@ const EventPage = ({ department }) => {
       {eventData.rulesAndRegulations.length > 0 && (
         <EventRulesAndRegulations rules={eventData.rulesAndRegulations} />
       )}
-      <EventRegisteration {...eventData} />
+      <EventRegisteration {...eventData}  ref={registrationRef}/>
       <EventOther {...eventData.others} />
       <EventSponsers sponsors={eventData.sponsors} />
       <EventFAQ faqs={eventData.faqs} />
