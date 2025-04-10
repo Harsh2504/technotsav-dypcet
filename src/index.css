@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+@tailwind utilities;
 @font-face {
     font-family: 'SpaceCrusaders';
     src: url('../src/assets/space_crusaders/Space\ Crusaders.ttf') format('truetype');

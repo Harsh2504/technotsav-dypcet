@@ -2,6 +2,9 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import EventRulesAndRegulations from '../components/Event/EventRulesAndRegulations';
 import EventRegisteration from '../components/Event/EventRegisteration';
+import EventOther from '../components/Event/EventOther';
+import EventSponsers from '../components/Event/EventSponsers';
+import EventFAQ from '../components/Event/EventFAQ';
 // import qr from '../assets/qr-code.png';
 const EventPage = ({ department }) => {
   const eventsData = [
@@ -23,6 +26,7 @@ const EventPage = ({ department }) => {
           "third": "1000"
         },
         "rulesAndRegulations": [
+          
           {
             "title": "Mandatory Attendance",
             "description":
@@ -84,19 +88,19 @@ const EventPage = ({ department }) => {
             "Be ready for outdoor and indoor challenges."
           ],
           "images": [
-            "/images/hunt-map.jpg",
-            "/images/hint-preview.png"
+            "https://cdn.discordapp.com/attachments/1278743201339019299/1359769248175489134/image.png?ex=67f8af4c&is=67f75dcc&hm=d964610660d092983e03bbc0086cd0105f3b2748a11673e9669c2db8e2d77b63&",
+            "https://cdn.discordapp.com/attachments/1278743201339019299/1354798101784957019/image.png?ex=67f865ce&is=67f7144e&hm=992009d5fad90dda47813743d3803b0a7b21dcce33c41b674560dfcfee790de5&"
           ],
           "map": "/maps/infinity-hunt-map.pdf"
         },
         "sponsors": [
           {
             "name": "TechNova Inc.",
-            "logo": "/sponsors/technova.png"
+            "logo": "https://thumbs.dreamstime.com/z/timbre-de-sponsor-86263619.jpg"
           },
           {
             "name": "CodeSphere",
-            "logo": "/sponsors/codesphere.png"
+            "logo": "https://thumbs.dreamstime.com/z/timbre-de-sponsor-86263619.jpg"
           }
         ],
         "faqs": [
@@ -136,8 +140,11 @@ const EventPage = ({ department }) => {
       {/* You can now fetch event details based on dept + eventname if needed */}
 
         {istrue && <EventHero />}
-        <EventRulesAndRegulations rules={eventsData[0].rulesAndRegulations} />
+        {eventsData[0].rulesAndRegulations.length > 0 && <EventRulesAndRegulations rules={eventsData[0].rulesAndRegulations} />}
         <EventRegisteration {...eventsData[0]}/>
+        <EventOther {...eventsData[0].others} />
+        <EventSponsers sponsors={eventsData[0].sponsors} />
+        <EventFAQ faqs={eventsData[0].faqs} />
     </div>
   )
 }
