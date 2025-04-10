@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Landing from './pages/Landing'
 import Footer from './components/Footer'
 import EventPage from './pages/EventPage'
+import EventEntry from './pages/EventEntry'
 import './index.css'
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/events/chem/:eventname" element={<EventPage department="chem" />} />
           <Route path="/events/e&tc/:eventname" element={<EventPage department="e&tc" />} />
           <Route path="/events/ecell/:eventname" element={<EventPage department="ecell" />} />
+          <Route path="/events/entry/" element={<EventEntry/>} />
         </Routes>
       </Router>
       <Footer />
