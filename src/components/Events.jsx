@@ -305,8 +305,8 @@ const Events = () => {
             id={key}
             className={`flex flex-col justify-center items-center py-10 md:py-20 px-5 md:px-40 w-screen min-h-screen ${
               index % 2 === 0
-                ? 'bg-gradient-to-b from-[#e3e3e3]/0 via-[#e3e3e3]/0 to-[#ccd8e3]/0 '
-                : 'bg-gradient-to-b from-[#ccd8e3]/0 via-[#ccd8e3]/0 to-[#e3e3e3]/0 '
+                ? 'bg-gradient-to-b from-[#e3e3e3] via-[#e3e3e3] to-[#ccd8e3] '
+                : 'bg-gradient-to-b from-[#ccd8e3] via-[#ccd8e3] to-[#e3e3e3] '
             }`}
           >
             <h1 className="text-4xl md:text-6xl font-bold fustat-heading text-center mb-10">
