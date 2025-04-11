@@ -1908,13 +1908,13 @@
 
   {
     "eventName": "Reel Rumble",
-    "eventDescription": "Reel Rumble is a solo reel-making competition organized under Technotsav 2025, designed to capture the energy, creativity, and vibrance of the fest. Participants will shoot, edit, and submit their reels over the two-day span of the event, showcasing highlights from Day 1 and Day 2 of Technotsav. The competition encourages storytelling, content creation, and smart editing—all within a 90-second reel format.\n",
+    "eventDescription": "Reel Rumble is a solo reel-making competition organized under Technotsav 2025, designed to capture the energy, creativity, and vibrance of the fest. Participants will shoot, edit, and submit their reels over the two-day span of the event, showcasing highlights from Day 1 and Day 2 of Technotsav. The competition encourages storytelling, content creation, and smart editing—all within a 90-second reel format.",
     "hostDepartment": "TECHL",
     "eventDay": "3",
     "startTime": "9:00 AM (Day 1)",
     "endTime": "1:00 PM (Day 2)",
-    "venue": "DYPCET",
-    "eligibleParticipants": "Open to all",
+    "venue": "DY Patil College of Engineering & Technology (DYPCET), Kolhapur, **(NOTE:  Block/Room details will be shared before the event)",
+    "eligibleParticipants": "Open to all students of any department or year , Solo participation only",
     "singleEntryFee": "150",
     "groupEntryFee": "",
     "prizeMoney": {
@@ -1974,18 +1974,13 @@
     ],
     "eventRounds": [
       {
-        "title": "Day 1 – Shoot Begins",
-        "description": "Reporting Time: 8:30 AM sharp Shooting Start Time: 9:00 AM (starts with the Opening Ceremony) Participants will begin capturing moments, activities and behind-the-scenes of Technotsav Day 1. Shooting continues through recording all the events, highlights happening on different venues respectively.",
-        "startTime": ""
+        "title": "Round 1 - One Shot, One Reel",
+        "description": "Participants have to conceptualize, shoot, and edit a reel based on the given theme. Participants will begin capturing moments, activities and behind-the-scenes of Technotsav. Shooting continues through recording all the events, highlights happening on different venues. respectively.  Day 1 shoot ends at 4:00 PM",
+        "startTime": "9:00AM"
       },
       {
-        "title": "Day 2 – Shoot, Edit & Submit",
-        "description": "Submission Deadline: 1:00 PM (via Google Drive link shared by student coordinator) Note:Drive link will be open from 12:30pm to 1:00pm          Late entries will not be accepted Instagram Bonus (Optional): Participants can also post reels on their Instagram using official event hashtags, which will offer bonus points.",
-        "startTime": ""
-      },
-      {
-        "title": "Post-Lunch",
-        "description": "Judges will evaluate and declare winners. Winning reels will be showcased during the Closing Ceremony.",
+        "title": "Submission Round",
+        "description": "Participants can shoot from 9:00 AM to 12:00 PM (approx) SUBMISSION: Drive link will be open from 12:30PM to 1:00PM Reels uploaded after 1:00PM will not be considered. Instagram bonus(optional): participants can post their edited reel on their instagram handle, this will give them bonus points. Winning reels will be showcased during the closing ceremony",
         "startTime": ""
       }
     ],
