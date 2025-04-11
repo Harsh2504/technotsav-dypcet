@@ -10,7 +10,7 @@ import EventRounds from "../components/Event/EventRounds";
 import EventPrizes from "../components/Event/EventPrizes";
 import EventDescription from "../components/Event/EventDescription";
 import EventTimeline from "../components/Event/EventTimeLine";
-
+import { HiChevronLeft } from "react-icons/hi";
 import eventsDataPool from "./eventsData.json";
 
 const EventPage = ({ department }) => {
@@ -57,6 +57,13 @@ const EventPage = ({ department }) => {
 
   return (
     <div className="text-black">
+           <button 
+        onClick={() => window.history.back()} 
+        className="fixed top-5 left-5 border-2 flex justify-center items-center gap-1 text-[#365b9e] duration-200 cursor-pointer border-[#365b9e] transition-all ease-in-out hover:bg-[linear-gradient(to_bottom,_#30538e,_#5c89ff)] rounded-xl hover:text-white px-4 py-2 font-black md:font-bold fustat-heading active:scale-95 "
+      >
+        <HiChevronLeft className="text-2xl" />
+        Back
+      </button>
       {/* <h1 className="text-3xl font-bold">
         {department.toUpperCase()} Department
       </h1>

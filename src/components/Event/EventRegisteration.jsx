@@ -23,6 +23,8 @@ const EventRegisteration = ({
 
                 <div className="flex flex-col md:flex-row justify-around gap-6">
                     <div className="flex flex-col justify-center gap-10 text-center ">
+                       
+                       {singleEntryFee ?
                         <div className="flex flex-col items-center">
                             <FaUser className='w-32 h-12 text-white text-center'/>
                             <p className="text-lg font-medium  mb-2 text-white fustat-heading">
@@ -35,7 +37,8 @@ const EventRegisteration = ({
                                 ₹{singleEntryFee}
                             </p>
                         </div>
-                        <div className="flex flex-col items-center">
+                        : ""}
+                        {groupEntryFee ? <div className="flex flex-col items-center">
                         <FaUsers className='w-32 h-14 text-white text-center'/>
                             <p className="text-lg font-medium mb-2 text-white fustat-heading">
                                 Group Entry Fee
@@ -47,6 +50,7 @@ const EventRegisteration = ({
                                 ₹{groupEntryFee}
                             </p>
                         </div>
+                            : ""}
                     </div>
 
 

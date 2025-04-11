@@ -72,7 +72,7 @@ return (
                                 </svg>
                             </div>
                             <div className="timeline-start mb-5 md:mb-10 md:text-end manrope-paragraph text-black/70 " >
-                                <time className="font-mono italic text-black">{eventDay === 1 ? "24th April, 2025" : "25th April, 2025"}</time>
+                                <time className="font-mono italic text-black">{eventDay == 1 ? "24th April, 2025" : "25th April, 2025"}</time>
                                 <div className="text-lg font-black fustat-heading text-black">Day of Event</div>
                                 The big day is here — get ready to dive into a world of innovation and thrill. Be prepared and make sure to reach the venue on time to experience the action from the very start! 
                             </div>
@@ -121,11 +121,9 @@ return (
                         </svg>
                         </div>
                         <div className={eventRounds.length % 2 === 0 ? "timeline-end mb-5 md:mb-10 md:text-start manrope-paragraph text-black/70" : "timeline-start mb-10 md:text-end manrope-paragraph text-black/70 " }>
-                        <time className="font-mono italic text-black">{eventDay === 1 ? "24th April, 2025" : "25th April, 2025"}</time>
+                        <time className="font-mono italic text-black">{eventDay == 1 ? "24th April, 2025" : "25th April, 2025"}</time>
                         <div className="text-lg font-black fustat-heading text-black">End of Event</div>
-                        The Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness
-                        tracking, health-oriented capabilities, and wireless telecommunication, and integrates with
-                        iOS and other Apple products and services
+                        The event will conclude with a closing ceremony, followed by the prize distribution. Make sure to stay till the end to celebrate the winners and capture some unforgettable moments!
                         </div>
                     </li>
             </ul>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { FiShare,FiArrowLeft  } from "react-icons/fi";
-import { HiChevronLeft } from "react-icons/hi";
+
 export default function EventHero({eventName,eventDescription, hostDepartment, eventDay,onRegisterClick }) {
   const departmentFullName = {
     cse: "Department of Computer Science and Engineering",
@@ -53,13 +53,7 @@ export default function EventHero({eventName,eventDescription, hostDepartment, e
 
   return (
     <div className="p-8 h-screen gap-4 md:gap-0 flex flex-col bg-transparent justify-center items-center text-black bg-[radial-gradient(#00000089,transparent_2px)] [background-size:20px_20px] ">
-      <button 
-        onClick={() => window.history.back()} 
-        className="absolute top-5 left-5 border-2 flex justify-center items-center gap-1 text-[#365b9e] duration-200 cursor-pointer border-[#365b9e] transition-all ease-in-out hover:bg-[linear-gradient(to_bottom,_#30538e,_#5c89ff)] rounded-xl hover:text-white px-4 py-2 font-black md:font-bold fustat-heading active:scale-95 "
-      >
-        <HiChevronLeft className="text-2xl" />
-        Back
-      </button>
+ 
       <p className='text-center bg-[linear-gradient(to_bottom,_#4870B6,_#8AAAFE)] text-white rounded-full px-3 py-1 fustat-heading text-sm md:text-lg tracking-wide font-medium uppercase my-3'>Technotsav Day {eventDay}</p>
       <p className='fustat-heading text-lg text-center md:text-xl '> {fullHostDepartment}</p>
       <p className='manrope-paragraph'>Presents</p>

@@ -4,8 +4,8 @@ const EventRulesAndRegulations = ({ rules }) => {
   return (
     <section className="max-w-4xl mx-auto py-5 md:py-10 min-h-screen">
       <h2 className="text-3xl font-bold text-center text-gray-800 mb-8 fustat-heading">
-        <span className='gradient text-3xl md:text-5xl'> Rules</span>
-        &<span className='gradient text-3xl md:text-5xl'> Regulations</span>
+        <span className='gradient text-3xl md:text-5xl'> Rules </span>
+         & <span className='gradient text-3xl md:text-5xl'> Regulations</span>
       </h2>
 
       <div className="space-y-4 px-5 flex flex-col justify-center items-center">

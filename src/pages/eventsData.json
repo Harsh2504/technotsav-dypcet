@@ -780,8 +780,8 @@
     "eventDay": "1",
     "startTime": "9:00 AM",
     "endTime": "4:00 PM",
-    "venue": "Chemical Engineering Department",
-    "eligibleParticipants": "All DYPCET TY students",
+    "venue": "Department of Chemical Engineering, DYPCET, Kolhapur.",
+    "eligibleParticipants": "Open to all Third Year (TY) students of DYPCET.",
     "singleEntryFee": "100",
     "groupEntryFee": "400",
     "prizeMoney": {
@@ -811,8 +811,8 @@
     "registration": {
       "registrationFormLink": "https://forms.gle/wxoMCHkB9nDajgvr5",
       "qrLink": "",
-      "startDate": "11 April 2025",
-      "endDate": "23 April 2025"
+      "startDate": "11 April, 2025",
+      "endDate": "23 April, 2025"
     },
     "others": {
       "warnings": [],
