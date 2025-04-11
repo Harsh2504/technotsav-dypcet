@@ -295,13 +295,15 @@
 
   {
     "eventName": "Launch Pad",
-    "eventDescription": "",
+    "eventDescription": "Launchpad is our version of Shark Tank — a dynamic project competition where innovation meets opportunity! Whether you're working on a mini or mega project, this is your stage to pitch your groundbreaking ideas to a panel of experts.",
+
     "hostDepartment": "AIML",
     "eventDay": "1",
     "startTime": "10:00 AM",
     "endTime": "4:00 PM",
-    "venue": "AIML Lab-1 , 2 ,3 and Old Principal cabin",
-    "eligibleParticipants": "Students from all departments",
+    "venue": "DY Patil College of Engineering & Technology (DYPCET), Kolhapur, (NOTE: Block/Room details will be shared before the event)",
+
+    "eligibleParticipants": "Students from Diploma and Undergraduate (UG) programs are eligible to participate.",
     "singleEntryFee": "100",
     "groupEntryFee": "200",
     "prizeMoney": {
@@ -311,39 +313,41 @@
     },
     "rulesAndRegulations": [
       {
-        "title": "Team Composition",
-        "description": "Each team can consist of 1 to 2 members. Cross-department teams are allowed."
-      },
-      {
-        "title": "Product/Idea Eligibility",
-        "description": "Must be an original idea (not copied). Can be a product, service, or app-based concept (even if product isn’t ready, you can still participate). Should be technically and financially feasible."
+        "title": " Team Formation",
+        "description": "Team Size: 1 or 2 members only. Interdisciplinary teams are encouraged. No participant can register in more than one team."
       },
       {
         "title": "Pitch Time",
         "description": "Each team will be given 5 minutes for their pitch. Followed by 2 minutes of Q&A from the judges."
       },
       {
-        "title": "Pitch Format (Recommended):",
-        "description": "Problem Statement Proposed Solution / Product Demo (if any) Target Market Business Model Revenue & Cost Structure Marketing Strategy Competitive Advantage Scalability & Future Plans"
-      },
-      {
         "title": "Presentation Tools",
-        "description": "Teams may use PPTs, prototypes, posters or videos. Projector and laptop will be provided (inform organizers beforehand)."
-      },
-      {
-        "title": "Language",
-        "description": "The pitch must be presented strictly in English."
+        "description": "Allowed formats: PPTs, prototypes, posters, or videos. A projector and laptop will be provided (inform organizers in advance)."
       },
       {
         "title": "Code of Conduct",
-        "description": "The decision of the judges will be final and binding. Maintain professionalism and mutual respect. Avoid any inappropriate language or remarks."
+        "description": "Judges’ decisions are final and binding. Maintain professionalism and mutual respect."
       },
       {
-        "title": "Marking System",
-        "description": "Marking will be done only by professionals. The better the Marketing and Presentation skills, the higher the marks will be. "
+        "title": "About the Event",
+        "description": "Participants must select any existing product, website, or service and innovate it to create a unique version that does not already exist in the market. Teams will then pitch this innovation as a startup idea in front of judges acting as investors."
+      },
+      {
+        "title": "What to Innovate",
+        "description": "Choose any real-world product, website, or service. Reimagine or innovate it with a new feature, design, use-case, or target market. It must not already exist in the market. You must support this with competitor analysis."
+      },
+      {
+        "title": "Pitch Components (You can use these as keywords in your presentation)",
+        "description": "Problem Statement. Innovative Solution. Target Audience. Competitor Analysis. Market Research. Market Size. Business Model. Unit Economics. Pricing Strategy. Marketing Plan. Scalability and Expansion. Financial Forecast (Optional but preferred). Equity Split (if applicable). Investment Ask"
       }
     ],
-    "eventRounds": [],
+    "eventRounds": [
+      {
+        "title": "Round 1 - Presentation and Evaluation",
+        "description": "Evaluation will be done on the basis of Usefulness to the society, Inovation, Cost effective, feasibility and understanding.",
+        "startTime": ""
+      }
+    ],
     "registration": {
       "registrationFormLink": "https://forms.gle/6KGSfg5h1kAXaknu6",
       "qrLink": "",
@@ -361,13 +365,14 @@
 
   {
     "eventName": "Poster Intelli Quest",
-    "eventDescription": "Subject: ‘AI in Action: From Perception to Decision’\nArtificial Intelligence (AI) is revolutionizing the world by enabling machines to perceive, learn, and make decisions like never before. The theme \"AI in Action: From Perception to Decision\" captures the essence of this dynamic journey—starting from how AI systems sense and interpret the world, to how they analyze data and take intelligent actions. This subject explores the various subdomains of AI such as Machine Learning, Deep Learning, Natural Language Processing, Computer Vision, and Expert Systems, each playing a vital role in transforming raw data into actionable insights. From facial recognition to language translation and autonomous driving, AI is embedded in real-world applications all around us. The poster presentation aims to bring out these innovations, showcase creative ideas, and inspire new perspectives on the potential of AI. Participants will dive deep into the AI lifecycle and highlight how perception leads to intelligent decisions in machines. Join us to witness the future unfold through the lens of AI in Action: From Perception to Decision.\n",
+    "eventDescription": "Poster IntelliQuest is a dynamic poster presentation event themed \"AI in Action: From Perception to Decision.\" It invites students to creatively showcase how AI technologies like Machine Learning, Deep Learning, NLP, Computer Vision, and Expert Systems turn raw data into smart, real-world decisions.\nFrom recognizing faces to driving cars and translating languages—this is your chance to explore and present how AI thinks, learns, and acts. Dive into the AI lifecycle, express your ideas visually, and inspire innovation through your poster!\nLet your poster do the talking — where intelligence meets imagination.",
     "hostDepartment": "AIML",
     "eventDay": "2",
     "startTime": "10:00 AM",
     "endTime": "4:00 PM",
-    "venue": "Classroom G1 and G2",
-    "eligibleParticipants": "Open to all undergraduate students",
+    "venue": "DY Patil College of Engineering & Technology (DYPCET), Kolhapur, (NOTE: Block/Room details will be shared before the event)",
+    "eligibleParticipants": "Students from Diploma and Undergraduate (UG) programs are eligible to participate.",
+
     "singleEntryFee": "100",
     "groupEntryFee": "",
     "prizeMoney": {
@@ -378,23 +383,23 @@
     "rulesAndRegulations": [
       {
         "title": "Eligibility",
-        "description": "Open to all undergraduate students. Individual or team participation (Max 2 members per team)."
+        "description": "Open to all undergraduate students. Participation can be individual or in a team of up to 2 members."
       },
       {
         "title": "Poster Guidelines",
-        "description": "Theme: AI and its Subdomains (ML, DL, NLP, CV, Robotics, Expert Systems, etc.) Poster size: A1 (594 x 841 mm) in portrait/Landscape  orientation. Medium: Digital or hand-made posters (clearly mentioned during registration). Must be self-explanatory and visually engaging. Include title, objective, methodology, and conclusion/impact."
+        "description": "Theme: AI and its Subdomains (Machine Learning, Deep Learning, NLP, Computer Vision, Robotics, Expert Systems, etc.). Poster Size: A1 (594 x 841 mm), in portrait or landscape orientation. Medium: Only hand-made posters are allowed (must be mentioned clearly at the time of registration). Posters must be self-explanatory, visually engaging, and should include:   Title,   Objective,   Methodology,   Conclusion/Impact."
       },
       {
-        "title": " Presentation Format",
-        "description": "Each participant/team gets 5 minutes to present + 2 minutes for Q&A. Presenters must explain key points without reading directly from the poster. Use of additional props or slides is not allowed"
+        "title": "Presentation Format",
+        "description": "Each participant/team will have 5 minutes for presentation and 2 minutes for Q&A. Presenters must explain the content without reading directly from the poster. Use of additional props or digital slides is not permitted."
       },
       {
         "title": "Judging Criteria",
-        "description": "Relevance to the theme Creativity and visual appeal Clarity of thought and communication Depth of understanding Overall presentation skills"
+        "description": "Relevance to the theme. Creativity and visual appeal. Clarity of thought and communication. Depth of understanding. Overall presentation skills."
       },
       {
         "title": "General Rules",
-        "description": "Participants must report 30 minutes before the event starts. Posters must be submitted/approved a day prior. Judges’ decision will be final and binding."
+        "description": "Participants must report 30 minutes before the event begins. Posters must be submitted one day prior to the event via a Google Drive link (will be shared on the event’s WhatsApp group). Judges’ decisions are final and binding."
       }
     ],
     "eventRounds": [],
@@ -415,13 +420,14 @@
 
   {
     "eventName": "Dare to Battle",
-    "eventDescription": "The Dare to Battle 1.0 is an exciting esports competition hosted by DYPCET Kasba Bawda , bringing together students for an action-packed series of matches in BGMI and Free Fire. This tournament offers players the chance to showcase their gaming skills and compete for amazing prizes in a thrilling and competitive environment. Whether you're an avid gamer or just looking to watch some intense matches, this event promises to be an unforgettable experience for all involved. With a structured format and a focus on fair play, the tournament is open to all College Student providing an inclusive platform for both casual players and seasoned professionals to participate. Join us for an electrifying event filled with fun, teamwork, and plenty of action.\n",
+    "eventDescription": "Dare to Battle is an electrifying eSports showdown featuring popular mobile games like Free Fire and BGMI. It’s the ultimate test of reflexes, strategy, and teamwork! Compete against the best, rise through the ranks, and battle for victory, glory, and awesome prizes.\n",
     "hostDepartment": "AIML",
     "eventDay": "1",
     "startTime": "10:00 AM",
     "endTime": "4:00 PM",
-    "venue": "Classroom 307",
-    "eligibleParticipants": "Open to All College Student",
+    "venue": "DY Patil College of Engineering & Technology (DYPCET), Kolhapur, ** (Classroom 306 & 307) **",
+    "eligibleParticipants": "Students from Diploma and Undergraduate (UG) programs are eligible to participate.",
+
     "singleEntryFee": "150",
     "groupEntryFee": "600",
     "prizeMoney": {
@@ -430,37 +436,34 @@
       "third": "1000"
     },
     "rulesAndRegulations": [
+      
       {
-        "title": "Offline Mode",
-        "description": "The game will be played in an Offline  mode. Ensure that you have a stable internet  connection to participate without interruptions. "
+        "title": "Offline Mode ",
+        "description": "The game will be played in an Offline  mode. Ensure that you have a stable internet  connection to participate without interruptions.   "
       },
       {
-        "title": "Cheating and Hacks Policy ",
+        "title": "Cheating and Hacks Policy",
         "description": "Any form of cheating or hacking during the game will lead to immediate disqualification  of the entire team. We encourage fair play and sportsmanship. Any suspicious behavior  should be reported to the organizers for review. "
       },
       {
-        "title": "Joining Custom Matches ",
-        "description": "All instructions for joining the custom matches will be communicated through the  designated WhatsApp group. Please ensure you are a member of this group to receive  timely updates and essential information regarding match details, including dates,  times, and joining links. "
+        "title": "Joining Custom Matches",
+        "description": "All instructions for joining the custom matches will be communicated through the  designated WhatsApp group. Please ensure you are a member of this group to receive  timely updates and essential information regarding match details, including dates,  times, and joining links."
       },
       {
-        "title": "Final Decisions",
+        "title": "Final Decisions ",
         "description": "All final decisions regarding the game rules, disputes, and any other matters will be  made by the coordinators. Their decisions are final and must be respected by all  participants."
       },
       {
-        "title": "No Refunds will be provided",
-        "description": ""
-      },
-      {
-        "title": "Join Only One Game FF/BGMI",
-        "description": ""
+        "title": "",
+        "description": "No Refunds will be provided. Join Only One Game FF/BGMI"
       },
       {
         "title": "Point Table - For Free-Fire",
-        "description": "#1 = 12  #2 = 09  #3 = 08  #4 = 07  #5 = 06  #6 = 05  #7 = 04  #8 = 03  #9 = 02  #10 = 01  #11&12=0  1KILL=1 POINTS"
+        "description": "#1 = 12.  #2 = 09.  #3 = 08.  #4 = 07.  #5 = 06.  #6 = 05.  #7 = 04.  #8 = 03.  #9 = 02.  #10 = 01.  #11&12=0. 1 KILL=1 POINTS."
       },
       {
         "title": "Point Table For BGMI",
-        "description": "1 position 10 points  2 position 8 points  3 position 6 points  4 position 5 points  5 position 4 points  6 position 3 points  7 position 2 points  8 to 25 position no points  1 kill = 1 point"
+        "description": "1 position 10 points.  2 position 8 points.  3 position 6 points.  4 position 5 points.  5 position 4 points.  6 position 3 points.  7 position 2 points.  8 to 25 position no points.  1 kill = 1 point."
       }
     ],
     "eventRounds": [],
@@ -972,13 +975,14 @@
 
   {
     "eventName": "Cube Crush Challenge",
-    "eventDescription": "The CUBE CRUSH CHALLENGE is an exciting and practical event designed to test your understanding of concrete mix design and your ability to achieve a specific compressive strength within a defined timeframe. Participants will be tasked with preparing one single concrete cube with the ambitious target of reaching a compressive strength of 40 N/mm² after a 7-day curing period.\n",
+    "eventDescription": "Infinity Hunt is a thrilling treasure hunt-style event that combines the excitement of discovery with the challenge of mental acuity. The event features a unique combination of aptitude questions, coding challenges, and engaging puzzles. Participants will solve clues, crack codes, and race against time to reach the final destination\n",
     "hostDepartment": "CIVIL",
     "eventDay": "1",
     "startTime": "10:00 AM",
     "endTime": "3:30 PM",
     "venue": "Material Testing lab, Civil Engineering Department.",
-    "eligibleParticipants": "Degree and Diploma Students",
+    "eligibleParticipants": "Open to all Students of any Department or Year. ** (NOTE: Form Team 4 members).**",
+
     "singleEntryFee": "100",
     "groupEntryFee": "100 (Max 2)",
     "prizeMoney": {
@@ -1108,13 +1112,15 @@
 
   {
     "eventName": "Android App Development Competition",
-    "eventDescription": "",
+    "eventDescription": "The Android App Development Competition provides a platform for aspiring developers to present their innovative mobile application solutions. Participants will have the opportunity to showcase their technical skills, creativity, and business acumen in front of industry experts.",
+
     "hostDepartment": "CSE",
     "eventDay": "1",
     "startTime": "10:00 AM",
     "endTime": "4:00 PM",
     "venue": "Classroom No. 303",
-    "eligibleParticipants": "Any students from engineering branch  ",
+    "eligibleParticipants": "Open to all Students of any Department or Year. (Note 1 or 2 members).",
+
     "singleEntryFee": "100",
     "groupEntryFee": "200",
     "prizeMoney": {
@@ -1122,7 +1128,11 @@
       "second": "2000",
       "third": "1000"
     },
-    "rulesAndRegulations": [
+   "rulesAndRegulations": [
+      {
+        "title": "Presentation & Demonstration Round",
+        "description": "Each team will have a total of 13 minutes, divided as follows: 5 minutes – Presentation of the app concept and its significance. 3 minutes – Live demonstration of the app's functionality. 5 minutes – Question-and-answer session with the judging panel. The evaluation will be based on distinct criteria in each segment."
+      },
       {
         "title": "Team Structure",
         "description": "The competition is open to individuals or teams consisting of up to two members."
@@ -1130,8 +1140,8 @@
     ],
     "eventRounds": [
       {
-        "title": "Presentation & Demonstration Round",
-        "description": "Each team will have a total of 13 minutes, divided as follows: 5 minutes – Presentation of the app concept and its significance. 3 minutes – Live demonstration of the app's functionality. 5 minutes – Question-and-answer session with the judging panel. The evaluation will be based on distinct criteria in each segment.",
+        "title": "Round 1 Presentation & Demonstration Round",
+        "description": "Presentation (5 Minutes) \nApplication Demonstration (3 Minutes) \nQuestion & Answer Session (5 Minutes)",
         "startTime": ""
       }
     ],
@@ -1208,13 +1218,15 @@
 
   {
     "eventName": "Code Sprint",
-    "eventDescription": "",
+    "eventDescription": "The event consists of three exciting rounds. The first round, Code Relay, tests teamwork as each member contributes to solving a coding problem in a relay format. In the second round, Debugging, teams must identify and fix errors in a buggy code within a set time limit. The final round, Code Fire, challenges participants with a complex coding problem under high pressure, often with unexpected twists like limited resources or surprise bugs, pushing their problem-solving and adaptability to the limit.\n",
+
     "hostDepartment": "CSE",
     "eventDay": "2",
     "startTime": "9:30 AM",
     "endTime": "3:30 PM",
     "venue": "New Building ",
-    "eligibleParticipants": "First year to Final Year Students.",
+    "eligibleParticipants": "Open to all Students of any Department or Year. ** (NOTE: Form Team 4 members.).**",
+
     "singleEntryFee": "100",
     "groupEntryFee": "200 (2P) - 400 (4P)",
     "prizeMoney": {
@@ -1225,7 +1237,7 @@
     "rulesAndRegulations": [
       {
         "title": "Team Size",
-        "description": "Each team must consist of a minimum of 2 members and a maximum of 4 members."
+        "description": "Each team must consist of 4 members."
       },
       {
         "title": "Registration Fee",
@@ -1240,27 +1252,31 @@
         "description": "Participants are expected to maintain a professional and respectful attitude during the competition."
       },
       {
-        "title": "Code Relay",
-        "description": "Teams will be given a coding challenge to complete in a relay format. Each team member must contribute to the solution."
-      },
-      {
-        "title": "Debugging",
-        "description": "Teams will be given a buggy code to debug within a set time limit."
-      },
-      {
-        "title": "Code Fire",
-        "description": "Teams will be given a complex coding problem to solve under time pressure, with a twist (e.g., limited resources, unexpected errors)."
+        "title": "Judging Criteria",
+        "description": "Judges will evaluate teams based on their coding skills, problem-solving abilities, and teamwork."
       },
       {
         "title": "Time Limits",
         "description": "Time limits will be strictly enforced for each round."
-      },
-      {
-        "title": "Judging Criteria",
-        "description": "Judges will evaluate teams based on their coding skills, problem-solving abilities, and teamwork."
       }
     ],
-    "eventRounds": [],
+    "eventRounds": [
+      {
+        "title": "Round 1 Code Relay",
+        "description": "Teams will be given a coding challenge to complete in a relay format. Each team member must contribute to the solution.",
+        "startTime": ""
+      },
+      {
+        "title": "Round 2 Debugging",
+        "description": "Teams will be given a buggy code to debug within a set time limit.",
+        "startTime": ""
+      },
+      {
+        "title": "Round 3 Code Fire",
+        "description": "Teams will be given a complex coding problem to solve under time pressure, with a twist (e.g., limited resources, unexpected errors).",
+        "startTime": ""
+      }
+    ],
     "registration": {
       "registrationFormLink": "https://forms.gle/vPCGzVFZdjiAcMAx5",
       "qrLink": "",

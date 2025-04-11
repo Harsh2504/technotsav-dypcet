@@ -67,7 +67,7 @@ const Events = () => {
               description: 'Esports event for BGMI and Free Fire enthusiasts.',
               logo: 'https://cdn.pixabay.com/photo/2022/07/22/12/21/atom-7337993_1280.png',
               formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeFV3lT4fh_QSWSLjUxoQu47gNMp9KRZtIiTSC_YyBPtDhq0g/viewform?usp=sf_link',
-              route: '/events/aiml/dare-to-battle-1-0'
+              route: '/events/aiml/dare-to-battle'
             }
           ]
         }
