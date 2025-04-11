@@ -375,6 +375,7 @@
     "sponsors": [],
     "faqs": [],
     "contacts": [{
+      "role": "Student Coordinator",
       "name": "Ayush Karnewar",
       "phone": "9960670950"
     }]
@@ -434,6 +435,7 @@
     "sponsors": [],
     "faqs": [],
     "contacts": [{
+      "role": "Student Coordinator",
       "name": "Raj Dhenge",
       "phone": "9322008818"
     }]
@@ -502,6 +504,7 @@
     "sponsors": [],
     "faqs": [],
     "contacts": [{
+      "role": "Student Coordinator",
       "name": "Adityaraj Gavali",
       "phone": "9356444155"
     }]
@@ -587,11 +590,13 @@
     "faqs": [],
     "contacts": [
       {
-        "name": "(Faculty coordinator) Ar. S. K. Satpute",
+        "role": "Faculty Coordinator",
+        "name": "Ar. S. K. Satpute",
         "phone": "9422410840"
       },
       {
-        "name": "(Student coordinator) Mr. Shantanu Malkar",
+        "role": "Student Coordinator",
+        "name": "Mr. Shantanu Malkar",
         "phone": "9767232724"
       }
     ]
@@ -678,11 +683,13 @@
     "faqs": [],
     "contacts": [
       {
-        "name": "(Faculty coordinator) Ar. Shruti Nimbalkar",
+        "role": "Faculty Coordinator",
+        "name": "Ar. Shruti Nimbalkar",
         "phone": "8600406383"
       },
       {
-        "name": "(Student coordinator) Ms. Parinita Mhetre",
+        "role": "Student Coordinator",
+        "name": "Ms. Parinita Mhetre",
         "phone": "9921514148"
       }
     ]
@@ -766,11 +773,13 @@
     "faqs": [],
     "contacts": [
       {
-        "name": "(Faculty coordinator) Ar. Tillottama Padale",
+        "role": "Faculty Coordinator",
+        "name": "Ar. Tillottama Padale",
         "phone": "8446301000"
       },
       {
-        "name": "(Student coordinator) Mr. Shivtej Shingade",
+        "role": "Student Coordinator",
+        "name": "Mr. Shivtej Shingade",
         "phone": "9172927497"
       }
     ]
@@ -836,6 +845,7 @@
     "sponsors": [],
     "faqs": [],
     "contacts": [{
+      "role": "Student Coordinator",
       "name": "Shruti Patil",
       "phone": "7218337474"
     }]
@@ -899,6 +909,7 @@
     "sponsors": [],
     "faqs": [],
     "contacts": [{
+      "role": "Student Coordinator",
       "name": "Abhijeet Patil",
       "phone": "9420814275"
     }]
@@ -963,6 +974,7 @@
     "sponsors": [],
     "faqs": [],
     "contacts": [{
+      "role": "Student Coordinator",
       "name": "Pranav Bhahulekar",
       "phone": "8010478865"
     }]
@@ -1033,7 +1045,7 @@
     "others": {
       "warnings": [],
       "images": [
-        "https://cdn.discordapp.com/attachments/1359769171042242570/1359966409450324170/Screenshot_2025-04-11_003042.png?ex=67f966ea&is=67f8156a&hm=ccb7a30acf751cf55a16ba93589b516e74765beb081d74570ce48a8cb91e7762&"
+        "https://res.cloudinary.com/dan454ywo/image/upload/v1744408937/66d9fd2b-a0c2-4af4-97f3-e8b41bd3cadd.png"
       ],
       "map": ""
     },
@@ -1041,11 +1053,13 @@
     "faqs": [],
     "contacts": [
       {
-        "name": "(Faculty Coordinator) Mr. S. A. Salokhe",
+        "role": "Faculty Coordinator",
+        "name": "Mr. S. A. Salokhe",
         "phone": "9766167240"
       },
       {
-        "name": "(Student Coordinator) Ms. Vaishnavi Chougule",
+        "role": "Student Coordinator",
+        "name": "Ms. Vaishnavi Chougule",
         "phone": "7743907701"
       }
     ]
@@ -1114,11 +1128,13 @@
     "faqs": [],
     "contacts": [
       {
-        "name": "(Faculty Coordinator) Mr. K. R. Patil",
+        "role": "Faculty Coordinator",
+        "name": "Mr. K. R. Patil",
         "phone": "9604501311"
       },
       {
-        "name": "(Student Coordinator) Miss. Minakshi Patil",
+        "role": "Student Coordinator",
+        "name": "Miss. Minakshi Patil",
         "phone": "9975679367"
       }
     ]
@@ -1193,10 +1209,12 @@
     "faqs": [],
     "contacts": [
       {
+        "role": "Student Coordinator",
         "name": "Unknown",
         "phone": "9890908666"
       },
       {
+        "role": "Faculty Coordinator",
         "name": "Ms. S. S. Chavan",
         "phone": "9595381172"
       }
@@ -1257,6 +1275,7 @@
     "sponsors": [],
     "faqs": [],
     "contacts": [{
+      "role": "Student Coordinator",
       "name": "Samruddhi Patil",
       "phone": "9022146127"
     }]
@@ -1316,6 +1335,7 @@
     "sponsors": [],
     "faqs": [],
     "contacts": [{
+      "role": "Student Coordinator",
       "name": "Asma Kazi",
       "phone": "9529451160"
     }]
@@ -1398,10 +1418,12 @@
     "faqs": [],
     "contacts": [
       {
+        "role": "Student Coordinator",
         "name": "Siddhi Randive",
         "phone": "8087971272"
       },
       {
+        "role": "Student Coordinator",
         "name": "Srujana",
         "phone": "9370942875"
       }
@@ -1495,10 +1517,12 @@
     "faqs": [],
     "contacts": [
       {
+        "role": "Student Coordinator",
         "name": "Varad Nakate",
         "phone": "8767451415"
       },
       {
+        "role": "Student Coordinator",
         "name": "Mahek Golandaj",
         "phone": "9049401178"
       }
@@ -1632,10 +1656,12 @@
     "faqs": [],
     "contacts": [
       {
+        "role": "Student Coordinator",
         "name": "Soham Patil",
         "phone": "7559165938"
       },
       {
+        "role": "Student Coordinator",
         "name": "Prajyot Patil",
         "phone": "9322802595"
       }
@@ -1724,10 +1750,12 @@
     "faqs": [],
     "contacts": [
       {
+        "role": "Student Coordinator",
         "name": "Abhishek Mandlik",
         "phone": "7756957227"
       },
       {
+        "role": "Student Coordinator",
         "name": "Janhavi Shinde",
         "phone": "8446440439"
       }
@@ -1994,7 +2022,8 @@
     "sponsors": [],
     "faqs": [],
     "contacts": [{
-      "name": "(Student Co-ordinator) Yash Sankpal",
+      "role": "Student Coordinator",
+      "name": "Yash Sankpal",
       "phone": "9359694885"
     }]
   },
@@ -2076,6 +2105,7 @@
     "sponsors": [],
     "faqs": [],
     "contacts": [{
+      "role": "Student Coordinator",
     "name": "Gaurav Sutar",
     "phone": "9766453562"
   }]
@@ -2173,6 +2203,7 @@
     "sponsors": [],
     "faqs": [],
     "contacts": [{
+      "role": "Student Coordinator",
       "name": "Vaidehi Jadhav",
       "phone": "7559309320"
     }]
