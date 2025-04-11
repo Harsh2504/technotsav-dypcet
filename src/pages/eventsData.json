@@ -216,6 +216,77 @@
       }
     ]
   },
+  {
+    "eventName": "Undefined Designs",
+    "eventDescription": "Participants will apply their technical skills and design sensibilities to create **waterproof**, **buoyant** structures capable of maintaining **stability on water**. The challenge is not just about floating — it's about **redefining liveable spaces on water**.\n\nDuring the final test, all models will be placed in water to assess **buoyancy**, **stability**, and **structural integrity** under real conditions. Teams are encouraged to explore **sustainable** and **waterproof materials**, drawing inspiration from modern **amphibious architecture** and **marine engineering**.\n\n---\n\nWhether you're building a floating pavilion or a futuristic water home, this challenge is your platform to **innovate**, **collaborate**, and **make a splash**!\n\n---\n\n### 🧩 Key Characteristics\n\n1. **Design Requirements**  \n   The design should be capable of floating on water. The structure should be designed to support a minimum weight.\n\n2. **Submission Format**  \n   A video demonstration or explanation of the design process, making of the structure from scratch, along with a description of the materials and methods used, must accompany the submission.\n\n---\n\n### 📏 Model Size Limitation\n\n1. The usable area is **10.00 Sq.m**.\n2. The size of the water tank is **1.14m in diameter** and **0.25m in depth**. The model should float easily in the tank.\n3. Teams may choose any shape or configuration (e.g., rectangular, modular, circular) within the size limit.\n4. There is **no fixed height restriction**, but the structure must remain **balanced, safe, and buoyant** during testing.\n5. **Models that exceed the allowed size may be disqualified.**",
+    "hostDepartment": "ARCH",
+    "eventDay": "1",
+    "startTime": "10:00 AM",
+    "endTime": "12:00 PM",
+    "venue": "School of Architecture, DYPSEM, Kasba Bawada, Kolhapur",
+    "eligibleParticipants": "Competition is open to all students, regardless of department. ",
+    "singleEntryFee": "100",
+    "groupEntryFee": "",
+    "prizeMoney": {
+      "first": "3000",
+      "second": "2000",
+      "third": "1500"
+    },
+    "rulesAndRegulations": [
+      {
+        "title": "",
+        "description": "All Participants must remain present at the place of competition, 30 min. before starting of event. Late participants will not be allowed to participate."
+      },
+      {
+        "title": "",
+        "description": "Students are expected to bring their completed model on the day of competition."
+      },
+      {
+        "title": "",
+        "description": "The base must demonstrate buoyancy and hold a minimum weight (to be specified based on competition level – e.g., 500 grams or 1kg)."
+      },
+      {
+        "title": "",
+        "description": "Models must be self-sustaining — no external support or hidden flotation is allowed."
+      },
+      {
+        "title": "",
+        "description": "Models must float for a minimum time duration (e.g., 2 minutes) without capsizing."
+      },
+      {
+        "title": "",
+        "description": "Judges will assess based on: Buoyancy & Stability, Innovation & Design Aesthetics, Structural Integrity, Material Optimization, Sustainability & Creativity."
+      },
+      {
+        "title": "",
+        "description": "Participants are free to use any materials of their choice, though the design must be safe and environmentally friendly.  "
+      },
+      {
+        "title": "",
+        "description": "If any participant is found doing wrong practices, he/she will be disqualified from the event."
+      },
+      {
+        "title": "",
+        "description": "The organizing team is not responsible for any loss or damage to personal materials"
+      }
+    ],
+    "eventRounds": [],
+    "registration": {
+      "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLScZ-JrXi4hygMN3bkfwH2Vuk7StStZEO8z-CdYXf0NXewkyjQ/viewform",
+      "qrLink": "",
+      "startDate": "11 April 2025",
+      "endDate": "23 April 2025"
+    },
+    "others": {
+      "warnings": [
+        "SUGGESTION: Keep weight low — heavier structures are harder to keep afloat Use sealed or closed-cell materials to prevent water absorption. Prioritize eco-friendly or recyclable materials where possible. Reinforce joints and corners with hot glue, zip ties, or waterproof tape."
+      ],
+      "images": [],
+      "map": ""
+    },
+    "sponsors": [],
+    "faqs": []
+  },
 
 
 
@@ -231,8 +302,8 @@
     "endTime": "4:00 PM",
     "venue": "AIML Lab-1 , 2 ,3 and Old Principal cabin",
     "eligibleParticipants": "Students from all departments",
-    "singleEntryFee": "150",
-    "groupEntryFee": "600",
+    "singleEntryFee": "100",
+    "groupEntryFee": "200",
     "prizeMoney": {
       "first": "3000",
       "second": "2000",

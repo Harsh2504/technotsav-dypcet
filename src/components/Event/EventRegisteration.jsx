@@ -14,7 +14,7 @@ const EventRegisteration = ({
             <h1 className="text-5xl md:text-7xl font-bold text-center fustat-heading gradient h-20 md:h-24">Registration</h1>
             <div className="bg-white rounded-2xl shadow-md p-6 space-y-6 bg-[linear-gradient(10deg,_#0a0a0a,_#1c1c1c,_#3e3e3e,_#1c1c1c,_#0a0a0a)]">
                 <div className="text-center">
-                    <p className="text-sm text-white manrope-paragraph">
+                    <p className="text-sm text-[#3f66b6] manrope-paragraph">
                         Register Between:{" "}<br/>
                         <span className="font-semibold  text-white">{registration.startDate}</span> to{" "}
                         <span className="font-semibold  text-white">{registration.endDate}</span>
@@ -30,7 +30,7 @@ const EventRegisteration = ({
                             </p>
                             <p
                                 
-                                className="bg-white text-indigo-600 px-4 py-1 rounded-full hover:bg-indigo-600 hover:text-white transition-all fustat-heading text-md"
+                                className="bg-white text-[#3f66b6] px-4 py-1 rounded-full hover:bg-[linear-gradient(to_bottom,_#30538e,_#5c89ff)] hover:text-white transition-all fustat-heading text-md"
                             >
                                 ₹{singleEntryFee}
                             </p>
@@ -42,7 +42,7 @@ const EventRegisteration = ({
                             </p>
                             <p
                                 
-                                className="bg-white text-indigo-600 px-4 py-1 rounded-full hover:bg-indigo-600 hover:text-white transition-all fustat-heading text-md"
+                                className="bg-white text-[#3f66b6] px-4 py-1 rounded-full hover:bg-[linear-gradient(to_bottom,_#30538e,_#5c89ff)] hover:text-white transition-all fustat-heading text-md"
                             >
                                 ₹{groupEntryFee}
                             </p>
@@ -72,7 +72,7 @@ const EventRegisteration = ({
                     <div className="flex justify-center mb-10">
                         <button
                             onClick={() => window.open(registration.registrationFormLink, "_blank")}
-                            className="bg-white text-indigo-600 px-4 py-1 rounded-full hover:bg-indigo-600 hover:text-white transition-all fustat-heading text-md"
+                            className="bg-white text-[#3f66b6] px-4 py-1 rounded-full hover:bg-[linear-gradient(to_bottom,_#30538e,_#5c89ff)] hover:text-white transition-all fustat-heading text-md"
                         >
                             Register Here
                         </button>

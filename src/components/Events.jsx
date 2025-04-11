@@ -281,14 +281,14 @@ const Events = () => {
         <button
           key={dept.id}
           onClick={() => handleScrollTo(dept.id)}
-          className="  hidden md:block text-sm md:text-base font-medium fustat-heading px-4 py-2 rounded-full border-2 border-[#30538e] text-[#30538e] hover:bg-[#30538e] active:scale-95 hover:text-white transition-all duration-100"
+          className="  hidden md:block text-sm md:text-base font-medium fustat-heading px-4 py-2 rounded-full border-2 border-[#30538e] text-[#30538e] hover:bg-[linear-gradient(to_bottom,_#30538e,_#5c89ff)] active:scale-95 hover:text-white transition-all duration-100"
         >
           {dept.label}
         </button>
         <button
           key={dept.id}
           onClick={() => handleScrollTo(dept.id)}
-          className=" block md:hidden text-sm md:text-base font-medium fustat-heading px-4 py-2 rounded-full border-2 border-[#30538e] text-[#30538e] active:bg-[#30538e] active:scale-95  active:text-white transition-all duration-100"
+          className=" block md:hidden text-sm md:text-base font-medium fustat-heading px-4 py-2 rounded-full border-2 border-[#30538e] text-[#30538e] active:bg-[linear-gradient(to_bottom,_#30538e,_#5c89ff)] active:scale-95  active:text-white transition-all duration-100"
         >
           {dept.label}
         </button>

@@ -112,7 +112,7 @@ const EventCard = ({ dept }) => {
             {/* Info Button */}
             <a
           href={dept.route}
-          target="_blank"
+          target="_self"
           rel="noopener noreferrer"
           className="w-55 md:w-44 text-center px-5 py-3 rounded-xl font-bold fustat-heading text-white border border-[#fefefe] bg-transparent backdrop-blur-sm hover:bg-white/60 hover:text-[#1c2f50] shadow-[inset_0_0_0_1px_rgba(54,91,158,0.2)] transition-all duration-300 ease-in-out active:scale-95"
             >
