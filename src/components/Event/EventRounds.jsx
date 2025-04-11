@@ -16,7 +16,7 @@ const EventRounds = ({ rounds }) => {
             <h3 className='gradient fustat-heading text-xl md:text-2xl text-center break-words'>
               {round.title}
             </h3>
-            <p className='text-base md:text-lg text-center monorope-paragraph'>
+            <p className='text-base md:text-base text-center manrope-paragraph'>
               {round.description || "Description coming soon."}
             </p>
             {index < rounds.length - 1 && (

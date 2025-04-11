@@ -66,7 +66,7 @@ export default function EventPrizes({prizes}) {
      
 
         </div>
-        <h2 className="mt-2 text-lg md:text-2xl font-medium text-center text-gray-800 monorope-paragraph">Participation certificates for all the participants.</h2>
+        <h2 className="mt-2 text-lg md:text-2xl font-medium text-center text-gray-800 manrope-paragraph">Participation certificates for all the participants.</h2>
     </div>
   )
 }

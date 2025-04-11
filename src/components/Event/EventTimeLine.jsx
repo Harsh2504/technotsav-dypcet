@@ -56,32 +56,34 @@ return (
                     <hr className='bg-black/20'  />
             </li>
         {/* Day of Event Node of Timeline */}
-                  {eventDay && (
-                        <li>
-                            <hr className='bg-black/20'  />
-                            <div className="timeline-middle">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 20 20"
-                                    fill="#5480eb"
-                                    className="h-6 w-6 "> 
-                                    <path
-                                        fillRule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                        clipRule="evenodd" />
-                                </svg>
-                            </div>
-                            <div className="timeline-start mb-5 md:mb-10 md:text-end manrope-paragraph text-black/70 " >
-                                <time className="font-mono italic text-black">{eventDay == 1 ? "24th April, 2025" : "25th April, 2025"}</time>
-                                <div className="text-lg font-black fustat-heading text-black">Day of Event</div>
-                                The big day is here — get ready to dive into a world of innovation and thrill. Be prepared and make sure to reach the venue on time to experience the action from the very start! 
-                            </div>
-                            <hr className='bg-black/20'  />
-                        </li>
-                    )}
-                    {eventRounds.map((round, index) => (
-                        <li key={index}>
-                        {/* start line */}
+        {eventDay && (
+            <li>
+                <hr className='bg-black/20' />
+                <div className="timeline-middle">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="#5480eb"
+                        className="h-6 w-6">
+                        <path
+                            fillRule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                            clipRule="evenodd" />
+                    </svg>
+                </div>
+                <div className="timeline-start mb-5 md:mb-10 md:text-end manrope-paragraph text-black/70">
+                    <time className="font-mono italic text-black">
+                        {eventDay === 1 ? "24th April, 2025" : eventDay === 2 ? "25th April, 2025" : "24th & 25th April, 2025"}
+                    </time>
+                    <div className="text-lg font-black fustat-heading text-black">Day of Event</div>
+                    The big day is here — get ready to dive into a world of innovation and thrill. Be prepared and make sure to reach the venue on time to experience the action from the very start!
+                </div>
+                <hr className='bg-black/20' />
+            </li>
+        )}
+        {eventRounds.map((round, index) => (
+            <li key={index}>
+            {/* start line */}
                         <hr className='bg-black/20'  />
                         <div className="timeline-middle">
                                 <svg
@@ -96,7 +98,7 @@ return (
                                 </svg>
                         </div>
                         <div className={index % 2 === 0 ?"timeline-end mb-5 md:mb-10 manrope-paragraph text-black/70": "timeline-start mb-10 md:text-end manrope-paragraph text-black/70 "  }>
-                                <time className="font-mono italic text-black">{round.startTime}</time>
+                                <time className="font-mono italic text-black">{round.startTime ? round.startTime : "Time will be conveyed soon."}</time>
                                 <div className="text-lg font-black fustat-heading text-black">{round.title}</div>
                                 {round.description}
                         </div>

@@ -10,7 +10,7 @@ const EventOther = ({ warnings, images, map }) => {
   if (!hasAnyContent) return null;
 
   return (
-    <section className="max-w-4xl mx-auto px-5 py-10 min-h-screen">
+    <section className="max-w-4xl mx-auto px-5 py-10 min-h-auto">
       <h2 className="text-3xl font-bold text-center text-gray-800 mb-8 fustat-heading">
       <span className='gradient text-3xl md:text-5xl'>Additional</span> Information
       </h2>
