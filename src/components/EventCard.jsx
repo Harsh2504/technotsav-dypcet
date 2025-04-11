@@ -42,87 +42,86 @@ const EventCard = ({ dept }) => {
       onMouseLeave={handleMouseLeave}
     >
       {/* Light and shine effects */}
-      <div
-        id="cursor-light"
-        className="absolute pointer-events-none"
-        style={{
-          background: 'radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 60%)',
-          width: '100px',
-          height: '100px',
-          borderRadius: '50%',
-          transform: 'translate(-50%, -50%)',
-          position: 'absolute',
-          transition: 'opacity 0.3s ease',
-          opacity: 0,
-          zIndex: 10,
-        }}
-      ></div>
+        <div
+          id="cursor-light"
+          className="absolute pointer-events-none"
+          style={{
+            background: 'radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 60%)',
+            width: '100px',
+            height: '100px',
+            borderRadius: '50%',
+            transform: 'translate(-50%, -50%)',
+            position: 'absolute',
+            transition: 'opacity 0.3s ease',
+            opacity: 0,
+            zIndex: 10,
+          }}
+        ></div>
 
-      <div
-        id="shine-effect"
-        className="absolute inset-0 pointer-events-none"
-        style={{
-          background: 'none',
-          transition: 'background 0.3s ease',
-          zIndex: 5,
-        }}
-      ></div>
+        <div
+          id="shine-effect"
+          className="absolute inset-0 pointer-events-none"
+          style={{
+            background: 'none',
+            transition: 'background 0.3s ease',
+            zIndex: 5,
+          }}
+        ></div>
 
-      {/* Content */}
-      <div className="flex flex-col justify-center items-center gap-4 z-10 px-4 w-full max-w-sm mx-auto">
-        {/* Title */}
-        <h2 className="text-xl w-full min-h-16 text-center fustat-heading text-white break-words">
-          {dept.title}
-        </h2>
+        {/* Content */}
+        <div className="flex flex-col justify-center items-center gap-4 z-10 px-4 w-full max-w-sm mx-auto">
+          {/* Title */}
+          <h2 className="text-xl w-full min-h-16 text-center fustat-heading text-white break-words">
+            {dept.title}
+          </h2>
 
-        {/* Logo + Description (overlap area) */}
-        <div className="relative w-full min-h-[6rem] flex items-center justify-center">
-          {/* Logo */}
-          <img
-            src={dept.logo}
-            alt={dept.title}
-            className="absolute w-32 h-32  object-contain transition-opacity duration-300 group-hover:opacity-0"
-          />
+          {/* Logo + Description (overlap area) */}
+          <div className="relative w-full min-h-[6rem] flex items-center justify-center">
+            {/* Logo */}
+            <img
+          src={dept.logo}
+          alt={dept.title}
+          className="absolute w-32 h-32 opacity-0 object-contain transition-opacity duration-300 group-hover:opacity-0 md:opacity-100"
+            />
 
-          {/* Description */}
-          <p className="absolute text-sm text-gray-300 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 manrope-paragraph px-4 leading-snug">
-            {dept.description}
-          </p>
+            {/* Description */}
+            <p className="absolute text-sm text-gray-300 text-center opacity-100 group-hover:opacity-100 md:opacity-0 transition-opacity duration-300 manrope-paragraph px-4 leading-snug">
+          {dept.description}
+            </p>
+          </div>
         </div>
-      </div>
 
-         <div className="relative w-full z-10 mt-6 group">
-      {/* Hover Prompt (visible only before hover) */}
-      <div className="absolute inset-0 flex items-center justify-center opacity-100 group-hover:opacity-0 transition-opacity duration-300">
-        <span className="text-base text-gray-400/40 animate-pulse manrope-paragraph">Curious? Just hover</span>
-      </div>
-    
-      {/* Buttons (visible on hover) */}
-      <div className="relative z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-row items-center justify-center gap-4 manrope-paragraph text-base p-2 w-full">
+        <div className="relative w-full z-10 mt-6 group">
+          {/* Hover Prompt (visible only before hover) */}
+          <div className="absolute inset-0 flex items-center justify-center opacity-0  group-hover:opacity-0 md:opacity-100 hover:hidden text-center transition-opacity duration-300">
+            <span className="text-base text-gray-400/40 animate-pulse manrope-paragraph">Curious? Just hover</span>
+          </div>
 
-        {/* Register Button */}
-        <a
+          {/* Buttons (visible on hover) */}
+          <div className="relative z-10 opacity-100 group-hover:opacity-100 md:opacity-0 transition-opacity duration-300 flex flex-col md:flex-row items-center justify-center gap-4 manrope-paragraph text-base p-2 w-full">
+            {/* Register Button */}
+            <a
           href={dept.formLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="w-44 text-center px-5 py-3 rounded-xl font-bold fustat-heading text-white bg-gradient-to-r from-[#3a63ad] to-[#5c89ff] shadow-[0_8px_24px_rgba(92,137,255,0.3)] hover:shadow-[0_10px_30px_rgba(92,137,255,0.5)] transition-all duration-300 ease-in-out active:scale-95"
-        >
+          className="w-55 md:w-44 text-center px-5 py-3 rounded-xl font-bold fustat-heading text-white bg-gradient-to-r from-[#3a63ad] to-[#5c89ff] shadow-[0_8px_24px_rgba(92,137,255,0.3)] hover:shadow-[0_10px_30px_rgba(92,137,255,0.5)] transition-all duration-300 ease-in-out active:scale-95"
+            >
           Register
-        </a>
-    
-        {/* Info Button */}
-        <a
+            </a>
+
+            {/* Info Button */}
+            <a
           href={dept.route}
           target="_blank"
           rel="noopener noreferrer"
-          className="w-44 text-center px-5 py-3 rounded-xl font-bold fustat-heading text-white border border-[#fefefe] bg-transparent backdrop-blur-sm hover:bg-white/60 hover:text-[#1c2f50] shadow-[inset_0_0_0_1px_rgba(54,91,158,0.2)] transition-all duration-300 ease-in-out active:scale-95"
-        >
+          className="w-55 md:w-44 text-center px-5 py-3 rounded-xl font-bold fustat-heading text-white border border-[#fefefe] bg-transparent backdrop-blur-sm hover:bg-white/60 hover:text-[#1c2f50] shadow-[inset_0_0_0_1px_rgba(54,91,158,0.2)] transition-all duration-300 ease-in-out active:scale-95"
+            >
           Info
-        </a>
-      </div>
-    </div>
-    </div>
+            </a>
+          </div>
+        </div>
+          </div>
   );
-};
+}
 
 export default EventCard;
