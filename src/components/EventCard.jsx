@@ -68,47 +68,59 @@ const EventCard = ({ dept }) => {
         }}
       ></div>
 
-       {/* Content wrapper */}
-       <div className="relative h-32 w-full flex flex-col items-center justify-center gap-2">
+      {/* Content */}
+      <div className="flex flex-col justify-center items-center gap-4 z-10 px-4 w-full max-w-sm mx-auto">
         {/* Title */}
-        <div className="absolute top-0 text-2xl text-center fustat-heading text-white transition-opacity duration-300">
+        <h2 className="text-xl w-full min-h-16 text-center fustat-heading text-white break-words">
           {dept.title}
-        </div>
+        </h2>
 
-        {/* Logo */}
-        {/* <div className="absolute top-12">
+        {/* Logo + Description (overlap area) */}
+        <div className="relative w-full min-h-[6rem] flex items-center justify-center">
+          {/* Logo */}
           <img
             src={dept.logo}
             alt={dept.title}
-            className="w-32 transition-opacity duration-300 group-hover:opacity-0"
+            className="absolute w-32 h-32  object-contain transition-opacity duration-300 group-hover:opacity-0"
           />
-        </div> */}
 
-        {/* Description */}
-        <div className="absolute top-50 md:bottom-0 md:top-16 text-gray-300 text-center opacity-100 md:opacity-0 transition-opacity duration-300 group-hover:opacity-100 px-4 manrope-paragraph">
-          {dept.description}
+          {/* Description */}
+          <p className="absolute text-sm text-gray-300 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 manrope-paragraph px-4 leading-snug">
+            {dept.description}
+          </p>
         </div>
       </div>
 
-      {/* Buttons (always visible) */}
-      <div className="flex flex-row md:flex-row items-center gap-4 mt-40 md:mt-12 manrope-paragraph text-md p-2">
+         <div className="relative w-full z-10 mt-6 group">
+      {/* Hover Prompt (visible only before hover) */}
+      <div className="absolute inset-0 flex items-center justify-center opacity-100 group-hover:opacity-0 transition-opacity duration-300">
+        <span className="text-base text-gray-400/40 animate-pulse manrope-paragraph">Curious? Just hover</span>
+      </div>
+    
+      {/* Buttons (visible on hover) */}
+      <div className="relative z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-row items-center justify-center gap-4 manrope-paragraph text-base p-2 w-full">
+
+        {/* Register Button */}
         <a
           href={dept.formLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-slate-200 text-black font-bold px-6 py-2 rounded-full hover:bg-blue-900 hover:text-white hover:shadow-2xl  transition duration-300"
+          className="w-44 text-center px-5 py-3 rounded-xl font-bold fustat-heading text-white bg-gradient-to-r from-[#3a63ad] to-[#5c89ff] shadow-[0_8px_24px_rgba(92,137,255,0.3)] hover:shadow-[0_10px_30px_rgba(92,137,255,0.5)] transition-all duration-300 ease-in-out active:scale-95"
         >
           Register
         </a>
+    
+        {/* Info Button */}
         <a
           href={dept.route}
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-slate-200 text-black font-bold px-6 py-2 rounded-full hover:bg-slate-900 hover:text-white hover:shadow-2xl  transition duration-300"
+          className="w-44 text-center px-5 py-3 rounded-xl font-bold fustat-heading text-white border border-[#fefefe] bg-transparent backdrop-blur-sm hover:bg-white/60 hover:text-[#1c2f50] shadow-[inset_0_0_0_1px_rgba(54,91,158,0.2)] transition-all duration-300 ease-in-out active:scale-95"
         >
           Info
         </a>
       </div>
+    </div>
     </div>
   );
 };

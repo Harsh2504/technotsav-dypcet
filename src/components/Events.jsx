@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useRef } from 'react'
 import EventCard from './EventCard';
 
 const Events = () => {
+  const departmentRefs = useRef({});
+
   const eventData = {
     departments: [
       {
@@ -207,7 +209,7 @@ const Events = () => {
           name: 'Entrepreneurship Cell',
           events: [
             {
-              title: 'Blender Workshop & Competition',
+              title: 'Blender Workshop',
               description: 'A hands-on workshop and competition on 3D modeling, texturing, lighting, and animation using Blender. Ideal for beginners & intermediate learners looking to boost their creative portfolio.',
               logo: 'src/assets/react.svg',
               formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSe2WhpUEoNHftkvDg6wx7bfIZSjg1TKrsoqSmgmr2yZQFtBw/viewform?usp=header',
@@ -239,7 +241,13 @@ const Events = () => {
       }
     ],
   };
-  
+
+  const handleScrollTo = (id) => {
+    if (departmentRefs.current[id]) {
+      departmentRefs.current[id].scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
 
   return (
     <div>
@@ -261,58 +269,60 @@ const Events = () => {
         { id: 'ecell', label: 'E-Cell' },
       ].map((dept) => (
         <>
-        <a
+        <button
           key={dept.id}
-          href={`#${dept.id}`}
-          className="  hidden md:block text-sm md:text-base font-medium fustat-heading px-4 py-2 rounded-full border-2 border-[#30538e] text-[#30538e] hover:bg-[#30538e]  hover:text-white transition-all duration-100"
+          onClick={() => handleScrollTo(dept.id)}
+          className="  hidden md:block text-sm md:text-base font-medium fustat-heading px-4 py-2 rounded-full border-2 border-[#30538e] text-[#30538e] hover:bg-[#30538e] active:scale-95 hover:text-white transition-all duration-100"
         >
           {dept.label}
-        </a>
-        <a
+        </button>
+        <button
           key={dept.id}
-          href={`#${dept.id}`}
-          className=" block md:hidden text-sm md:text-base font-medium fustat-heading px-4 py-2 rounded-full border-2 border-[#30538e] text-[#30538e] active:bg-[#30538e]  active:text-white transition-all duration-100"
+          onClick={() => handleScrollTo(dept.id)}
+          className=" block md:hidden text-sm md:text-base font-medium fustat-heading px-4 py-2 rounded-full border-2 border-[#30538e] text-[#30538e] active:bg-[#30538e] active:scale-95  active:text-white transition-all duration-100"
         >
           {dept.label}
-        </a>
+        </button>
         </>
       ))}
     </div>
-      {eventData.departments.map((department, index) => {
+    {eventData.departments.map((department, index) => {
         const [key, dept] = Object.entries(department)[0];
+
         return (
           <div
-          key={key}
-          className={`flex flex-col justify-center items-center py-10 md:py-20 px-5 md:px-40 w-screen min-h-screen ${
-            index % 2 === 0
-            ? 'bg-gradient-to-b from-[#e3e3e3] via-[#e3e3e3] to-[#ccd8e3]'
-            : 'bg-gradient-to-b from-[#ccd8e3] via-[#ccd8e3] to-[#e3e3e3]'
-          }`}
+            key={key}
+            ref={(el) => (departmentRefs.current[key] = el)}
+            id={key}
+            className={`flex flex-col justify-center items-center py-10 md:py-20 px-5 md:px-40 w-screen min-h-screen ${
+              index % 2 === 0
+                ? 'bg-gradient-to-b from-[#e3e3e3] via-[#e3e3e3] to-[#ccd8e3]'
+                : 'bg-gradient-to-b from-[#ccd8e3] via-[#ccd8e3] to-[#e3e3e3]'
+            }`}
           >
             <h1 className="text-4xl md:text-6xl font-bold fustat-heading text-center mb-10">
               {dept.name.split(' ').map((word, i) => (
-          <span key={i}>
-            <span className="gradient">{word[0]}</span>
-            {word.slice(1)}{' '}
-          </span>
+                <span key={i}>
+                  <span className="gradient">{word[0]}</span>
+                  {word.slice(1)}{' '}
+                </span>
               ))}
             </h1>
 
-            {/* Render each event card */}
             <div
               className={`grid gap-10 justify-center ${
-          dept.events.length === 2 ? 'grid-cols-1 md:grid-cols-2' : 'grid-cols-1 md:grid-cols-2 xl:grid-cols-3'
+                dept.events.length === 2
+                  ? 'grid-cols-1 md:grid-cols-2'
+                  : 'grid-cols-1 md:grid-cols-2 xl:grid-cols-3'
               }`}
             >
               {dept.events.map((event, idx) => (
-          <EventCard key={event.title + idx} dept={event} />
+                <EventCard key={event.title + idx} dept={event} />
               ))}
             </div>
-
           </div>
         );
       })}
-
     </div>
   );
 };

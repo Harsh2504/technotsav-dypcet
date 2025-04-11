@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Landing from './pages/Landing'
@@ -7,8 +7,24 @@ import EventPage from './pages/EventPage'
 import EventEntry from './pages/EventEntry'
 import './index.css'
 import { Analytics } from "@vercel/analytics/react"
+import { FaArrowUp } from 'react-icons/fa';
 function App() {
+  const [showScrollToTop, setShowScrollToTop] = useState(false);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      const scrollThreshold = window.innerHeight * 1; // 20% of viewport height
+      setShowScrollToTop(scrollPosition > scrollThreshold);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
   return (
     <>
     <Analytics/> 
@@ -36,6 +52,15 @@ function App() {
         </Routes>
       </Router>
       <Footer />
+      {showScrollToTop && (
+        <div
+          onClick={scrollToTop}
+          className="fixed bottom-5 right-5 bg-white hover:bg-blue-500 transition-all ease-in rounded-full p-3 shadow-lg cursor-pointer group"
+          style={{ zIndex: 1000 }}
+        >
+          <FaArrowUp className="text-blue-500  group-hover:text-white group-hover:bg-blue-500 text-xl transition-all ease-in " />
+        </div>
+      )}
     </>
   )
 }
