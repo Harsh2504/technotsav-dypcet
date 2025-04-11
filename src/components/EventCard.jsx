@@ -81,7 +81,7 @@ const EventCard = ({ dept }) => {
             <img
           src={dept.logo}
           alt={dept.title}
-          className="absolute w-32 h-32 opacity-0 object-contain transition-opacity duration-300 group-hover:opacity-0 md:opacity-100"
+          className="absolute w-32 h-32 scale-110 opacity-0 object-contain transition-opacity duration-300 group-hover:opacity-0 md:opacity-100"
             />
 
             {/* Description */}

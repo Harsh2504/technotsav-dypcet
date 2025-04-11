@@ -8,30 +8,30 @@ export default function Footer() {
                 <div className="md:flex md:justify-between">
                 <div className="mb-6 md:mb-0">
                     <a href="https://flowbite.com/" className="flex items-center">
-                        <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 me-3" alt="FlowBite Logo" />
+                        <img src="https://media.discordapp.net/attachments/1359769171042242570/1360057397321797713/d_y_patil_college_of_engineering__technology_kasaba_bawada_logo-removebg-preview.png?ex=67f9bba8&is=67f86a28&hm=ad0c1c203ac84ae6f69bf4e0de586719762731f27ab8b5b6813075e1d31a1d12&=&format=webp&quality=lossless&width=250&height=250" className="h-10 me-3 scale-150" alt="FlowBite Logo" />
                         <span className="self-center text-2xl font-semibold whitespace-nowrap fustat-heading ">Technotsav</span>
                     </a>
                 </div>
                 <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                     <div>
-                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase fustat-heading ">Resources</h2>
+                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase fustat-heading ">Official</h2>
                         <ul className="text-gray-500 font-medium">
                             <li className="mb-4">
-                                <a href="https://flowbite.com/" className="hover:underline ">Flowbite</a>
+                                <a href="https://coek.dypgroup.edu.in/" className="hover:underline ">DYPCET</a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href="https://tailwindcss.com/" className="hover:underline">Tailwind CSS</a>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                     <div>
                         <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase fustat-heading">Follow us</h2>
                         <ul className="text-gray-500 font-medium">
                             <li className="mb-4">
-                                <a href="https://github.com/themesberg/flowbite" className="hover:underline ">Github</a>
+                                <a href="https://www.instagram.com/dypcet_official/" className="hover:underline ">Instagram</a>
                             </li>
                             <li>
-                                <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Discord</a>
+                                <a href="https://www.linkedin.com/school/d.-y.-patil-college-of-engineering-&-technology-kasaba-bawada/posts/?feedView=all" className="hover:underline">LinkedIn</a>
                             </li>
                         </ul>
                     </div>
@@ -49,10 +49,12 @@ export default function Footer() {
                 </div>
             </div>
             <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
-            <div className="sm:flex sm:items-center sm:justify-between">
-                <span className="text-sm text-gray-500 sm:text-center ">© 2025 <a href="https://flowbite.com/" className="hover:underline">Prarambh Development Cell™</a>. All Rights Reserved.
-                </span>
-                <div className="flex mt-4 sm:justify-center sm:mt-0">
+            <div className="sm:flex sm:items-center sm:justify-center">
+            <span className="text-sm text-gray-500 sm:text-center">
+            © 2025 <a href="https://www.linkedin.com/company/prarambh-development-cell/?feedView=all" target="_blank" rel="noopener noreferrer" className="hover:underline">Prarambh Development Cell™</a>. All rights reserved. <br/>Developed for the official college event.
+            </span>
+
+                {/* <div className="flex mt-4 sm:justify-center sm:mt-0">
                     <a href="#" className="text-gray-500 hover:text-gray-900 ">
                         <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
                                 <path fillRule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clipRule="evenodd"/>
@@ -83,7 +85,7 @@ export default function Footer() {
                         </svg>
                         <span className="sr-only">Dribbble account</span>
                     </a>
-                </div>
+                </div> */}
             </div>
             </div>
         </footer>
