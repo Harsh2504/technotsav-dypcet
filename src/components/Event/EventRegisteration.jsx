@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react'
-
+import qr404 from '/images/qr404.jpg'
 import { FaUser,FaUsers } from "react-icons/fa";
 const EventRegisteration = ({
     singleEntryFee,
@@ -26,8 +26,8 @@ const EventRegisteration = ({
                        
                        {singleEntryFee ?
                         <div className="flex flex-col items-center">
-                            <FaUser className='w-32 h-12 text-white text-center'/>
-                            <p className="text-lg font-medium  mb-2 text-white fustat-heading">
+                            <FaUser className='w-32 h-12 text-[#bababa] my-1 text-center'/>
+                            <p className="text-lg font-medium  mb-2 text-[#bababa] fustat-heading">
                                 Single Entry Fee
                             </p>
                             <p
@@ -39,8 +39,8 @@ const EventRegisteration = ({
                         </div>
                         : ""}
                         {groupEntryFee ? <div className="flex flex-col items-center">
-                        <FaUsers className='w-32 h-14 text-white text-center'/>
-                            <p className="text-lg font-medium mb-2 text-white fustat-heading">
+                        <FaUsers className='w-32 h-14 text-[#bababa] my-1 text-center'/>
+                            <p className="text-lg font-medium mb-2 text-[#bababa] fustat-heading">
                                 Group Entry Fee
                             </p>
                             <p
@@ -56,22 +56,26 @@ const EventRegisteration = ({
 
 
 
-                    <div className='flex flex-col justify-center'>
+                <div className='flex flex-col justify-center'>
                     <div className="flex justify-center">
                         <div className="p-4 border rounded-xl bg-gray-50">
-                            <img
+                        {registration.qrLink ?  <img
                                 src={registration.qrLink}
                                 alt="Registration QR Code"
                                 className="w-40 h-40 object-contain mx-auto"
-                            />
+                            /> : <img
+                                src={qr404}
+                                alt="Registration QR Code"
+                                className="w-40 h-40 object-contain mx-auto"
+                            />}
                             <p className="text-xs text-center text-gray-500 mt-2 manrope-paragraph">
-                                Scan to register
+                            {registration.qrLink ? "  Scan to register " : "QR code not available"}
                             </p>
                         </div>
                     </div>
                     <div class="inline-flex items-center justify-center w-full my-4">
                         <hr class="absolute w-64 h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 " />
-                        <span class=" px-3 font-medium text-gray-900 bg-white dark:text-white dark:bg-[#161616] z-[1000] rounded-xl text-center">or</span>
+                        <span class=" px-3 font-medium text-gray-900 bg-white  z-[1000] rounded-xl text-center">or</span>
                     </div>
                     <div className="flex justify-center mb-10">
                         <button
