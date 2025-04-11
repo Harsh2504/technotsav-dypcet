@@ -2,13 +2,13 @@
   {   
     "eventName": "Infinity War", 
     "eventDescription": 
-      "Infinity Hunt is a thrilling treasure hunt-style event that combines the excitement of discovery with the challenge of mental acuity. The event features a unique combination of aptitude questions, coding challenges, and engaging puzzles. Participants will solve clues, crack codes, and race against time to reach the final destination.",
+      "Infinity Hunt is a high-energy, treasure hunt-style event that fuses the thrill of discovery with the power of intellect. Participants will embark on a journey filled with aptitude challenges, coding puzzles, and mind-bending clues — all designed to test their logic, speed, and problem-solving skills. Crack codes, connect the dots, and race against time as you unlock each level and chase down the final destination. It’s not just a hunt — it’s a battle of brains!",
     "hostDepartment": "CSE",
     "eventDay": "1", 
     "startTime": "9:30 AM",
     "endTime": "3:00 PM",
-    "venue": "New Building Labs",
-    "eligibleParticipants": "Any students from engineering branch",
+    "venue": "📍 New Building – Labs , DYPCET Kolhapur",
+    "eligibleParticipants": "Infinity War is open to all engineering students, regardless of their branch or year of study. Whether you're a first-year curious coder, a final-year project wizard, or simply someone who loves solving real-world problems — there's a space for your talent here.  ",
     "singleEntryFee": "100",
     "groupEntryFee": "400",
     "prizeMoney": {
@@ -46,19 +46,19 @@
     ],
     "eventRounds": [
       {
-        "title": "Round 1 – Aptitude Clash",
+        "title": "Aptitude Clash",
         "description":
           "Participants will face logic-based aptitude and reasoning questions. Top scorers will move to the next round.",
           "startTime":"9:30 AM"
       },
       {
-        "title": "Round 2 – Code Crypt",
+        "title": "Code Crypt",
         "description":
           "A coding challenge where participants solve puzzles or decode logic to find clues.",
             "startTime":"11:00 AM"
       },
       {
-        "title": "Final Round – The Hunt",
+        "title": "The Hunt",
         "description":
           "The ultimate treasure hunt round across the venue, filled with hidden clues, riddles, and tech puzzles.",
             "startTime":"1:00 PM"
@@ -68,8 +68,8 @@
     "registration": {
       "registrationFormLink": "https://example.com/register",
       "qrLink": "https://cdn.discordapp.com/attachments/1359769171042242570/1359769295546220747/qr.png?ex=67f8af57&is=67f75dd7&hm=35864327dd0ee239be4b0d1e9a44e84a8db5aa7dd09a7f02135683952c2580d6&",
-      "startDate": "2023-10-01",
-      "endDate": "2023-10-15"
+      "startDate": "12 April, 2025",
+      "endDate": "21 April, 2025"
     },
 
     "others": {

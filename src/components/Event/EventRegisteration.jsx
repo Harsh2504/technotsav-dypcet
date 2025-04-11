@@ -15,7 +15,7 @@ const EventRegisteration = ({
             <div className="bg-white rounded-2xl shadow-md p-6 space-y-6 bg-[linear-gradient(10deg,_#0a0a0a,_#1c1c1c,_#3e3e3e,_#1c1c1c,_#0a0a0a)]">
                 <div className="text-center">
                     <p className="text-sm text-white manrope-paragraph">
-                        Registration Open:{" "}
+                        Register Between:{" "}<br/>
                         <span className="font-semibold  text-white">{registration.startDate}</span> to{" "}
                         <span className="font-semibold  text-white">{registration.endDate}</span>
                     </p>

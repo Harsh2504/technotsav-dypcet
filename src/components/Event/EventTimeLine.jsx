@@ -27,11 +27,8 @@ return (
                 <time className="font-mono italic text-black">{registration.startDate}</time>
 
                 <div className="text-lg font-black fustat-heading text-black">Registration Starts</div>
-                The Apple Macintosh—later rebranded as the Macintosh 128K—is the original Apple Macintosh
-                personal computer. It played a pivotal role in establishing desktop publishing as a general
-                office function. The motherboard, a 9 in (23 cm) CRT monitor, and a floppy drive were housed
-                in a beige case with integrated carrying handle; it came with a keyboard and single-button
-                mouse.
+                Get ready to kickstart your journey!
+                Book your seat early and secure your chance to explore, compete, and experience something extraordinary.
                 </div>
                 <hr  className='bg-black/20' />
             </li>
@@ -54,9 +51,7 @@ return (
                     <div className="timeline-end mb-5 md:mb-10 manrope-paragraph text-black/70 ">
                     <time className="font-mono italic text-black">{registration.endDate}</time>
                     <div className="text-lg font-black fustat-heading text-black">Registration Ends</div>
-                    iMac is a family of all-in-one Mac desktop computers designed and built by Apple Inc. It has
-                    been the primary part of Apple's consumer desktop offerings since its debut in August 1998,
-                    and has evolved through seven distinct forms
+                    Last call to register! Don’t miss your chance to learn, compete, and win. Lock in your spot before it’s too late!
                     </div>
                     <hr className='bg-black/20'  />
             </li>
@@ -79,9 +74,7 @@ return (
                             <div className="timeline-start mb-5 md:mb-10 md:text-end manrope-paragraph text-black/70 " >
                                 <time className="font-mono italic text-black">{eventDay === 1 ? "24th April, 2025" : "25th April, 2025"}</time>
                                 <div className="text-lg font-black fustat-heading text-black">Day of Event</div>
-                                The Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness
-                                tracking, health-oriented capabilities, and wireless telecommunication, and integrates with
-                                iOS and other Apple products and services.
+                                The big day is here — get ready to dive into a world of innovation and thrill. Be prepared and make sure to reach the venue on time to experience the action from the very start! 
                             </div>
                             <hr className='bg-black/20'  />
                         </li>
@@ -128,7 +121,7 @@ return (
                         </svg>
                         </div>
                         <div className={eventRounds.length % 2 === 0 ? "timeline-end mb-5 md:mb-10 md:text-start manrope-paragraph text-black/70" : "timeline-start mb-10 md:text-end manrope-paragraph text-black/70 " }>
-                        <time className="font-mono italic text-black">2015</time>
+                        <time className="font-mono italic text-black">{eventDay === 1 ? "24th April, 2025" : "25th April, 2025"}</time>
                         <div className="text-lg font-black fustat-heading text-black">End of Event</div>
                         The Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness
                         tracking, health-oriented capabilities, and wireless telecommunication, and integrates with
