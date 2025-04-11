@@ -725,13 +725,13 @@
 
   {
     "eventName": "Project competition",
-    "eventDescription": "",
+    "eventDescription": "Showcasing your mini and mega projects in the field of Project areas\nChemical, biotechnology, pharmaceutical, nanotechnology, environmental and any project related to betterment of society.\n",
     "hostDepartment": "CHEM",
     "eventDay": "1",
     "startTime": "9:00 AM",
     "endTime": "4:00 PM",
-    "venue": "Chemical Engineering Department",
-    "eligibleParticipants": "All UG students",
+    "venue": "DY Patil College of Engineering & Technology (DYPCET), Kolhapur **(NOTE: Block/Room details will be shared before the event)",
+    "eligibleParticipants": " Students from Diploma and Undergraduate (UG) programs are eligible to participate.",
     "singleEntryFee": "100",
     "groupEntryFee": "500",
     "prizeMoney": {
@@ -750,14 +750,20 @@
       },
       {
         "title": "",
-        "description": "Students can prepare PPT presentation to give the information about the project."
+        "description": "Students can  present their project in the form of prototype, ppt, design or any other form to give the information about the project."
       },
       {
         "title": "",
         "description": "Project will be evaluated on the basis of Usefulness to the society, Enovation, Cost effective, feasibility and understanding."
       }
     ],
-    "eventRounds": [],
+    "eventRounds": [
+      {
+        "title": "Round 1 - Presentation and Evaluation",
+        "description": "Evaluation will be done on the basis of Usefulness to the society, Enovation, Cost effective, feasibility and understanding.",
+        "startTime": ""
+      }
+    ],
     "registration": {
       "registrationFormLink": "https://forms.gle/wxoMCHkB9nDajgvr5",
       "qrLink": "",
@@ -775,13 +781,15 @@
 
   {
     "eventName": "Product development",
-    "eventDescription": "",
+    "eventDescription": "Join our Product Development Competition, where innovation meets impact! This competition challenges participants to design, develop, and present a novel product that addresses real-world needs. Teams will work through stages of ideation, prototyping, and validation, receiving mentorship from industry experts along the way. Finalists will showcase their solutions to a panel of judges for a chance to win prizes, gain recognition, and potentially bring their product to market.\n",
+
     "hostDepartment": "CHEM",
     "eventDay": "1",
     "startTime": "9:00 AM",
     "endTime": "4:00 PM",
-    "venue": "Department of Chemical Engineering, DYPCET, Kolhapur.",
-    "eligibleParticipants": "Open to all Third Year (TY) students of DYPCET.",
+    "venue": "DY Patil College of Engineering & Technology (DYPCET), Kolhapur **(NOTE: Block/Room details will be shared before the event)",
+    "eligibleParticipants": " Students from Diploma and Undergraduate (UG) programs are eligible to participate.",
+
     "singleEntryFee": "100",
     "groupEntryFee": "400",
     "prizeMoney": {
@@ -789,7 +797,7 @@
       "second": "2000",
       "third": "1000"
     },
-    "rulesAndRegulations": [
+   "rulesAndRegulations": [
       {
         "title": "",
         "description": "There shall be minimum 3 and maximum 4 members in a team."
@@ -807,7 +815,13 @@
         "description": "Product will be evaluated on the basis of Usefulness to the society, Enovation, Cost effective, feasibility and understanding."
       }
     ],
-    "eventRounds": [],
+    "eventRounds": [
+      {
+        "title": "Round 1 - Presentation and Evaluation",
+        "description": "Evaluation will be done on the basis of Usefulness to the society, Enovation, Cost effective, feasibility and understanding.",
+        "startTime": ""
+      }
+    ],
     "registration": {
       "registrationFormLink": "https://forms.gle/wxoMCHkB9nDajgvr5",
       "qrLink": "",
@@ -825,13 +839,15 @@
 
   {
     "eventName": "Model Competition",
-    "eventDescription": "",
+    "eventDescription": "Unleash your creativity and engineering skills in our Model Making Competition! Participants are invited to design and build detailed models that bring concepts to life — from scientific structures and architectural wonders to innovative machines and futuristic ideas. This competition emphasizes precision, creativity, and practical thinking. Showcase your craftsmanship and originality to a panel of judges and compete for exciting prizes. Whether you work solo or in a team, this is your chance to turn your vision into a tangible masterpiece!\n",
+
     "hostDepartment": "CHEM",
     "eventDay": "2",
     "startTime": "9:00 AM",
     "endTime": "4:00 PM",
-    "venue": "Department of Chemical Engineering",
-    "eligibleParticipants": "All UG students",
+    "venue": "DY Patil College of Engineering & Technology (DYPCET), Kolhapur **(NOTE: Block/Room details will be shared before the event)",
+    "eligibleParticipants": "Students from Diploma and Undergraduate (UG) programs are eligible to participate.",
+
     "singleEntryFee": "100",
     "groupEntryFee": "400",
     "prizeMoney": {
@@ -842,11 +858,11 @@
     "rulesAndRegulations": [
       {
         "title": "",
-        "description": " Model / Demo of experiment set up allowed."
+        "description": "Model / Demo of experiment set up allowed."
       },
       {
         "title": "",
-        "description": " Same model/poster presentations are not allowed for other competition."
+        "description": "Same model/poster presentations are not allowed for other competition."
       },
       {
         "title": "",
@@ -1044,6 +1060,10 @@
       {
         "title": "Round 3 – (in case of tie only) ",
         "description": "Time limit: half an hour."
+      },
+      {
+        "title": "Parameters for evaluation",
+        "description": "Timely completion.  Orientation of plan.  Presentation skills. Other factors (such as scale, text, accuracy, dimensions, hatching, file size, etc.).  Decision of the Judges will be final. "
       }
     ],
     "eventRounds": [
@@ -1261,13 +1281,15 @@
 
   {
     "eventName": "Robo Race",
-    "eventDescription": "",
+    "eventDescription": "Robo Race is a thrilling contest where students build and control robots to race through a track, testing speed, precision, and obstacle navigation while encouraging innovation and teamwork",
+
     "hostDepartment": "MECH",
     "eventDay": "3",
     "startTime": "10:00 AM",
     "endTime": "4:00 PM",
-    "venue": "College lawn",
-    "eligibleParticipants": "Open for all ",
+    "venue": "DY Patil College of Engineering & Technology (DYPCET), Kolhapur **(NOTE: Block/Room details will be shared before the event)",
+    "eligibleParticipants": " Students from Diploma and Undergraduate (UG) programs are eligible to participate.",
+
     "singleEntryFee": "200",
     "groupEntryFee": "",
     "prizeMoney": {
@@ -1294,15 +1316,11 @@
       },
       {
         "title": "Robot Specifications",
-        "description": "Control: Manually operated (wired or wireless). Size Limit: Maximum 250mm × 250mm × 250mm Weight Limit: Maximum 3 kg Construction: Use of Lego parts or ready-made kits is not allowed."
+        "description": "Control: Manually operated (wired or wireless). Size Limit: Maximum 250mm × 250mm × 250mm. Weight Limit: Maximum 3 kg. Construction: Use of Lego parts or ready-made kits is not allowed."
       },
       {
-        "title": "Power Source:",
+        "title": "Power Source",
         "description": "Maximum 12V battery permitted. Teams must carry an extra battery. Battery failure may result in time loss or disqualification."
-      },
-      {
-        "title": "Track Description",
-        "description": "The track will include rough terrain with various obstacles such as:Ramps,Bridges,Speed breakers, Slippery paths, And more..."
       },
       {
         "title": "Team Rules",
@@ -1317,11 +1335,19 @@
         "description": "All decisions made by the judges and organizing committee are final and binding. The organizing committee reserves the right to modify the rules at any time."
       },
       {
+        "title": " Track Description",
+        "description": "The track will include rough terrain with various obstacles such as: Ramps,Bridges,Speed breakers, Slippery paths, And more."
+      },
+      {
         "title": "Spot Entry Details",
-        "description": "Spot Entry Fee: ₹200 per team Spot Entry with Robot Provided: ₹250 per team Note: Robots provided by the committee will be allotted on a first-come, first-serve basis (limited availability)."
+        "description": "Spot Entry Fee: ₹200 per team. Spot Entry with Robot Provided: ₹250 per team. Note: Robots provided by the committee will be allotted on a first-come, first-serve basis (limited availability)."
       }
     ],
-    "eventRounds": [],
+    "eventRounds": [
+      {
+        "title":"Race Against Time"
+      }
+    ],
     "registration": {
       "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLSd_rZd84hAqKXISQynoi3ncQ3XSwo8-cVeeymwln7mrp3Q6Sw/viewform?usp=header",
       "qrLink": "",
@@ -1339,13 +1365,14 @@
 
   {
     "eventName": "CAD Clash",
-    "eventDescription": "The Department of Mechanical Engineering, D. Y. Patil College of Engineering and Technology, Kolhapur (DYPCET) is excited to host a national-level design competition – CAD Clash – as a part of our annual technical event Technostav.\nThis event is specially designed for students who have a passion for computer-aided design and want to showcase their creativity, speed, and technical skills. CAD Clash will test participants' knowledge and hands-on abilities in design software through multiple engaging rounds.\nWhether you're a Diploma or UG student, this is a great opportunity to challenge yourself, learn something new, and compete with talented minds from across the country. Along with the thrill of competition, participants will also enjoy the experience, networking, and recognition.\nGet ready to bring your best design game to the screen – let the clash begin!",
+    "eventDescription": "This event is specially designed for students who have a passion for computer-aided design and want to showcase their creativity, speed, and technical skills. CAD Clash will test participants' knowledge and hands-on abilities in design software through multiple engaging rounds.",
     "hostDepartment": "MECH",
     "eventDay": "1",
     "startTime": "10:00 AM",
     "endTime": "4:00 PM",
-    "venue": "Classroom 139, CAD Lab 1 &2 , CIII Lab",
-    "eligibleParticipants": "Open for all",
+    "venue": "DY Patil College of Engineering & Technology (DYPCET), Kolhapur **(NOTE: Block/Room details will be shared before the event)",
+    "eligibleParticipants": "Students from Diploma and Undergraduate (UG) programs are eligible to participate.",
+
     "singleEntryFee": "100",
     "groupEntryFee": "",
     "prizeMoney": {
@@ -1404,7 +1431,7 @@
       },
       {
         "title": "",
-        "description": "Final round will be judged based on: Minimum number of steps/features used – Minimum time taken to complete the design"
+        "description": "Final round will be judged based on: Minimum number of steps/features used – Minimum time taken to complete the design."
       },
       {
         "title": "",
@@ -1416,7 +1443,7 @@
       },
       {
         "title": "",
-        "description": "Depending on the number of entries or other unavoidable circumstances, the organizing committee reserves the right to cancel or modify any round,"
+        "description": "Depending on the number of entries or other unavoidable circumstances, the organizing committee reserves the right to cancel or modify any round."
       },
       {
         "title": "",
@@ -1433,7 +1460,7 @@
     ],
     "eventRounds": [
       {
-        "title": " Round 1: Quiz Round (Elimination Round)",
+        "title": "Round 1: Quiz Round (Elimination Round)",
         "description": "This is an online quiz that will test your basic knowledge about CAD software, design standards and general engineering concepts. Participants will need to answer multiple-choice questions within a limited time.",
         "startTime": ""
       },
@@ -1481,8 +1508,12 @@
     },
     "rulesAndRegulations": [
       {
-        "title": "Language of conduct",
-        "description": "English"
+        "title": "",
+        "description": "Entry Fee – 100/- (Per Participant). Maximum allowed entries per group is 2."
+      },
+      {
+        "title": "",
+        "description": "Language of conduct – English"
       },
       {
         "title": "",
@@ -1503,6 +1534,10 @@
       {
         "title": "",
         "description": "Changes may occur in event structure as per the circumstances"
+      },
+      {
+        "title": "",
+        "description": "Competition Structure is as follows"
       }
     ],
     "eventRounds": [
