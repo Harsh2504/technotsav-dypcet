@@ -4,20 +4,33 @@ import Timeline from "../components/Timeline";
 import FAQ from "../components/FAQ";
 import Events from "../components/Events";
 import bg from "/images/bg.jpg";
-
+import poster from "/images/poster.jpg";
 export default function Landing() {
   return (
     <div>
-      <div className="relative w-screen h-screen ">
-        <Spline scene="https://prod.spline.design/3LhodsAeMvPQ7-K4/scene.splinecode" />
-        <div className="absolute bottom-0 right-0 bg-[#e3e3e3] w-full md:w-[200px] h-[80px] text-center flex flex-col justify-center items-center">
-          <p className="font-bold text-4xl block md:hidden fustat-heading">
-            Technotsav 2k25
-          </p>
-          <p className="font-bold text-2xl text-[#444444] block md:hidden manrope-paragraph">
-            Coming Soon....
-          </p>
-        </div>
+      <div className="relative w-screen h-[40vh] md:h-[150vh] flex justify-center items-center overflow-hidden">
+          <img
+
+            src={poster}
+            alt="Background"
+            className="absolute inset-0 w-full h-full object-cover object-top "
+          />
+        {/* <div className="absolute inset-0 bg-black opacity-50"></div> */}
+
+        {/* <div
+          className="fixed inset-0 bg-fixed bg-cover bg-center"
+          style={{
+            backgroundImage: `url(${bg})`,
+            transform: "translateZ(-1px) scale(2)",
+            zIndex: "-1",
+          }}
+        ></div>
+        <p className="absolute top-78 md:top-70 text-center md:left-42 text-2xl md:text-4xl font-bold text-white/40 fustat-heading">
+          DYPCET
+        </p>
+        <p className="absolute text-5xl md:text-9xl font-bold text-transparent opacity-90 bg-clip-text bg-gradient-to-r from-[#cccee9] via-[#7c90c8] to-[#92eeed] spacecrusaders-heading text-center">
+          Technotsav 2K25
+        </p> */}
       </div>
       <div className="flex flex-col justify-center items-center w-screen min-h-screen overflow-x-hidden py-20 px-10 md:px-40">
         <h1 className="text-3xl font-bold text-center text-gray-800 mb-8 fustat-heading">
