@@ -58,12 +58,19 @@ const EventPage = ({ department }) => {
 
   return (
     <div className="text-black">
-           <button 
+        <button 
         onClick={() => window.history.back()} 
-        className="fixed top-5 left-5 border-2 flex justify-center items-center gap-1 text-[#365b9e] duration-200 cursor-pointer border-[#365b9e] transition-all ease-in-out hover:bg-[linear-gradient(to_bottom,_#30538e,_#5c89ff)] rounded-xl hover:text-white px-4 py-2 font-black md:font-bold fustat-heading active:scale-95 "
+        className="fixed hidden top-5 left-5 border-2 md:flex justify-center items-center gap-1 text-[#365b9e] duration-200 cursor-pointer border-[#365b9e] transition-all ease-in-out hover:bg-[linear-gradient(to_bottom,_#30538e,_#5c89ff)] rounded-xl hover:text-white px-4 py-2 font-black md:font-bold fustat-heading active:scale-95 "
       >
         <HiChevronLeft className="text-2xl" />
         Back
+      </button>
+        <button 
+        onClick={() => window.history.back()} 
+        className="absolute  md:hidden top-5 left-5 border-2 flex justify-center items-center gap-1 text-base text-white duration-200 cursor-pointer border-[#365b9e] transition-all ease-in-out bg-[linear-gradient(to_bottom,_#30538e,_#5c89ff)] rounded-xl  px-2 py-2  font-medium fustat-heading active:scale-95 "
+      >
+        <HiChevronLeft className="text-xl" />
+       Back
       </button>
       {/* <h1 className="text-3xl font-bold">
         {department.toUpperCase()} Department
