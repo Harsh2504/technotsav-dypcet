@@ -1851,13 +1851,14 @@
 
   {
     "eventName": "IPL Auction",
-    "eventDescription": "",
+    "eventDescription": "IPL Auction is a thrilling event that replicates the real Indian Premier League auction environment, where participants form teams, bid for players, and strategically build their Dream11-style squad.\nThis event blends cricket knowledge, decision-making, and team coordination into an exciting two-stage competition.\n",
+
     "hostDepartment": "TECHL",
     "eventDay": "2",
     "startTime": "10:00 AM",
     "endTime": "4:00 PM",
-    "venue": "Classroom 301, CSE lecture hall",
-    "eligibleParticipants": "All students from any department ( Min 3 - Max 4    members per team)",
+    "venue": "DY Patil College of Engineering & Technology (DYPCET), Kolhapur, **(NOTE: Block/Room details will be shared before the event)**",
+    "eligibleParticipants": "Open to all students of any department or year. (NOTE: Form a team of 3-4 members).",
     "singleEntryFee": "100",
     "groupEntryFee": "300 (3P) - 400 (4P)",
     "prizeMoney": {
@@ -1867,27 +1868,47 @@
     },
     "rulesAndRegulations": [
       {
-        "title": "Team Composition Rules",
-        "description": "5 Batsmen. 1 Wicket Keeper. 2 All-Rounders. 3 Bowlers. Max 4 Foreign Players. Must not exceed ₹100 crore purse."
+        "title": "Total teams",
+        "description": "60 (Max 3-4 members each)."
       },
       {
-        "title": "Bidding Rules",
-        "description": "For players with base prices between ₹1 Cr to ₹10 Cr, the bid increment will be ₹50 Lakhs. For players above ₹10 Cr, the bid increment will be ₹1 Crore. Bidding continues until no higher bid is placed for a few seconds."
+        "title": "",
+        "description": "Max 4 students per team"
+      },
+      {
+        "title": "",
+        "description": "Top 10 scoring teams will qualify for the Mega Auction Round."
+      },
+      {
+        "title": "",
+        "description": "Qualified teams will be assigned one IPL franchise randomly (e.g. MI, CSK, RCB, etc.)."
+      },
+      {
+        "title": "",
+        "description": "Each team will be given a virtual purse of ₹100 Crores."
+      },
+      {
+        "title": "Base price increases",
+        "description": "₹50L per bid till ₹10 Cr. ₹1 Cr per bid after ₹10 Cr."
+      },
+      {
+        "title": "Teams must form squads with",
+        "description": "Minimum: 5 Batsmen.  1 Wicketkeeper.  2 All-Rounder.  3 Bowlers. Max 4 Foreign Players. Must not exceed ₹100 crore purse. Teams must stay within budget."
       },
       {
         "title": "Winner Criteria",
-        "description": "Team Balance & Player Rating (based on Dream11 stats/performance). Smart use of purse money. Following team composition rules strictly."
+        "description": "Team Balance & Player Rating (based on Dream11 stats/performance). Smart use of purse money. Following team composition rules strictly. Includes refreshments, team management sheets, and live animated auction setup. Auction will be conducted with live bidding slides like real IPL. Coordinated by technical, auction, doc, and management teams."
       }
     ],
     "eventRounds": [
       {
-        "title": "Round 1: IPL Quiz - Qualifier Round",
-        "description": "Total teams: 60 (Max 4 members each) Each team (Max 3-4 members) will participate in a 30-question quiz based on IPL trivia and stats. Top 10 scoring teams will qualify for the Mega Auction Round. In case of a tie, 3 bonus questions will be used for elimination.",
+        "title": "Round 1 IPL Quiz",
+        "description": "Questions related to IPL teams, players, stats, and records Top 10 scoring teams qualify for the next round",
         "startTime": ""
       },
       {
-        "title": "Round 2: IPL Mega Auction",
-        "description": "Qualified teams will be assigned one IPL franchise randomly (e.g. MI, CSK, RCB, etc.). Each team will be given a virtual purse of ₹100 Crores. Players will be auctioned one by one with a base price. Teams must bid and buy players to form their Dream11.",
+        "title": "Round 2 Live IPL Auction",
+        "description": "Each team is assigned a real IPL franchise (randomly) Teams bid for players with a limited budget and form a full squad (as per IPL rules)",
         "startTime": ""
       }
     ],
@@ -1976,12 +1997,12 @@
       {
         "title": "Round 1 - One Shot, One Reel",
         "description": "Participants have to conceptualize, shoot, and edit a reel based on the given theme. Participants will begin capturing moments, activities and behind-the-scenes of Technotsav. Shooting continues through recording all the events, highlights happening on different venues. respectively.  Day 1 shoot ends at 4:00 PM",
-        "startTime": "9:00AM"
+        "startTime": "9:00 AM"
       },
       {
         "title": "Submission Round",
         "description": "Participants can shoot from 9:00 AM to 12:00 PM (approx) SUBMISSION: Drive link will be open from 12:30PM to 1:00PM Reels uploaded after 1:00PM will not be considered. Instagram bonus(optional): participants can post their edited reel on their instagram handle, this will give them bonus points. Winning reels will be showcased during the closing ceremony",
-        "startTime": ""
+        "startTime": "9:00 AM"
       }
     ],
     "registration": {
