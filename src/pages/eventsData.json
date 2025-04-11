@@ -1621,7 +1621,7 @@
   {
     "eventName": "Blender Workshop",
     "eventDescription": "The Blender 3D Modeling Workshop & Competition is a hands-on learning experience designed to teach participants the fundamentals of 3D modeling, texturing, lighting, and basic animation using Blender, an industry-standard, open-source 3D software. Ideal for beginners and intermediate learners, the workshop helps unlock creative potential while providing practical skills applicable to game development, animation, product design, and more. Participants will not only build their portfolios but also compete to showcase their talent, win prizes, and receive certificates, all while networking with like-minded creatives and learning from experienced mentors.",
-    "hostDepartment": "ECELL",
+    "hostDepartment": "TECHL",
     "eventDay": "3",
     "startTime": "10:00 AM",
     "endTime": "4:00 PM",
@@ -1683,7 +1683,7 @@
   {
     "eventName": "IPL Auction",
     "eventDescription": "",
-    "hostDepartment": "ECELL",
+    "hostDepartment": "TECHL",
     "eventDay": "2",
     "startTime": "10:00 AM",
     "endTime": "4:00 PM",
@@ -1740,7 +1740,7 @@
   {
     "eventName": "Reel Rumble",
     "eventDescription": "Reel Rumble is a solo reel-making competition organized under Technotsav 2025, designed to capture the energy, creativity, and vibrance of the fest. Participants will shoot, edit, and submit their reels over the two-day span of the event, showcasing highlights from Day 1 and Day 2 of Technotsav. The competition encourages storytelling, content creation, and smart editing—all within a 90-second reel format.\n",
-    "hostDepartment": "ECELL",
+    "hostDepartment": "TECHL",
     "eventDay": "3",
     "startTime": "9:00 AM (Day 1)",
     "endTime": "1:00 PM (Day 2)",
@@ -1838,7 +1838,7 @@
   {
     "eventName": "Technical Paper Presentation",
     "eventDescription": "",
-    "hostDepartment": "ECELL",
+    "hostDepartment": "TECHL",
     "eventDay": "2",
     "startTime": "9:00 AM",
     "endTime": "2:00 PM",

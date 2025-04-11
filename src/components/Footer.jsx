@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between">
                 <div className="mb-6 md:mb-0">
-                    <a href="https://flowbite.com/" className="flex items-center">
+                    <a href="#" className="flex items-center">
                         <img src="https://media.discordapp.net/attachments/1359769171042242570/1360057397321797713/d_y_patil_college_of_engineering__technology_kasaba_bawada_logo-removebg-preview.png?ex=67f9bba8&is=67f86a28&hm=ad0c1c203ac84ae6f69bf4e0de586719762731f27ab8b5b6813075e1d31a1d12&=&format=webp&quality=lossless&width=250&height=250" className="h-10 me-3 scale-150" alt="FlowBite Logo" />
                         <span className="self-center text-2xl font-semibold whitespace-nowrap fustat-heading ">Technotsav</span>
                     </a>

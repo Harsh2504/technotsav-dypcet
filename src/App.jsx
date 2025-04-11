@@ -38,7 +38,7 @@ function App() {
           <Route path="/events/mech/:eventname" element={<EventPage department="mech" />} />
           <Route path="/events/chem/:eventname" element={<EventPage department="chem" />} />
           <Route path="/events/e&tc/:eventname" element={<EventPage department="e&tc" />} />
-          <Route path="/events/ecell/:eventname" element={<EventPage department="ecell" />} />
+          <Route path="/events/techl/:eventname" element={<EventPage department="techl" />} />
           <Route path="/events/entry/" element={<EventEntry/>} />
           <Route path="*" element={<div className='flex flex-col justify-center items-center w-screen min-h-screen bg-[#e3e3e3] bg-[radial-gradient(#00000089,transparent_2px)] [background-size:20px_20px] p-4'>
   <h1 className='text-8xl sm:text-8xl md:text-8xl lg:text-9xl font-bold text-center gradient mb-6 sm:mb-8 fustat-heading'>

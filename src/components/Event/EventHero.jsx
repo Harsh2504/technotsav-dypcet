@@ -8,7 +8,7 @@ export default function EventHero({eventName,eventDescription, hostDepartment, e
     civil: "Department of Civil Engineering",
     "e&tc": "Department of Electronics and Telecommunication Engineering",
     mech: "Department of Mechanical Engineering",
-    ecell: "Entrepreneurship Cell",
+    techl: "Techno Higlights",
   };
 
   const fullHostDepartment = departmentFullName[hostDepartment.toLowerCase()] || hostDepartment;
