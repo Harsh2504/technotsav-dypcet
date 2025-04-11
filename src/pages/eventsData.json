@@ -216,6 +216,7 @@
       }
     ]
   },
+
   {
     "eventName": "Undefined Designs",
     "eventDescription": "Participants will apply their technical skills and design sensibilities to create **waterproof**, **buoyant** structures capable of maintaining **stability on water**. The challenge is not just about floating — it's about **redefining liveable spaces on water**.\n\nDuring the final test, all models will be placed in water to assess **buoyancy**, **stability**, and **structural integrity** under real conditions. Teams are encouraged to explore **sustainable** and **waterproof materials**, drawing inspiration from modern **amphibious architecture** and **marine engineering**.\n\n---\n\nWhether you're building a floating pavilion or a futuristic water home, this challenge is your platform to **innovate**, **collaborate**, and **make a splash**!\n\n---\n\n### 🧩 Key Characteristics\n\n1. **Design Requirements**  \n   The design should be capable of floating on water. The structure should be designed to support a minimum weight.\n\n2. **Submission Format**  \n   A video demonstration or explanation of the design process, making of the structure from scratch, along with a description of the materials and methods used, must accompany the submission.\n\n---\n\n### 📏 Model Size Limitation\n\n1. The usable area is **10.00 Sq.m**.\n2. The size of the water tank is **1.14m in diameter** and **0.25m in depth**. The model should float easily in the tank.\n3. Teams may choose any shape or configuration (e.g., rectangular, modular, circular) within the size limit.\n4. There is **no fixed height restriction**, but the structure must remain **balanced, safe, and buoyant** during testing.\n5. **Models that exceed the allowed size may be disqualified.**",
@@ -360,7 +361,11 @@
       "map": ""
     },
     "sponsors": [],
-    "faqs": []
+    "faqs": [],
+    "contacts": [{
+      "name": "Ayush Karnewar",
+      "phone": "9960670950"
+    }]
   },
 
   {
@@ -415,7 +420,11 @@
       "map": ""
     },
     "sponsors": [],
-    "faqs": []
+    "faqs": [],
+    "contacts": [{
+      "name": "Raj Dhenge",
+      "phone": "9322008818"
+    }]
   },
 
   {
@@ -479,7 +488,11 @@
       "map": ""
     },
     "sponsors": [],
-    "faqs": []
+    "faqs": [],
+    "contacts": [{
+      "name": "Adityaraj Gavali",
+      "phone": "9356444155"
+    }]
   },
 
 
@@ -559,7 +572,17 @@
       "map": ""
     },
     "sponsors": [],
-    "faqs": []
+    "faqs": [],
+    "contacts": [
+      {
+        "name": "(Faculty coordinator) Ar. S. K. Satpute",
+        "phone": "9422410840"
+      },
+      {
+        "name": "(Student coordinator) Mr. Shantanu Malkar",
+        "phone": "9767232724"
+      }
+    ]
   },
 
   {
@@ -640,7 +663,17 @@
       "map": ""
     },
     "sponsors": [],
-    "faqs": []
+    "faqs": [],
+    "contacts": [
+      {
+        "name": "(Faculty coordinator) Ar. Shruti Nimbalkar",
+        "phone": "8600406383"
+      },
+      {
+        "name": "(Student coordinator) Ms. Parinita Mhetre",
+        "phone": "9921514148"
+      }
+    ]
   },
 
   {
@@ -718,7 +751,17 @@
       "map": ""
     },
     "sponsors": [],
-    "faqs": []
+    "faqs": [],
+    "contacts": [
+      {
+        "name": "(Faculty coordinator) Ar. Tillottama Padale",
+        "phone": "8446301000"
+      },
+      {
+        "name": "(Student coordinator) Mr. Shivtej Shingade",
+        "phone": "9172927497"
+      }
+    ]
   },
 
 
@@ -779,7 +822,12 @@
       "map": ""
     },
     "sponsors": [],
-    "faqs": []
+    "faqs": [],
+    "contacts": [{
+      "name": "Shruti Patil",
+      "phone": "7218337474"
+    }]
+    
   },
 
   {
@@ -837,7 +885,11 @@
       "map": ""
     },
     "sponsors": [],
-    "faqs": []
+    "faqs": [],
+    "contacts": [{
+      "name": "Abhijeet Patil",
+      "phone": "9420814275"
+    }]
   },
 
   {
@@ -897,7 +949,11 @@
       "map": ""
     },
     "sponsors": [],
-    "faqs": []
+    "faqs": [],
+    "contacts": [{
+      "name": "Pranav Bhahulekar",
+      "phone": "8010478865"
+    }]
   },
 
 
@@ -970,7 +1026,17 @@
       "map": ""
     },
     "sponsors": [],
-    "faqs": []
+    "faqs": [],
+    "contacts": [
+      {
+        "name": "(Faculty Coordinator) Mr. S. A. Salokhe",
+        "phone": "9766167240"
+      },
+      {
+        "name": "(Student Coordinator) Ms. Vaishnavi Chougule",
+        "phone": "7743907701"
+      }
+    ]
   },
 
   {
@@ -1033,7 +1099,17 @@
       "map": ""
     },
     "sponsors": [],
-    "faqs": []
+    "faqs": [],
+    "contacts": [
+      {
+        "name": "(Faculty Coordinator) Mr. K. R. Patil",
+        "phone": "9604501311"
+      },
+      {
+        "name": "(Student Coordinator) Miss. Minakshi Patil",
+        "phone": "9975679367"
+      }
+    ]
   },
 
   {
@@ -1102,7 +1178,17 @@
       "map": ""
     },
     "sponsors": [],
-    "faqs": []
+    "faqs": [],
+    "contacts": [
+      {
+        "name": "Unknown",
+        "phone": "9890908666"
+      },
+      {
+        "name": "Ms. S. S. Chavan",
+        "phone": "9595381172"
+      }
+    ]
   },
 
 
@@ -1157,7 +1243,11 @@
       "map": ""
     },
     "sponsors": [],
-    "faqs": []
+    "faqs": [],
+    "contacts": [{
+      "name": "Samruddhi Patil",
+      "phone": "9022146127"
+    }]
   },
 
 
@@ -1212,7 +1302,11 @@
       "map": ""
     },
     "sponsors": [],
-    "faqs": []
+    "faqs": [],
+    "contacts": [{
+      "name": "Asma Kazi",
+      "phone": "9529451160"
+    }]
   },
 
 
@@ -1289,7 +1383,17 @@
       "map": ""
     },
     "sponsors": [],
-    "faqs": []
+    "faqs": [],
+    "contacts": [
+      {
+        "name": "Siddhi Randive",
+        "phone": "8087971272"
+      },
+      {
+        "name": "Srujana",
+        "phone": "9370942875"
+      }
+    ]
   },
 
 
@@ -1376,7 +1480,17 @@
       "map": ""
     },
     "sponsors": [],
-    "faqs": []
+    "faqs": [],
+    "contacts": [
+      {
+        "name": "Varad Nakate",
+        "phone": "8767451415"
+      },
+      {
+        "name": "Mahek Golandaj",
+        "phone": "9049401178"
+      }
+    ]
   },
 
   {
@@ -1503,7 +1617,17 @@
       "map": ""
     },
     "sponsors": [],
-    "faqs": []
+    "faqs": [],
+    "contacts": [
+      {
+        "name": "Soham Patil",
+        "phone": "7559165938"
+      },
+      {
+        "name": "Prajyot Patil",
+        "phone": "9322802595"
+      }
+    ]
   },
 
   {
@@ -1585,7 +1709,17 @@
       "map": ""
     },
     "sponsors": [],
-    "faqs": []
+    "faqs": [],
+    "contacts": [
+      {
+        "name": "Abhishek Mandlik",
+        "phone": "7756957227"
+      },
+      {
+        "name": "Janhavi Shinde",
+        "phone": "8446440439"
+      }
+    ]
   },
   
 
@@ -1846,7 +1980,11 @@
       "map": ""
     },
     "sponsors": [],
-    "faqs": []
+    "faqs": [],
+    "contacts": [{
+      "name": "(Student Co-ordinator) Yash Sankpal",
+      "phone": "9359694885"
+    }]
   },
 
   {
@@ -1924,7 +2062,11 @@
       "map": ""
     },
     "sponsors": [],
-    "faqs": []
+    "faqs": [],
+    "contacts": [{
+    "name": "Gaurav Sutar",
+    "phone": "9766453562"
+  }]
   },
 
   {
@@ -2017,7 +2159,11 @@
       "map": ""
     },
     "sponsors": [],
-    "faqs": []
+    "faqs": [],
+    "contacts": [{
+      "name": "Vaidehi Jadhav",
+      "phone": "7559309320"
+    }]
   },
 
   {
