@@ -5,7 +5,7 @@ export default function EventDescription({eventName,eventDescription,eligiblePar
     <div className='px-5 md:px-40 py-10 min-h-screen flex flex-col items-center justify-center'> 
     <div className='my-8 md:my-16'>
         <h2 className="text-xl md:text-3xl font-bold text-center text-gray-800 mb-4 md:mb-8 fustat-heading ">What's <span className='gradient text-3xl md:text-5xl'>{eventName}</span> ?</h2>
-        <p className='manrope-paragraph text-justify text-sm md:text-base'>
+        <p className={`manrope-paragraph ${eventDescription?.trim().length < 20 ? 'text-center' : 'text-justify'} text-sm md:text-base`}>
         {eventDescription?.trim()
           ? eventDescription
           : "Description not available. Please contact the coordinators for more information."}

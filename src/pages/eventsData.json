@@ -1771,13 +1771,13 @@
 
   {
     "eventName": "Blender Workshop",
-    "eventDescription": "The Blender 3D Modeling Workshop & Competition is a hands-on learning experience designed to teach participants the fundamentals of 3D modeling, texturing, lighting, and basic animation using Blender, an industry-standard, open-source 3D software. Ideal for beginners and intermediate learners, the workshop helps unlock creative potential while providing practical skills applicable to game development, animation, product design, and more. Participants will not only build their portfolios but also compete to showcase their talent, win prizes, and receive certificates, all while networking with like-minded creatives and learning from experienced mentors.",
+    "eventDescription": "DAY 1\nWorkshop\nThe Blender 3D Modeling Workshop & Competition is a hands-on learning experience designed to teach participants the fundamentals of 3D modeling, texturing, lighting, and basic animation using Blender, an industry-standard, open-source 3D software. Ideal for beginners and intermediate learners, the workshop helps unlock creative potential while providing practical skills applicable to game development, animation, product design, and more. Participants will not only build their portfolios but also compete to showcase their talent, win prizes, and receive certificates, all while networking with like-minded creatives and learning from experienced mentors.\n\nDAY 2\nCompetition:\nThere will be a surprise competition at the end of the workshop based on the modules covered, so make sure to pay close attention.\n",
     "hostDepartment": "TECHL",
     "eventDay": "3",
     "startTime": "10:00 AM",
     "endTime": "4:00 PM",
-    "venue": "CSE Building Labs",
-    "eligibleParticipants": "All students from any department.",
+    "venue": "CSE Building Lab [2,3,5,6] D. Y.  Patil College of Engineering & Technology (DYPCET), Kolhapur",
+    "eligibleParticipants": "Open to all students of any department or year",
     "singleEntryFee": "100",
     "groupEntryFee": "",
     "prizeMoney": {
@@ -1785,34 +1785,50 @@
       "second": "2000",
       "third": "1000"
     },
-    "rulesAndRegulations": [
+   "rulesAndRegulations": [
       {
-        "title": "Punctuality",
-        "description": "All participants must report on time. Late entries may be disqualified."
+        "title": "Mandatory Attendance:",
+        "description": "Participants must attend the full two-day workshop to be eligible for the surprise competition and to receive the participation certificate."
       },
       {
-        "title": "Mandatory Equipment",
-        "description": "Participants must bring their own laptops (with Blender 3.6+ installed) and a mouse."
+        "title": "Punctuality:",
+        "description": "All participants must report on time. Late entries may lead to disqualification from the competition."
       },
       {
-        "title": "Original Work",
-        "description": "All models must be created during the competition. Pre-made assets are not allowed unless provided by organizers."
+        "title": "Mandatory Equipment:",
+        "description": "Each participant must bring their own laptop (with Blender version 3.6 or above installed) and a functional mouse. Sharing of equipment is not allowed."
       },
       {
-        "title": "Respect & Conduct",
-        "description": "Maintain a respectful and collaborative environment. Misconduct may lead to disqualification."
+        "title": "Original Work:",
+        "description": "All 3D models must be created during the competition hours. The use of pre-made assets or previously created work is strictly prohibited unless specifically provided by the organizers."
       },
       {
-        "title": "Attendance",
-        "description": "Full attendance is mandatory on both days to receive a participation certificate."
+        "title": "Respect & Conduct:",
+        "description": "Participants must maintain a respectful and collaborative environment throughout the event. Any form of misconduct or disturbance will lead to immediate disqualification"
       },
       {
-        "title": "Competition Rules",
-        "description": "Theme Disclosure: The competition theme will be revealed at the start. Projects must strictly align with the theme. Time Limit: The final 3D model and render must be submitted by the designated deadline (01:00 PM). No External Help: Collaboration or use of internet tutorials during competition hours is not allowed. Submission Format: Final submission must include the .blend file and a rendered image (preferably PNG or JPEG)"
+        "title": "Module-Based Challenge: [Surprise Competition Rules]",
+        "description": "A surprise competition will be held at the end of the workshop based on the concepts covered during the sessions. Participants should be well-versed with all modules."
+      },
+      {
+        "title": "Theme Disclosure  [Surprise Competition Rules]",
+        "description": "The competition theme will be announced at the beginning of the challenge. Submissions must align strictly with the revealed theme."
+      },
+      {
+        "title": "Time Limit [Surprise Competition Rules]:",
+        "description": "Participants must submit both the final 3D model and the rendered output before the deadline (01:30 PM)."
+      },
+      {
+        "title": "No External Help  [Surprise Competition Rules]:",
+        "description": "Use of internet tutorials, mobile phones, or assistance from others during the competition is not allowed."
+      },
+      {
+        "title": "Submission Format  [Surprise Competition Rules]:",
+        "description": "The final submission must include the .blend file along with a rendered image in PNG or JPEG format."
       },
       {
         "title": "Judging Criteria",
-        "description": "Creativity & Concept (30%). Technical Execution (30%). Aesthetic & Detailing (20%). Presentation/Render Quality (20%). Judges' Decision: The decision of the jury will be final and binding."
+        "description": "1) Creativity & Concept – 30%. 2)Technical Execution – 30%. 3) Aesthetic & Detailing – 20%. 4) Presentation / Render Quality – 20%. 5) Judges' Decision: The decision made by the judging panel will be final and binding."
       }
     ],
     "eventRounds": [],
@@ -1823,7 +1839,9 @@
       "endDate": "23 April 2025"
     },
     "others": {
-      "warnings": [],
+      "warnings": [
+        "Be prepared—your learning will be tested in the most creative way!"
+      ],
       "images": [],
       "map": ""
     },
