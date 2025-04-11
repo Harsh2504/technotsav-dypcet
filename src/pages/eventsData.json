@@ -487,7 +487,7 @@
 
   {
     "eventName": "Unsinkable Designs",
-    "eventDescription": "Unsinkable Designs: The Floating Challenge\nThis competition is an exciting and innovative competition that invites participants to push the boundaries of design, engineering, and creativity in the world of buoyancy.\n\nDive into the future of architecture with The Floating Challenge, a unique interdisciplinary design competition where creativity meets engineering! This event invites students from all departments to collaborate and push the boundaries of innovation by designing and constructing floating structures — from houseboats to mini floating cities.\nParticipants will apply their technical skills and design sensibilities to create waterproof, buoyant structures capable of maintaining stability on water. The challenge is not just about floating — it's about redefining liveable spaces on water.\nDuring the final test, all models will be placed in water to assess buoyancy, stability, and structural integrity under real conditions. Teams are encouraged to explore sustainable and waterproof materials, drawing inspiration from modern amphibious architecture and marine engineering.\nWhether you're building a floating pavilion or a futuristic water home, this challenge is your platform to innovate, collaborate, and make a splash!\nKey Character:\nTeamwork: Teams can have up to 4 members, and individual participation is allowed.\nDesign Requirements: The design should be capable of floating on water. The or structure should be designed to support a minimum weight.\nSubmission format: A video demonstration or explanation of the design process, making of the structure for scratch as well as a description of the materials and methods used, must accompany the submission.\nModel Size Limitation:\nThe useable area is 10.00 Sq.m. \nThe size of water tank in diameter is 1.14m and depth 0.25m. Model should float easily in the water tank.\nTeams may choose any shape or configuration (e.g., rectangular, modular, circular) within the size limit.\nThere is no fixed height restriction, but the structure must remain balanced, safe, and buoyant during testing.\nModels that exceed the allowed size may be disqualified \n",
+    "eventDescription": "Participants will apply their technical skills and design sensibilities to create waterproof, buoyant structures capable of maintaining stability on water. The challenge is not just about floating — it's about redefining liveable spaces on water.\nDuring the final test, all models will be placed in water to assess buoyancy, stability, and structural integrity under real conditions. Teams are encouraged to explore sustainable and waterproof materials, drawing inspiration from modern amphibious architecture and marine engineering.\n",
     "hostDepartment": "ARCH",
     "eventDay": "1",
     "startTime": "10:00 AM",
@@ -503,8 +503,16 @@
     },
     "rulesAndRegulations": [
       {
+        "title": "Key Character",
+        "description": " Design Requirements: The design should be capable of floating on water, The structure should be designed to support a minimum weight. Submission format: A video demonstration or explanation of the design process, making of the structure for scratch as well as a description of the materials and methods used, must accompany the submission."
+      },
+      {
+        "title": "Model Size Limitation",
+        "description": "The useable area is 10.00 Sq.m. The size of water tank in diameter is 1.14m and depth 0.25m, Model should float easily in the water tank. Teams may choose any shape or configuration (eg, rectangular, modular, circular) within the size limit. There is no fixed height restriction, but the structure must remain balanced, safe, and buoyant during testing. Models that exceed the allowed size may be disqualified."
+      },
+      {
         "title": "",
-        "description": "All Participants must remain present at the place of competition, 30 min. before starting of event. Late participants will not be allowed to participate."
+        "description": "All Participants must remain present at the place of competition, 30 min before starting of event. Late participants will not be allowed to participate."
       },
       {
         "title": "",
@@ -516,7 +524,7 @@
       },
       {
         "title": "",
-        "description": "Models must be self-sustaining — no external support or hidden flotation is allowed."
+        "description": " Models must be self-sustaining — no external support or hidden flotation is allowed."
       },
       {
         "title": "",
@@ -528,15 +536,11 @@
       },
       {
         "title": "",
-        "description": "Participants are free to use any materials of their choice, though the design must be safe and environmentally friendly.  "
+        "description": "Participants are free to use any materials of their choice, though the design must be safe and environmentally friendly. "
       },
       {
-        "title": "",
-        "description": "If any participant is found doing wrong practices, he/she will be disqualified from the event."
-      },
-      {
-        "title": "",
-        "description": "The organizing team is not responsible for any loss or damage to personal materials"
+        "title": "SUGGESTION",
+        "description": "Keep weight low — heavier structures are harder to keep afloat Use sealed or closed-cell materials to prevent water absorption. Prioritize eco-friendly or recyclable materials where possible. Reinforce joints and corners with hot glue, zip ties, or waterproof tape. If any participant is found doing wrong practices, he/she will be disqualified from the event. The organizing team is not responsible for any loss or damage to personal materials."
       }
     ],
     "eventRounds": [],
@@ -547,9 +551,7 @@
       "endDate": "23 April 2025"
     },
     "others": {
-      "warnings": [
-        "SUGGESTION: Keep weight low — heavier structures are harder to keep afloat Use sealed or closed-cell materials to prevent water absorption. Prioritize eco-friendly or recyclable materials where possible. Reinforce joints and corners with hot glue, zip ties, or waterproof tape."
-      ],
+      "warnings": [],
       "images": [],
       "map": ""
     },
@@ -559,8 +561,7 @@
 
   {
     "eventName": "Design Relay",
-    "eventDescription": "A Design Relay is a collaborative and competitive design challenge where teams of designers work together to complete a series of design tasks, often with a specific theme or objective.  \n\nTopic: The topic will be declared on the day of the competition.\n\nMaterial Requirement:\nParticipants are free to use any type of presentation technique, manual/digital (ppt, photoshop, SketchUp, etc.)\nTeams must compile all their design contents together and create a digital sheet presentation on A2 size.\nParticipants are requested to bring their own materials required for this competition.\n\n\nKey Characteristics:\n1.   Teamwork: Designers work in teams, usually 3-4 members.\n2.   Time-sensitive: Teams have a limited amount of time (e.g., 60-90 minutes) to complete each design task.\n3.   Sequential challenges: Teams participate in a series of design challenges, each building upon the previous one.\n4.   Collaborative problem-solving: Team members work together to brainstorm, sketch, and refine their designs\n\n",
-    "hostDepartment": "ARCH",
+    "eventDescription": "A Design Relay is a collaborative and competitive design challenge where teams of designers work together to complete a series of design tasks, often with a specific theme or objective. ",    "hostDepartment": "ARCH",
     "eventDay": "1",
     "startTime": "10:00 AM",
     "endTime": "12:30 PM",
@@ -574,6 +575,14 @@
       "third": "1000"
     },
     "rulesAndRegulations": [
+      {
+        "title": "Material Requirement",
+        "description": "Participants are free to use any type of presentation technique, manual/digital (ppt, photoshop, SketchUp, etc.)  Teams must compile all their design contents together and create a digital sheet presentation on A2 size. Participants are requested to bring their own materials required for this competition."
+      },
+      {
+        "title": "Key Characteristics",
+        "description": "Time-sensitive: Teams have a limited amount of time (e.g., 60-90 minutes) to complete each design task. Sequential challenges: Teams participate in a series of design challenges, each building upon the previous one. Collaborative problem-solving: Team members work together to brainstorm, sketch, and refine their designs"
+      },
       {
         "title": "",
         "description": "Team should consist of minimum 3 and 4 maximum members."
@@ -600,7 +609,7 @@
       },
       {
         "title": "",
-        "description": "Any use of plagiarized content, designs, or ideas will result in disqualification."
+        "description": " Any use of plagiarized content, designs, or ideas will result in disqualification."
       },
       {
         "title": "",
@@ -612,7 +621,7 @@
       },
       {
         "title": "",
-        "description": "No late or on spot entries will be entertained. "
+        "description": "  No late or on spot entries will be entertained"
       }
     ],
     "eventRounds": [],
@@ -633,8 +642,8 @@
 
   {
     "eventName": "Quiz Battle",
-    "eventDescription": "This competition is designed to challenge participants' critical thinking and problem-solving skills while encouraging them to delve deeper into various aspects. This competition aims to inspire creativity and innovation in the field by presenting participants with questions and scenarios that require both technical knowledge and out-of-the-box thinking.\n\nThe competition will be conducted in teams, with each team consisting of 2 members. Teams will compete through multiple rounds, each focusing on different facets of engineering. These rounds will test participants' ability to apply theoretical knowledge to practical scenarios, push their creative boundaries, and collaborate effectively under time constraints.",
-    "hostDepartment": "ARCH",
+    "eventDescription": "The competition will be conducted in teams, with each team consisting of 2 members. Teams will compete through multiple rounds, each focusing on different facets of engineering. These rounds will test participants' ability to apply theoretical knowledge to practical scenarios, push their creative boundaries, and collaborate effectively under time constraints.\n",
+  "hostDepartment": "ARCH",
     "eventDay": "1",
     "startTime": "10:00 AM",
     "endTime": "01:00 PM",
@@ -647,14 +656,18 @@
       "second": "2000",
       "third": "1000"
     },
-    "rulesAndRegulations": [
+   "rulesAndRegulations": [
       {
-        "title": "",
-        "description": "All Participants must remain present at the place of competition, 30 min. before starting of event. Late participants will not be allowed to participate."
+        "title": "REGISTRATION",
+        "description": "Each team must register using the Google Form. Registration entries are allowed only till 22nd April,2025, 12:00 noon. No on spot entries are allowed."
       },
       {
         "title": "",
-        "description": "Each group must consist of only two members. Students can collaborate across departments and participate in pairs for the competition. "
+        "description": " All Participants must remain present at the place of competition, 30 min. before starting of event. Late participants will not be allowed to participate."
+      },
+      {
+        "title": "",
+        "description": "Each group must consist of only two members. Students can collaborate across departments and participate in pairs for the competition."
       },
       {
         "title": "",
@@ -673,7 +686,23 @@
         "description": "Registration will be open till 22nd April 2025 till 12.00 noon."
       }
     ],
-    "eventRounds": [],
+    "eventRounds": [
+      {
+        "title": "Round 1 General Knowledge",
+        "description": "In Round 1 will have Multiple Choice Questions (MCQs), results will be scored based on the accuracy of answers. In this round the lowest scorer/ team will be eliminated.",
+        "startTime": ""
+      },
+      {
+        "title": "Round 2 Visual Round/ Scenario-Based Questions",
+        "description": "Teams will be presented with a real-world engineering challenge or problem",
+        "startTime": ""
+      },
+      {
+        "title": "Round 3 (FINAL) Rapid Fire (Head to Head)",
+        "description": "The final round is a one-on-one battle between the top teams.",
+        "startTime": ""
+      }
+    ],
     "registration": {
       "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLScZ-JrXi4hygMN3bkfwH2Vuk7StStZEO8z-CdYXf0NXewkyjQ/viewform",
       "qrLink": "",
