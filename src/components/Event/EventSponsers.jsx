@@ -13,7 +13,7 @@ return (
             {sponsors.map((sponsor, index) => (
                 <div
                     key={index}
-                    className="border border-gray-200  w-60 h-60  flex flex-col justify-center items-center rounded-2xl p-5 shadow-sm hover:shadow-md transition-all duration-300 bg-white"
+                    className="border border-gray-200 w-60 h-60  flex flex-col justify-center items-center rounded-2xl p-5 shadow-sm hover:shadow-md transition-all duration-300 bg-white"
                 >
                     <img
                         src={sponsor.logo}

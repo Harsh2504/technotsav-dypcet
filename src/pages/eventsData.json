@@ -115,6 +115,18 @@
             "answer":
             "Yes, lunch and refreshments will be provided to all participants."
         }
+    ],
+    "contacts": [
+      {
+        "role": "Faculty Coordinator",
+        "name": "Ar. Tillottama Padale",
+        "phone": "8446301000"
+      },
+      {
+        "role": "Student Coordinator",
+        "name": "Mr. Shivtej Shingade",
+        "phone": "9172927497"
+    }
     ]
   },
   

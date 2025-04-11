@@ -12,6 +12,7 @@ import EventDescription from "../components/Event/EventDescription";
 import EventTimeline from "../components/Event/EventTimeLine";
 import { HiChevronLeft } from "react-icons/hi";
 import eventsDataPool from "./eventsData.json";
+import EventContacts from "../components/Event/EventContacts";
 
 const EventPage = ({ department }) => {
   const registrationRef = useRef(null);
@@ -86,6 +87,7 @@ const EventPage = ({ department }) => {
       <EventOther {...eventData.others} />
       <EventSponsers sponsors={eventData.sponsors} />
       <EventFAQ faqs={eventData.faqs} />
+      <EventContacts contacts={eventData.contacts} />
     </div>
   );
 };
