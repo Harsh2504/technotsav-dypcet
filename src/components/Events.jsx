@@ -220,7 +220,7 @@ const Events = () => {
     
       {
         arch: {
-          name: 'School of Architecture Engineering',
+          name: 'School of Architecture',
           events: [
             {
               title: 'Unsinkable Designs',

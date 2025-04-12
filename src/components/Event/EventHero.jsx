@@ -5,7 +5,7 @@ export default function EventHero({eventName,eventDescription, hostDepartment, e
   const departmentFullName = {
     cse: "Department of Computer Science and Engineering",
     aiml: "Department of Artificial Intelligence and Machine Learning",
-    arch: "Department of Architecture",
+    arch: "School of Architecture",
     chem: "Department of Chemical Engineering",
     civil: "Department of Civil Engineering",
     "e&tc": "Department of Electronics and Telecommunication Engineering",
