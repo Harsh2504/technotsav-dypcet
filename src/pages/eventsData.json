@@ -1289,10 +1289,10 @@
     "eventDay": "1",
     "startTime": "9:30 PM",
     "endTime": "3:30 PM",
-    "venue": "New Building including Labs, cabins",
+    "venue": "CSE Building Classroom No. 304",
     "eligibleParticipants": "First year to Final Year Students.",
     "singleEntryFee": "",
-    "groupEntryFee": "400",
+    "groupEntryFee": "400 (Team of 4)",
     "prizeMoney": {
       "first": "3000",
       "second": "2000",
@@ -1301,7 +1301,7 @@
     "rulesAndRegulations": [
       {
         "title": "Mandatory Attendance",
-        "description": "All participants must report on time and attend the entire event from start to end (9:30 AM to 3:30 PM). Late entries or early exits may lead to disqualification."
+        "description": "All participants must report on time and attend the entire event from start to end (9:00 AM to 3:30 PM). Late entries or early exits may lead to disqualification."
       },
       {
         "title": "Group Participation Etiquette",
@@ -1354,7 +1354,7 @@
     "eligibleParticipants": "Open to all Students of any Department or Year. ** (NOTE: Form Team 4 members.).**",
 
     "singleEntryFee": "",
-    "groupEntryFee": "400",
+    "groupEntryFee": "400 (Team of 4)",
     "prizeMoney": {
       "first": "3000",
       "second": "2000",
