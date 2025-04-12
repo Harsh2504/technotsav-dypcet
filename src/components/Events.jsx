@@ -138,21 +138,21 @@ const Events = () => {
             {
               title: 'Android App Development Competition',
               description: 'A competitive showcase of innovative Android applications designed and developed by participants.',
-              logo: 'https://media.discordapp.net/attachments/1359769171042242570/1360053329438441614/pngegg.png?ex=67f9b7de&is=67f8665e&hm=d06130b1a094e34a278436bcbb8d6b751b82a572a1117f1ae0ded867583767fb&=&format=webp&quality=lossless&width=320&height=320',
+              logo: 'https://res.cloudinary.com/dan454ywo/image/upload/v1744450173/79c0def4-2d23-434e-ad60-acbde22f65de.png',
               formLink: 'https://forms.gle/ZDk7saKFrxWFt9o5A',
               route: '/events/cse/android-app-development-competition',
             },
             {
               title: 'Infinity Hunt',
               description: 'Treasure hunt style event filled with puzzles, coding challenges, and mystery trails.',
-              logo: 'https://media.discordapp.net/attachments/1359769171042242570/1360054631870496798/infinity.png?ex=67f9b914&is=67f86794&hm=e482c63118aab4567cef6823265e65ac6484102bbd4fb941b312429a31b8f3a6&=&format=webp&quality=lossless&width=640&height=640',
+              logo: 'https://res.cloudinary.com/dan454ywo/image/upload/v1744450240/438b75e7-d25b-481f-acd9-18bf88df4c19.png',
               formLink: 'https://forms.gle/rPEdVgzPxxiLNcJ68',
               route: '/events/cse/infinity-hunt',
             },
             {
               title: 'Code Sprint',
               description: 'Relay-style team coding competition involving debugging, problem-solving, and fast-paced challenges.',
-              logo: 'https://media.discordapp.net/attachments/1359769171042242570/1360055317706309722/code.png?ex=67f9b9b8&is=67f86838&hm=c0d2fd6237f8aed6db4b020a97c06efc0e2780c06dc3c398fc04b977e20ce857&=&format=webp&quality=lossless&width=640&height=640',
+              logo: 'https://res.cloudinary.com/dan454ywo/image/upload/v1744450255/5247065c-0cd0-4100-8038-47034cba2695.png',
               formLink: 'https://forms.gle/vPCGzVFZdjiAcMAx5',
               route: '/events/cse/code-sprint',
             },
@@ -181,7 +181,7 @@ const Events = () => {
             {
               title: 'Drone Competition',
               description: 'Show off your drone piloting and innovation in this aerial challenge aimed at societal impact.',
-              logo: 'https://media.discordapp.net/attachments/1359769171042242570/1360056457101574204/drone.png?ex=67f9bac8&is=67f86948&hm=e706c6c67c7245b13e4dd4248b601bf236de1580f42b2195091a7b1263f3aef3&=&format=webp&quality=lossless&width=640&height=640',
+              logo: 'https://res.cloudinary.com/dan454ywo/image/upload/v1744450346/9912a00c-6cc8-400c-96c3-7720898c0763.png',
               formLink: 'https://forms.gle/uGh83F49w3MmtauN9',
               route: '/events/e&tc/drone-competition',
             },
