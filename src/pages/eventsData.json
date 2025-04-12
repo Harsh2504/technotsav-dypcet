@@ -391,8 +391,8 @@
     "venue": "DY Patil College of Engineering & Technology (DYPCET), Kolhapur, (NOTE: Block/Room details will be shared before the event)",
     "eligibleParticipants": "Students from Diploma and Undergraduate (UG) programs are eligible to participate.",
 
-    "singleEntryFee": "100",
-    "groupEntryFee": "",
+    "singleEntryFee": "",
+    "groupEntryFee": "200",
     "prizeMoney": {
       "first": "3000",
       "second": "2000",
@@ -424,8 +424,8 @@
     "registration": {
       "registrationFormLink": "https://forms.gle/yQ5BjzBSBhvN1yz37",
       "qrLink": "https://res.cloudinary.com/dan454ywo/image/upload/v1744402158/d32fd727-7eb7-4ea2-9d13-3d89a9516bd4.png",
-      "startDate": "23 April 2025",
-      "endDate": "11 April 2025"
+      "startDate": "11 April 2025",
+      "endDate": "23 April 2025"
     },
     "others": {
       "warnings": [],
@@ -762,7 +762,7 @@
       "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLScZ-JrXi4hygMN3bkfwH2Vuk7StStZEO8z-CdYXf0NXewkyjQ/viewform",
       "qrLink": "https://res.cloudinary.com/dan454ywo/image/upload/v1744403548/a3f01578-c723-4d37-9383-f28b9b6b5b38.png",
       "startDate": "11 April 2025",
-      "endDate": "23 April 2025"
+      "endDate": "22 April 2025 (12 PM)"
     },
     "others": {
       "warnings": [],
@@ -1209,8 +1209,8 @@
     "faqs": [],
     "contacts": [
       {
-        "role": "Student Coordinator",
-        "name": "Unknown",
+        "role": "Faculty Coordinator",
+        "name": "Mr. A. R. Patil",
         "phone": "9890908666"
       },
       {
@@ -1291,7 +1291,7 @@
     "endTime": "3:30 PM",
     "venue": "New Building including Labs, cabins",
     "eligibleParticipants": "First year to Final Year Students.",
-    "singleEntryFee": "100",
+    "singleEntryFee": "",
     "groupEntryFee": "400",
     "prizeMoney": {
       "first": "3000",
@@ -1353,8 +1353,8 @@
     "venue": "New Building ",
     "eligibleParticipants": "Open to all Students of any Department or Year. ** (NOTE: Form Team 4 members.).**",
 
-    "singleEntryFee": "100",
-    "groupEntryFee": "200 (2P) - 400 (4P)",
+    "singleEntryFee": "",
+    "groupEntryFee": "400",
     "prizeMoney": {
       "first": "3000",
       "second": "2000",
@@ -2185,8 +2185,8 @@
       },
       {
         "title": "Submission Round",
-        "description": "Participants can shoot from 9:00 AM to 12:00 PM (approx) SUBMISSION: Drive link will be open from 12:30PM to 1:00PM Reels uploaded after 1:00PM will not be considered. Instagram bonus(optional): participants can post their edited reel on their instagram handle, this will give them bonus points. Winning reels will be showcased during the closing ceremony",
-        "startTime": "9:00 AM"
+        "description": "Participants can shoot from 9:00 AM to 12:00 PM (approx) SUBMISSION: Drive link will be open from 12:30PM to 1:00PM Reels uploaded after 1:00PM will not be considered. Instagram bonus(optional): participants can post their edited reel on their instagram handle, this will give them bonus points.",
+        "startTime": "1:00 PM"
       }
     ],
     "registration": {

@@ -125,6 +125,7 @@ return (
                         <div className={eventRounds.length % 2 === 0 ? "timeline-end mb-5 md:mb-10 md:text-start manrope-paragraph text-black/70" : "timeline-start mb-10 md:text-end manrope-paragraph text-black/70 " }>
                         <time className="font-mono italic text-black">{eventDay == 1 ? "24th April, 2025" : "25th April, 2025"}</time>
                         <div className="text-lg font-black fustat-heading text-black">End of Event</div>
+                                
                         The event will conclude with a closing ceremony, followed by the prize distribution. Make sure to stay till the end to celebrate the winners and capture some unforgettable moments!
                         </div>
                     </li>
