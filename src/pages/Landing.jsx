@@ -72,7 +72,7 @@ export default function Landing() {
         <p className="absolute text-5xl top-76 md:top-75 md:text-9xl font-bold text-transparent opacity-90 bg-clip-text bg-gradient-to-r from-[#cccee9] via-[#92adfa] to-[#99fffd] spacecrusaders-heading text-center">
           Technotsav 2K25
         </p>
-        <p className="absolute bottom-84 md:bottom-68 text-center md:right-42 text-xl md:text-2xl font-bold text-white/80 fustat-heading">
+        <p className="absolute top-102 md:top-106 text-center md:right-42 text-xl md:text-2xl font-bold text-white/80 fustat-heading">
             24th & 25th April  
         </p>
 
