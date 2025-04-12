@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function EventTimeLine({eventRounds,registration,eventDay}) {
+export default function EventTimeLine({eventName, eventRounds,registration,eventDay}) {
 return (
     <div className='px-5 md:px-40 py-5 md:py-10 min-h-screen'>
 
@@ -124,9 +124,13 @@ return (
                         </div>
                         <div className={eventRounds.length % 2 === 0 ? "timeline-end mb-5 md:mb-10 md:text-start manrope-paragraph text-black/70" : "timeline-start mb-10 md:text-end manrope-paragraph text-black/70 " }>
                         <time className="font-mono italic text-black">{eventDay == 1 ? "24th April, 2025" : "25th April, 2025"}</time>
-                        <div className="text-lg font-black fustat-heading text-black">End of Event</div>
-                                
-                        The event will conclude with a closing ceremony, followed by the prize distribution. Make sure to stay till the end to celebrate the winners and capture some unforgettable moments!
+                        <div className="text-lg font-black fustat-heading text-black">End of Event</div>      
+                        {eventName== "Reel Rumble" ? "The event will conclude with an exciting closing ceremony, where the winning reels will be highlighted and the prize distribution will take place. Don’t miss the chance to celebrate the champions and capture unforgettable moments!"
+                        : "The event will conclude with a closing ceremony, followed by the prize distribution. Make sure to stay till the end to celebrate the winners and capture some unforgettable moments!"}
+
+                        
+                        
+
                         </div>
                     </li>
             </ul>

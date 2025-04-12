@@ -22,7 +22,7 @@ const EventRegisteration = ({
                 </div>
 
                 <div className="flex flex-col md:flex-row justify-around gap-6">
-                    <div className="flex flex-col justify-center gap-10 text-center ">
+                    <div className="flex flex-col justify-center gap-10 text-center">
                        
                        {singleEntryFee ?
                         <div className="flex flex-col items-center">

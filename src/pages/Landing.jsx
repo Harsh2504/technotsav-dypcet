@@ -66,14 +66,18 @@ export default function Landing() {
             zIndex: "-1",
           }}
         ></div>
-        <p className="absolute top-78 md:top-70 text-center md:left-42 text-2xl md:text-4xl font-bold text-white/50 fustat-heading">
+        <p className="absolute top-70 md:top-71 text-center md:left-42 text-2xl md:text-4xl font-bold text-white/50 fustat-heading">
           DYPCET
         </p>
-        <p className="absolute text-5xl md:text-9xl font-bold text-transparent opacity-90 bg-clip-text bg-gradient-to-r from-[#cccee9] via-[#92adfa] to-[#99fffd] spacecrusaders-heading text-center">
+        <p className="absolute text-5xl top-76 md:top-75 md:text-9xl font-bold text-transparent opacity-90 bg-clip-text bg-gradient-to-r from-[#cccee9] via-[#92adfa] to-[#99fffd] spacecrusaders-heading text-center">
           Technotsav 2K25
         </p>
+        <p className="absolute bottom-84 md:bottom-68 text-center md:right-42 text-xl md:text-2xl font-bold text-white/80 fustat-heading">
+            24th & 25th April  
+        </p>
+
         {/* Buttons */}
-        <div className="absolute bottom-50 left-1/2 transform -translate-x-1/2 flex gap-3 flex-col md:flex-row items-center justify-center">
+        <div className="absolute bottom-45 md:bottom-50 left-1/2 transform -translate-x-1/2 flex gap-3 flex-col md:flex-row items-center justify-center">
           {/* <button
             onClick={handleViewPoster}
             className="border-2 text-white w-40 md:w-40 hidden md:block hover:border-[#365b9e] transition-all ease-in-out hover:bg-gradient-to-b from-[#30538e] to-[#5c89ff] rounded-xl px-4 py-3 font-bold fustat-heading active:scale-95"
