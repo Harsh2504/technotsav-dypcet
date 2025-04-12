@@ -79,9 +79,13 @@ const EventCard = ({ dept }) => {
           <div className="relative w-full min-h-[6rem] flex items-center justify-center">
             {/* Logo */}
             <img
-          src={dept.logo}
-          alt={dept.title}
-          className="absolute w-32 h-32 scale-110 opacity-0 object-contain transition-opacity duration-300 group-hover:opacity-0 md:opacity-100"
+              src={dept.logo}
+              alt={dept.title}
+              onError={(e) => {
+                e.target.onerror = null; // Prevent infinite loop in case fallback also fails
+                e.target.src = "https://cdn.pixabay.com/photo/2022/07/22/12/21/atom-7337993_1280.png";
+              }}
+              className="absolute w-32 h-32 scale-110 opacity-0 object-contain transition-opacity duration-300 group-hover:opacity-0 md:opacity-100"
             />
 
             {/* Description */}

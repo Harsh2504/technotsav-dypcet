@@ -73,7 +73,7 @@ return (
                 </div>
                 <div className="timeline-start mb-5 md:mb-10 md:text-end manrope-paragraph text-black/70">
                     <time className="font-mono italic text-black">
-                        {eventDay === 1 ? "24th April, 2025" : eventDay === 2 ? "25th April, 2025" : "24th & 25th April, 2025"}
+                        {eventDay == 1 ? "24th April, 2025" : eventDay == 2 ? "25th April, 2025" : "24th & 25th April, 2025"}
                     </time>
                     <div className="text-lg font-black fustat-heading text-black">Day of Event</div>
                     The big day is here — get ready to dive into a world of innovation and thrill. Be prepared and make sure to reach the venue on time to experience the action from the very start!

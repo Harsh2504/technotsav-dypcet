@@ -13,21 +13,21 @@ const Events = () => {
             {
               title: 'Technical Paper Presentation',
               description: 'Present your innovative research and technical papers across futuristic engineering domains including AI, Robotics, Cybersecurity, and more....',
-              logo: 'https://cdn.pixabay.com/photo/2022/07/22/12/21/atom-7337993_1280.png', // replace with actual logo path if available
+              logo: 'https://res.cloudinary.com/dan454ywo/image/upload/v1744451119/presentation_ugx3d7.png', // replace with actual logo path if available
               formLink: 'https://forms.gle/LETfKW8fReEtLX4D8',
               route: '/events/techl/technical-paper-presentation',
             },
             {
               title: 'IPL Auction',
               description: 'Form your Dream11 team by bidding on your favorite players with a ₹100 crore purse in this intense and strategic auction competition, preceded by a thrilling IPL quiz.',
-              logo: 'https://cdn.pixabay.com/photo/2022/07/22/12/21/atom-7337993_1280.png',
+              logo: 'https://res.cloudinary.com/dan454ywo/image/upload/v1744452010/auction_qibld4.png',
               formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfyYVfahF4HxNZc7Zn6KXUch6lsJ4yoabYTJMSvKOSEhrkbsw/viewform?usp=header',
               route: '/events/techl/ipl-auction',
             },
             {
               title: 'Blender 3d Modelling Workshop',
               description: 'A hands-on workshop and competition on 3D modeling, texturing, lighting, and animation using Blender. Ideal for beginners & intermediate learners looking to boost their creative portfolio.',
-              logo: 'https://cdn.pixabay.com/photo/2022/07/22/12/21/atom-7337993_1280.png',
+              logo: 'https://res.cloudinary.com/dan454ywo/image/upload/v1744452324/blender-1_utioj7.svg',
               formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSe2WhpUEoNHftkvDg6wx7bfIZSjg1TKrsoqSmgmr2yZQFtBOw/viewform?usp=header',
               route: '/events/techl/blender-3d-modelling-workshop',
             },
@@ -35,7 +35,7 @@ const Events = () => {
             {
               title: 'Reel Rumble',
               description: 'A solo reel-making contest capturing the essence of Technotsav over two days. Shoot, edit, and submit a 90-second reel to showcase your creativity and content creation skills.',
-              logo: 'https://cdn.pixabay.com/photo/2022/07/22/12/21/atom-7337993_1280.png',
+              logo: 'https://res.cloudinary.com/dan454ywo/image/upload/v1744454061/reel_lzxlsl.png',
               formLink: '', // No separate form link provided, uses coordinator submission
               route: '/events/techl/reel-rumble',
             },
@@ -51,21 +51,21 @@ const Events = () => {
             {
               title: 'Launch Pad',
               description: 'Pitch your product or idea to expert judges.',
-              logo: 'https://cdn.pixabay.com/photo/2022/07/22/12/21/atom-7337993_1280.png',
+              logo: 'https://res.cloudinary.com/dan454ywo/image/upload/v1744453075/idea_zqzqjf.png',
               formLink: 'https://forms.gle/6KGSfg5h1kAXaknu6',
               route: '/events/aiml/launch-pad'
             },
             {
               title: 'Poster Intelli Quest',
               description: 'Showcase AI ideas through engaging poster presentations.',
-              logo: 'https://cdn.pixabay.com/photo/2022/07/22/12/21/atom-7337993_1280.png',
+              logo: 'https://res.cloudinary.com/dan454ywo/image/upload/v1744453706/poster_1_ohvwx6.png',
               formLink: 'https://forms.gle/yQ5BjzBSBhvN1yz37',
               route: '/events/aiml/poster-intelli-quest'
             },
             {
               title: 'Dare to Battle 1.0',
               description: 'Esports event for BGMI and Free Fire enthusiasts.',
-              logo: 'https://cdn.pixabay.com/photo/2022/07/22/12/21/atom-7337993_1280.png',
+              logo: 'https://res.cloudinary.com/dan454ywo/image/upload/v1744453946/gamepad_chaeis.png',
               formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeFV3lT4fh_QSWSLjUxoQu47gNMp9KRZtIiTSC_YyBPtDhq0g/viewform?usp=sf_link',
               route: '/events/aiml/dare-to-battle'
             }
@@ -80,21 +80,21 @@ const Events = () => {
             {
               title: 'Project Competition',
               description: 'Showcase your innovative projects that contribute to chemical, biotech, pharma, or environmental fields for societal betterment.',
-              logo: 'https://cdn.pixabay.com/photo/2022/07/22/12/21/atom-7337993_1280.png',
+              logo: 'https://res.cloudinary.com/dan454ywo/image/upload/v1744456071/biotechnology_rvjzwn.png',
               formLink: 'https://forms.gle/wxoMCHkB9nDajgvr5',
               route: '/events/chem/project-competition',
             },
             {
               title: 'Product Development',
               description: 'Bring and present your innovative product with live samples and informative PPTs—aimed at solving real-world problems.',
-              logo: 'https://cdn.pixabay.com/photo/2022/07/22/12/21/atom-7337993_1280.png',
+              logo: 'https://res.cloudinary.com/dan454ywo/image/upload/v1744456189/problem-solving_z0jpco.png',
               formLink: 'https://forms.gle/wxoMCHkB9nDajgvr5',
               route: '/events/chem/product-development',
             },
             {
               title: 'Model Competition',
               description: 'Present experimental setups or working models with a 7-minute explanation and a 3-minute Q&A session.',
-              logo: 'https://cdn.pixabay.com/photo/2022/07/22/12/21/atom-7337993_1280.png',
+              logo: 'https://res.cloudinary.com/dan454ywo/image/upload/v1744456441/catalyst_yrvmkk.png',
               formLink: 'https://forms.gle/wxoMCHkB9nDajgvr5',
               route: '/events/chem/model-competition',
             },
@@ -109,21 +109,21 @@ const Events = () => {
             {
               title: 'Setu Bandha Re',
               description: 'Model bridges promote the study and application of engineering and help students develop “hands-on” skills...',
-              logo: 'https://cdn.pixabay.com/photo/2022/07/22/12/21/atom-7337993_1280.png',
+              logo: 'https://res.cloudinary.com/dan454ywo/image/upload/v1744454184/bridge_wfim6b.png',
               formLink: 'https://forms.gle/9SJMFgBoh7bCpcVEA',
               route: '/events/civil/setu-bandha-re',
             },
             {
               title: 'Cube Crush Challenge',
               description: 'Test your understanding of concrete mix design and aim to achieve 40 N/mm² strength in 7 days...',
-              logo: 'https://cdn.pixabay.com/photo/2022/07/22/12/21/atom-7337993_1280.png',
+              logo: 'https://res.cloudinary.com/dan454ywo/image/upload/v1744454508/wall_gruepw.png',
               formLink: 'https://forms.gle/9SJMFgBoh7bCpcVEA',
               route: '/events/civil/cube-crush-challenge',
             },
             {
               title: 'The Designer',
               description: 'Showcase your skills in CAD by solving real-world design problems using AutoCAD.',
-              logo: 'https://cdn.pixabay.com/photo/2022/07/22/12/21/atom-7337993_1280.png',
+              logo: 'https://res.cloudinary.com/dan454ywo/image/upload/v1744454705/technical-drawing_goc8xn.png',
               formLink: 'https://forms.gle/9SJMFgBoh7bCpcVEA',
               route: '/events/civil/the-designer',
             },
@@ -167,14 +167,14 @@ const Events = () => {
             {
               title: 'Project Competition',
               description: 'Display and present your electronics and telecom-related projects to win exciting prizes!',
-              logo: 'https://cdn.pixabay.com/photo/2022/07/22/12/21/atom-7337993_1280.png',
+              logo: 'https://res.cloudinary.com/dan454ywo/image/upload/v1744456573/circuit-board_xiti02.png',
               formLink: 'https://forms.gle/uGh83F49w3MmtauN9',
               route: '/events/e&tc/project-competition',
             },
             {
               title: 'Robo Soccer',
               description: 'Design and control robots to compete in a soccer match. Goals, tactics, and fun await!',
-              logo: 'https://cdn.pixabay.com/photo/2022/07/22/12/21/atom-7337993_1280.png',
+              logo: 'https://res.cloudinary.com/dan454ywo/image/upload/v1744454905/ball_ft1seg.png',
               formLink: 'https://forms.gle/uGh83F49w3MmtauN9',
               route: '/events/e&tc/robo-soccer',
             },
@@ -196,21 +196,21 @@ const Events = () => {
             {
               title: 'Robo Race',
               description: 'Race your custom-built bots on our technical track.',
-              logo: 'https://cdn.pixabay.com/photo/2022/07/22/12/21/atom-7337993_1280.png',
+              logo: 'https://res.cloudinary.com/dan454ywo/image/upload/v1744455191/race-track_oko1q1.png',
               formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSd_rZd84hAqKXISQynoi3ncQ3XSwo8-cVeeymwln7mrp3Q6Sw/viewform?usp=header',
               route: '/events/mech/robo-race',
             },
             {
               title: 'CAD Clash',
               description: 'National-level design competition for CAD software skills.',
-              logo: 'https://cdn.pixabay.com/photo/2022/07/22/12/21/atom-7337993_1280.png',
+              logo: 'https://res.cloudinary.com/dan454ywo/image/upload/v1744455366/lightning_pntnlg.png',
               formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSd_rZd84hAqKXISQynoi3ncQ3XSwo8-cVeeymwln7mrp3Q6Sw/viewform?usp=header',
               route: '/events/mech/cad-clash',
             },
             {
               title: 'Tech Debate',
               description: 'Technical debate competition on current engineering topics.',
-              logo: 'https://cdn.pixabay.com/photo/2022/07/22/12/21/atom-7337993_1280.png',
+              logo: 'https://res.cloudinary.com/dan454ywo/image/upload/v1744455494/debate_tvl1wr.png',
               formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSd_rZd84hAqKXISQynoi3ncQ3XSwo8-cVeeymwln7mrp3Q6Sw/viewform?usp=header',
               route: '/events/mech/tech-debate',
             },
@@ -225,21 +225,21 @@ const Events = () => {
             {
               title: 'Unsinkable Designs',
               description: 'Design and build floating structures that redefine liveable spaces on water, testing buoyancy and creativity.',
-              logo: 'https://cdn.pixabay.com/photo/2022/07/22/12/21/atom-7337993_1280.png',
+              logo: 'https://res.cloudinary.com/dan454ywo/image/upload/v1744455645/floating_cxnbrk.png',
               formLink: 'https://docs.google.com/forms/d/e/1FAIpQLScZ-JrXi4hygMN3bkfwH2Vuk7StStZEO8z-CdYXf0NXewkyjQ/viewform',
               route: '/events/arch/unsinkable-designs',
             },
             {
               title: 'Design Relay',
               description: 'A fast-paced design challenge where teams solve creative tasks in a relay format.',
-              logo: 'https://cdn.pixabay.com/photo/2022/07/22/12/21/atom-7337993_1280.png',
+              logo: 'https://res.cloudinary.com/dan454ywo/image/upload/v1744455741/teamwork_n8ypvh.png',
               formLink: 'https://docs.google.com/forms/d/e/1FAIpQLScZ-JrXi4hygMN3bkfwH2Vuk7StStZEO8z-CdYXf0NXewkyjQ/viewform',
               route: '/events/arch/design-relay',
             },
             {
               title: 'Quiz Battle',
               description: 'A competitive quiz event testing engineering concepts, logical thinking, and teamwork.',
-              logo: 'https://cdn.pixabay.com/photo/2022/07/22/12/21/atom-7337993_1280.png',
+              logo: 'https://res.cloudinary.com/dan454ywo/image/upload/v1744455892/battle_ttidpu.png',
               formLink: 'https://docs.google.com/forms/d/e/1FAIpQLScZ-JrXi4hygMN3bkfwH2Vuk7StStZEO8z-CdYXf0NXewkyjQ/viewform',
               route: '/events/arch/quiz-battle',
             },
