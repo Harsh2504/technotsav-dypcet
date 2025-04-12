@@ -85,7 +85,7 @@ const EventCard = ({ dept }) => {
                 e.target.onerror = null; // Prevent infinite loop in case fallback also fails
                 e.target.src = "https://cdn.pixabay.com/photo/2022/07/22/12/21/atom-7337993_1280.png";
               }}
-              className="absolute w-32 h-32 scale-110 opacity-0 object-contain transition-opacity duration-300 group-hover:opacity-0 md:opacity-100"
+              className="absolute w-32 h-32 scale-120 md:scale-110 opacity-50 blur-xs md:blur-none group-hover:blur-xs object-contain transition-opacity duration-300 group-hover:opacity-40 md:opacity-100"
             />
 
             {/* Description */}
