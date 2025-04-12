@@ -54,9 +54,9 @@ export default function Landing() {
           <img
             src={mouseScroll}
             alt="Mouse Scroll"
-            className="animate-bounce  w-20 h-20 object-cover"
+            className="animate-bounce  w-15 h-15 object-cover"
           />
-          <p className="text-white text-xl fustat-heading">Scroll for More</p>
+          <p className="text-white text-base md:text-xl fustat-heading">Scroll for More</p>
         </div>
         <div
           className="absolute inset-0 bg-fixed bg-cover bg-center"
@@ -77,7 +77,7 @@ export default function Landing() {
         </p>
 
         {/* Buttons */}
-        <div className="absolute bottom-45 md:bottom-50 left-1/2 transform -translate-x-1/2 flex gap-3 flex-col md:flex-row items-center justify-center">
+        <div className="absolute hidden bottom-45 md:bottom-50 left-1/2 transform -translate-x-1/2 md:flex gap-3 flex-col md:flex-row items-center justify-center">
           {/* <button
             onClick={handleViewPoster}
             className="border-2 text-white w-40 md:w-40 hidden md:block hover:border-[#365b9e] transition-all ease-in-out hover:bg-gradient-to-b from-[#30538e] to-[#5c89ff] rounded-xl px-4 py-3 font-bold fustat-heading active:scale-95"
@@ -123,7 +123,28 @@ export default function Landing() {
           </div>
         </Modal>
       </div>
-      <div className="flex flex-col justify-center items-center w-screen min-h-screen overflow-x-hidden py-20 px-10 md:px-40">
+      <div className="my-10 md:hidden flex gap-3 flex-col items-center justify-center">
+          {/* <button
+            onClick={handleViewPoster}
+            className="border-2 text-white w-40 md:w-40 hidden md:block hover:border-[#365b9e] transition-all ease-in-out hover:bg-gradient-to-b from-[#30538e] to-[#5c89ff] rounded-xl px-4 py-3 font-bold fustat-heading active:scale-95"
+          >
+            View Poster
+          </button> */}
+          <button
+            onClick={handleViewPoster}
+            className="border-2 block w-45 md:w-40 bg-gradient-to-b from-[#30538e] to-[#5c89ff] text-white border-[#365b9e] transition-all ease-in-out rounded-xl px-4 py-3 font-bold fustat-heading active:scale-95"
+          >
+            View Poster
+          </button>
+          <button
+            onClick={handleDownloadPoster}
+            className="text-[#30538e] font-bold active:text-white w-45 active:bg-gradient-to-b from-[#30538e] to-[#5c89ff] border-[#365b9e] transition-all duration-300 ease-in-out border-2  active:border-[#365b9e] rounded-xl px-4 py-3 active:scale-95"
+          >
+            Download Poster
+          </button>
+        </div>
+      <div className="flex flex-col justify-center items-center w-screen min-h-screen overflow-x-hidden py-10 px-10 md:px-40">
+
         <h1 className="text-3xl font-bold text-center text-gray-800 mb-8 fustat-heading">
           What's <span className="gradient text-5xl">Technotsav?</span>
         </h1>
