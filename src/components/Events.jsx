@@ -25,11 +25,11 @@ const Events = () => {
               route: '/events/techl/ipl-auction',
             },
             {
-              title: 'Blender Workshop',
+              title: 'Blender 3d Modelling Workshop',
               description: 'A hands-on workshop and competition on 3D modeling, texturing, lighting, and animation using Blender. Ideal for beginners & intermediate learners looking to boost their creative portfolio.',
               logo: 'https://cdn.pixabay.com/photo/2022/07/22/12/21/atom-7337993_1280.png',
               formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSe2WhpUEoNHftkvDg6wx7bfIZSjg1TKrsoqSmgmr2yZQFtBOw/viewform?usp=header',
-              route: '/events/techl/blender-workshop',
+              route: '/events/techl/blender-3d-modelling-workshop',
             },
        
             {
