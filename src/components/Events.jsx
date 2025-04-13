@@ -262,8 +262,8 @@ const Events = () => {
   };
 
   return (
-    <div>
-      <h1 className="text-5xl md:text-7xl mb-5 md:mb-10  md:my-10 px-5 md:px-40 md:h-20  w-screen  text-center spacecrusaders-heading gradient">
+    <div className=' '>
+      <h1 className="element-fade text-5xl md:text-7xl mb-5 md:mb-10  md:my-10 px-5 md:px-40 md:h-20  w-screen  text-center spacecrusaders-heading gradient">
         EVENTS
       </h1>
       {/* <div className="my-10  flex gap-3 flex-col items-center justify-center">
@@ -274,11 +274,11 @@ const Events = () => {
             Download RuleBook
           </button>
         </div> */}
-      <p className="text-center text-base md:text-lg text-gray-700 mb-3 md:mb-5 px-5 md:px-40 manrope-paragraph">
+      <p className="text-center element-fade text-base md:text-lg text-gray-700 mb-3 md:mb-5 px-5 md:px-40 manrope-paragraph">
       Quickly jump to your department's events by clicking below ..
     </p>
 
-    <div className="flex flex-wrap justify-center items-center gap-2 md:gap-4 mb-10 px-5 md:px-40">
+    <div className="flex flex-wrap justify-center items-center gap-2 md:gap-4 mb-10 px-5 md:px-40 element-fade">
       {[
         { id: 'techl', label: 'Techno Highlights' },
         { id: 'aiml', label: 'AIML' },
@@ -322,7 +322,7 @@ const Events = () => {
           : 'bg-gradient-to-b from-[#ccd8e3] via-[#ccd8e3] to-[#e3e3e3] '
             }`}
           >
-            <h1 className="text-4xl md:text-6xl font-bold fustat-heading text-center mb-10">
+            <h1 className="text-4xl md:text-6xl font-bold fustat-heading text-center mb-10 element-fade">
               {dept.name.split(' ').map((word, i) => (
           <span key={i}>
             <span className="gradient">{word[0]}</span>
@@ -332,7 +332,7 @@ const Events = () => {
             </h1>
 
             <div
-              className={`grid gap-10 justify-center ${
+              className={`grid gap-10 justify-center  ${
           dept.name === 'Techno Highlights'
             ? 'grid-cols-1 md:grid-cols-2'
             : dept.events.length === 2

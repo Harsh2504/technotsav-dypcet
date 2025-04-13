@@ -9,12 +9,16 @@ import mouseScroll from "/images/mouseScroll.png";
 import dypcet_logo from "/images/DYPCET_white.png";
 import Modal from "react-modal";
 import { RxCross2 } from "react-icons/rx";
-
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger);
 // Required for accessibility
 Modal.setAppElement("#root");
 
 export default function Landing() {
   const imageRef = useRef(null);
+
   const [isModalOpen, setIsModalOpen] = useState(false);
   const handleViewPoster = () => setIsModalOpen(true);
 
@@ -41,6 +45,209 @@ export default function Landing() {
       imageRef.current.style.transform = `translate(0, 0) scale(1)`;
     }
   };
+  useEffect(() => {
+    gsap.utils.toArray(".element-fade").forEach((el) => {
+      gsap.set(el, { opacity: 0, y: 50 });
+      ScrollTrigger.create({
+        trigger: el,
+        start: "top 80%",
+        end: "bottom 10%",
+        // markers: true, // remove in production
+  
+        onEnter: () => {
+          gsap.fromTo(
+            el,
+            { opacity: 0, y: 50 },
+            {
+              opacity: 1,
+              y: 0,
+              duration: 1,
+              ease: "power2.out",
+            }
+          );
+        },
+  
+        onLeave: () => {
+          gsap.to(el, {
+            opacity: 0,
+            y: -50,
+            duration: 1,
+            ease: "power2.out",
+          });
+        },
+  
+        onEnterBack: () => {
+          gsap.to(el, {
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            ease: "power2.out",
+          });
+        },
+  
+        onLeaveBack: () => {
+          gsap.to(el, {
+            opacity: 0,
+            y: 50,
+            duration: 1,
+            ease: "power2.out",
+          });
+        },
+      });
+    });
+
+    gsap.utils.toArray(".element-fade-in-left").forEach((el) => {
+      gsap.set(el, { opacity: 0, x: -50 });
+      ScrollTrigger.create({
+        trigger: el,
+        start: "top 80%",
+        end: "bottom 10%",
+        // markers: true, // remove in production
+  
+        onEnter: () => {
+            gsap.fromTo(
+            el,
+            { opacity: 0, x: -50 },
+            {
+              opacity: 1,
+              x: 0,
+              duration: 1,
+              ease: "power2.out",
+            }
+            );
+          },
+        
+          onLeave: () => {
+            // No animation on leave
+          },
+        
+          onEnterBack: () => {
+          gsap.to(el, {
+            opacity: 1,
+            x: 0,
+            duration: 1,
+            ease: "power2.out",
+          });
+        },
+  
+        onLeaveBack: () => {
+          gsap.to(el, {
+            opacity: 0,
+            x: -50,
+            duration: 1,
+            ease: "power2.out",
+          });
+        },
+      });
+    });
+
+
+    gsap.utils.toArray(".element-fade-in-right").forEach((el) => {
+      gsap.set(el, { opacity: 0, x: 50 });
+      ScrollTrigger.create({
+        trigger: el,
+        start: "top 80%",
+        end: "bottom 10%",
+        // markers: true, // remove in production
+  
+        onEnter: () => {
+            gsap.fromTo(
+            el,
+            { opacity: 0, x: 50 },
+            {
+              opacity: 1,
+              x: 0,
+              duration: 1,
+              ease: "power2.out",
+            }
+            );
+          },
+        
+          onLeave: () => {
+            // No animation on leave
+          },
+        
+          onEnterBack: () => {
+          gsap.to(el, {
+            opacity: 1,
+            x: 0,
+            duration: 1,
+            ease: "power2.out",
+          });
+        },
+  
+        onLeaveBack: () => {
+          gsap.to(el, {
+            opacity: 0,
+            x: 50,
+            duration: 1,
+            ease: "power2.out",
+          });
+        },
+      });
+    });
+
+
+    gsap.utils.toArray(".element-fade-cards").forEach((el, index) => {
+      // Set initial state
+      gsap.set(el, { opacity: 0, y: 50 });
+  
+      ScrollTrigger.create({
+        trigger: el,
+        start: "top 80%",
+        end: "bottom 20%",
+        // markers: true, // remove in production
+  
+        onEnter: () => {
+          gsap.fromTo(
+            el,
+            { opacity: 0, y: 50 },
+            {
+              opacity: 1,
+              y: 0,
+              duration: 0.5,
+              stagger: 0.1, 
+              ease: "power2.out",
+            }
+          );
+        },
+  
+        onLeave: () => {
+          gsap.to(el, {
+            opacity: 0,
+            y: -50,
+            duration: 1,
+            ease: "power2.out",
+          });
+        },
+  
+        onEnterBack: () => {
+          gsap.to(el, {
+            opacity: 1,
+            y: 0,
+            duration: 0.5,
+            stagger: 0.1, 
+            ease: "power2.out",
+          });
+        },
+  
+        onLeaveBack: () => {
+          gsap.to(el, {
+            opacity: 0,
+            y: 50,
+            duration: 1,
+            ease: "power2.out",
+          });
+        },
+      });
+    });
+  }, []);
+  
+
+
+
+  
+
   return (
     <div>
       <img
@@ -97,7 +304,7 @@ export default function Landing() {
         <p className="absolute top-70 md:top-71 text-center md:left-42 text-2xl md:text-4xl font-bold text-white/50 fustat-heading">
           DYPCET
         </p>
-        <p className="absolute text-5xl top-76 md:top-75 md:text-9xl font-bold text-transparent opacity-90 bg-clip-text bg-gradient-to-r from-[#cccee9] via-[#92adfa] to-[#99fffd] spacecrusaders-heading text-center">
+        <p className="title absolute text-5xl top-76 md:top-75 md:text-9xl font-bold text-transparent opacity-90 bg-clip-text bg-gradient-to-r from-[#cccee9] via-[#92adfa] to-[#99fffd] spacecrusaders-heading text-center">
           Technotsav 2K25
         </p>
         <p className="absolute top-102 md:top-106 text-center md:right-42 text-xl md:text-2xl font-bold text-white/80 fustat-heading">
@@ -151,7 +358,7 @@ export default function Landing() {
           </div>
         </Modal>
       </div>
-      <div className="my-10 md:hidden flex gap-3 flex-col items-center justify-center">
+      <div className=" element-fade  my-10 md:hidden flex gap-3 flex-col items-center justify-center">
           {/* <button
             onClick={handleViewPoster}
             className="border-2 text-white w-40 md:w-40 hidden md:block hover:border-[#365b9e] transition-all ease-in-out hover:bg-gradient-to-b from-[#30538e] to-[#5c89ff] rounded-xl px-4 py-3 font-bold fustat-heading active:scale-95"
@@ -171,12 +378,12 @@ export default function Landing() {
             Download Poster
           </button>
         </div>
-      <div className="flex flex-col justify-center items-center w-screen min-h-screen overflow-x-hidden py-10 px-10 md:px-42">
+      <div  className=" flex flex-col justify-center items-center w-screen min-h-screen overflow-x-hidden py-10 px-10 md:px-42">
 
-        <h1 className="text-3xl font-bold text-center text-gray-800 mb-8 fustat-heading">
+        <h1 className=" element-fade  text-3xl font-bold text-center text-gray-800 mb-8 fustat-heading">
           What's <span className="gradient text-5xl">Technotsav?</span>
         </h1>
-        <p className="my-5 text-justify manrope-paragraph">
+        <p className="my-5 element-fade  text-justify manrope-paragraph">
           <strong>Technotsav–2K25</strong> is an annual <strong>National-Level Technical Fest</strong> that brings
           together young innovators and tech enthusiasts from across the
           country. Hosted by <strong>D. Y. Patil College of Engineering & Technology,
@@ -214,3 +421,4 @@ export default function Landing() {
     </div>
   );
 }
+

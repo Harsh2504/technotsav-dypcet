@@ -55,12 +55,12 @@ export default function FAQ() {
   
     return (
       <div className="max-w-3xl mx-auto px-4 py-20">
-   <h2 className="text-3xl md:text-3xl font-bold text-gray-900 mb-8 text-center fustat-heading">
+   <h2 className="text-3xl md:text-3xl font-bold text-gray-900 mb-8 text-center fustat-heading element-fade">
         Frequently Asked <span className='gradient text-3xl md:text-5xl'> Questions</span>
       </h2>
         <div className="space-y-4">
           {faqs.map((faq, index) => (
-            <div key={index} className="border-b pb-4">
+            <div key={index} className="border-b pb-4 element-fade">
               <button
                 onClick={() => toggleFAQ(index)}
                 className="w-full text-left flex justify-between items-center text-lg group font-medium text-gray-900 active:text-[#4f79dd] hover:text-[#4f79dd] transition-colors duration-200 fustat-heading"
