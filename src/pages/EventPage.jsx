@@ -40,7 +40,7 @@ const EventPage = ({ department }) => {
         <h1 className='text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-center gradient mb-6 sm:mb-8 fustat-heading'>
           Event Not Found
         </h1>
-        <p className='text-lg sm:text-xl md:text-2xl lg:text-3xl text-black/80 font-semibold text-center manrope-paragraph max-w-3xl'>
+        <p className='text-lg sm:text-xl md:text-2xl lg:text-2xl text-black/80 font-semibold text-center manrope-paragraph max-w-3xl'>
           The event you're looking for doesn't exist or is still loading.<br className='hidden sm:block' />Please check back later or verify the event link.
         </p>
       </div>

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect,useRef } from "react";
 import Spline from "@splinetool/react-spline";
 import Timeline from "../components/Timeline";
 import FAQ from "../components/FAQ";
@@ -14,6 +14,7 @@ import { RxCross2 } from "react-icons/rx";
 Modal.setAppElement("#root");
 
 export default function Landing() {
+  const imageRef = useRef(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const handleViewPoster = () => setIsModalOpen(true);
 
@@ -22,6 +23,23 @@ export default function Landing() {
     link.href = poster;
     link.download = "Technotsav2K25_Poster.jpg";
     link.click();
+  };
+
+
+  const handleMouseMove = (e) => {
+    const { innerWidth, innerHeight } = window;
+    const x = (e.clientX / innerWidth - 0.5) * 30; // Adjust multiplier for intensity
+    const y = (e.clientY / innerHeight - 0.5) * 30;
+
+    if (imageRef.current) {
+      imageRef.current.style.transform = `translate(${x}px, ${y}px) `; // Optional: slight zoom
+    }
+  };
+
+  const resetTransform = () => {
+    if (imageRef.current) {
+      imageRef.current.style.transform = `translate(0, 0) scale(1)`;
+    }
   };
   return (
     <div>
@@ -43,12 +61,22 @@ export default function Landing() {
           zIndex: "-1",
         }}
       ></div> */}
-      <div className="relative w-screen h-screen flex justify-center items-center overflow-hidden">
-        <img
-          src={bg}
-          alt="Background"
-          className="absolute inset-0 w-full h-full object-cover  "
-        />
+      <div className="relative w-screen h-screen flex justify-center items-center overflow-hidden"
+           onMouseMove={handleMouseMove}
+           onMouseLeave={resetTransform}
+      >
+       <img
+      
+        src={bg}
+        alt="Background"
+        className="absolute block md:hidden inset-0 w-full h-full object-cover transition-transform duration-200 ease-out scale-105  pointer-events-none"
+      />
+       <img
+        ref={imageRef}
+        src={bg}
+        alt="Background"
+        className="absolute hidden md:block inset-0 w-full h-full object-cover transition-transform duration-200 ease-out scale-105  pointer-events-none"
+      />
         {/* <div className="absolute inset-0 bg-black opacity-50"></div> */}
         <div className="absolute bottom-10  left-1/2  transform -translate-x-1/2 flex flex-col items-center justify-center opacity-70">
           <img
