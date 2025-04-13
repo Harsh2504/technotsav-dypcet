@@ -162,7 +162,7 @@ const Events = () => {
          
       {
         "e&tc": {
-          name: 'Electronic & Telecommunication Engineering',
+          name: 'Electronics and Telecommunication Engineering',
           events: [
             {
               title: 'Project Competition',
