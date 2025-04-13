@@ -181,7 +181,7 @@ export default function Landing() {
 
       </div>
       <Events />
-      {/* <Timeline /> */}
+      <Timeline />
       {/* <FAQ /> */}
     </div>
   );

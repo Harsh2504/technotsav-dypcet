@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import EventCard from './EventCard';
-
+import poster from "/images/poster.jpg";
 const Events = () => {
   const departmentRefs = useRef({});
 
@@ -254,13 +254,26 @@ const Events = () => {
       departmentRefs.current[id].scrollIntoView({ behavior: 'smooth' });
     }
   };
-
+  const handleDownloadRuleBook = () => {
+    const link = document.createElement("a");
+    link.href = poster;
+    link.download = "Technotsav2K25_Poster.jpg";
+    link.click();
+  };
 
   return (
     <div>
       <h1 className="text-5xl md:text-7xl mb-5 md:mb-10  md:my-10 px-5 md:px-40 md:h-20  w-screen  text-center spacecrusaders-heading gradient">
         EVENTS
       </h1>
+      {/* <div className="my-10  flex gap-3 flex-col items-center justify-center">
+          <button
+            onClick={handleDownloadRuleBook}
+            className="text-[#30538e] font-bold active:text-white w-50 active:bg-gradient-to-b from-[#30538e] to-[#5c89ff] border-[#365b9e] transition-all duration-300 ease-in-out border-2  active:border-[#365b9e] rounded-xl px-4 py-3 active:scale-95"
+          >
+            Download RuleBook
+          </button>
+        </div> */}
       <p className="text-center text-base md:text-lg text-gray-700 mb-3 md:mb-5 px-5 md:px-40 manrope-paragraph">
       Quickly jump to your department's events by clicking below ..
     </p>

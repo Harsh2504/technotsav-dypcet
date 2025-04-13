@@ -1,133 +1,160 @@
 import React from 'react'
 
 export default function Timeline() {
-  return (
+return (
     <>
     <h1 className='text-5xl md:text-7xl mb-5 md:mb-10 my-5 md:my-10 w-screen text-center spacecrusaders-heading gradient'>Timeline</h1>
     <div className='px-10 md:px-50 py-10'>
-      <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
-        <li>
-            <div className="timeline-middle">
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="#5480eb"
-                className="h-6 w-6 ">
-                <path
-                fillRule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                clipRule="evenodd" />
-            </svg>
-            </div>
-            <div className="timeline-start mb-5 md:mb-10  md:text-end manrope-paragraph text-black/70 ">
-            <time className="font-mono italic text-black">2015</time>
+        <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+            <li>
+                    <div className="timeline-middle">
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                            fill="#5480eb"
+                            className="h-6 w-6 ">
+                            <path
+                            fillRule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                            clipRule="evenodd" />
+                    </svg>
+                    </div>
+                    <div className="timeline-start mb-5 md:mb-10  md:text-end manrope-paragraph text-black/70 ">
+                    <time className="font-mono italic text-black">11th April, 2025</time>
 
-            <div className="text-lg font-black fustat-heading text-black">First Macintosh computer</div>
-            The Apple Macintosh—later rebranded as the Macintosh 128K—is the original Apple Macintosh
-            personal computer. It played a pivotal role in establishing desktop publishing as a general
-            office function. The motherboard, a 9 in (23 cm) CRT monitor, and a floppy drive were housed
-            in a beige case with integrated carrying handle; it came with a keyboard and single-button
-            mouse.
-            </div>
-                <hr  className='bg-black/20' />
-        </li>
-        <li>
-                <hr  className='bg-black/20' />
-            <div className="timeline-middle">
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="#5480eb"
-                className="h-6 w-6 ">
-                <path
-                fillRule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                clipRule="evenodd" />
-            </svg>
-            </div>
-            <div className="timeline-end mb-5 md:mb-10 manrope-paragraph text-black/70 ">
-            <time className="font-mono italic text-black">1998</time>
-            <div className="text-lg font-black fustat-heading text-black">iMac</div>
-            iMac is a family of all-in-one Mac desktop computers designed and built by Apple Inc. It has
-            been the primary part of Apple's consumer desktop offerings since its debut in August 1998,
-            and has evolved through seven distinct forms
-            </div>
-                <hr  className='bg-black/20' />
-        </li>
-        <li>
-                <hr  className='bg-black/20' />
-            <div className="timeline-middle">
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="#5480eb"
-                className="h-6 w-6 ">
-                <path
-                fillRule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                clipRule="evenodd" />
-            </svg>
-            </div>
-            <div className="timeline-start mb-5 md:mb-10  md:text-end manrope-paragraph text-black/70 ">
-            <time className="font-mono italic text-black">2001</time>
-            <div className="text-lg font-black fustat-heading text-black">iPod</div>
-            The iPod is a discontinued series of portable media players and multi-purpose mobile devices
-            designed and marketed by Apple Inc. The first version was released on October 23, 2001, about
-            8+1⁄2 months after the Macintosh version of iTunes was released. Apple sold an estimated 450
-            million iPod products as of 2022. Apple discontinued the iPod product line on May 10, 2022. At
-            over 20 years, the iPod brand is the oldest to be discontinued by Apple
-            </div>
-                <hr  className='bg-black/20' />
-        </li>
-        <li>
-                <hr  className='bg-black/20' />
-            <div className="timeline-middle">
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="#5480eb"
-                className="h-6 w-6 ">
-                <path
-                fillRule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                clipRule="evenodd" />
-            </svg>
-            </div>
-            <div className="timeline-end mb-5 md:mb-10  manrope-paragraph text-black/70 ">
-            <time className="font-mono italic text-black">2007</time>
-            <div className="text-lg font-black fustat-heading text-black">iPhone</div>
-            iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile
-            operating system. The first-generation iPhone was announced by then-Apple CEO Steve Jobs on
-            January 9, 2007. Since then, Apple has annually released new iPhone models and iOS updates. As
-            of November 1, 2018, more than 2.2 billion iPhones had been sold. As of 2022, the iPhone
-            accounts for 15.6% of global smartphone market share
-            </div>
-                <hr  className='bg-black/20' />
-        </li>
-        <li>
-                <hr  className='bg-black/20' />
-            <div className="timeline-middle">
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="#5480eb"
-                className="h-6 w-6 ">
-                <path
-                fillRule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                clipRule="evenodd" />
-            </svg>
-            </div>
-            <div className="timeline-start mb-5 md:mb-10  md:text-end manrope-paragraph text-black/70 ">
-            <time className="font-mono italic text-black">2015</time>
-            <div className="text-lg font-black fustat-heading text-black">Apple Watch</div>
-            The Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness
-            tracking, health-oriented capabilities, and wireless telecommunication, and integrates with
-            iOS and other Apple products and services
-            </div>
-        </li>
-        </ul>
+                    <div className="text-lg font-black fustat-heading text-black"><b>R</b>egistration <b>S</b>tarts</div>
+                            Registration for <span className="font-semibold">Technotsav 2025</span> is now open! Explore exciting tech events and Register for the ones you love.  Join us at <span className="font-semibold">D.Y. Patil College of Engineering & Technology, Kolhapur</span> and be part of the ultimate tech fest experience. Welcome aboard!
+                    </div>
+                            <hr  className='bg-black/20' />
+            </li>
+            <li>
+                            <hr  className='bg-black/20' />
+                    <div className="timeline-middle">
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                            fill="#5480eb"
+                            className="h-6 w-6 ">
+                            <path
+                            fillRule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                            clipRule="evenodd" />
+                    </svg>
+                    </div>
+                    <div className="timeline-end mb-5 md:mb-10 manrope-paragraph text-black/70 ">
+                    <time className="font-mono italic text-black">23th April, 2025</time>
+                    <div className="text-lg font-black fustat-heading text-black">Registration Ends</div>
+                    Registrations will officially close on <span className="font-semibold">23rd April, 2025</span>! Don’t miss your chance to be a part of Technotsav 2025. 
+
+                    Grab your spot, compete for exciting prizes, and experience the thrill of innovation. Register now—or you might just regret missing out!
+
+                    </div>
+                            <hr  className='bg-black/20' />
+            </li>
+            <li>
+                            <hr  className='bg-black/20' />
+                    <div className="timeline-middle">
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                            fill="#5480eb"
+                            className="h-6 w-6 ">
+                            <path
+                            fillRule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                            clipRule="evenodd" />
+                    </svg>
+                    </div>
+                    <div className="timeline-start mb-5 md:mb-10  md:text-end manrope-paragraph text-black/70 ">
+                    <time className="font-mono italic text-black">24th April, 2025</time>
+                    <div className="text-lg font-black fustat-heading text-black">Technotsav <b>D</b>ay 1 </div>
+                    <b>Vola!</b> Day 1 is here — <span className="font-semibold">24th April, Thursday</span>! Buckle up and join us at <span className="font-semibold">DYPCET</span> for a day full of energy, innovation, and competition. Come compete, learn, and create across thrilling events. 
+                    <br /><br />
+                   Some events span both days, giving you even more to experience!
+                    <div className="text-sm  text-end">
+                    <span className="font-extrabold text-lg text-black/70 "><b>E</b>vents:</span>
+                    <ol className=" list-inside space-y-1">
+                            <li><b className='text-base gradient'>Dare to Battle 1.0 </b></li>
+                            <li><b className='text-base gradient'>Unsinkable Designs</b></li>
+                            <li><b className='text-base gradient'>Launch Pad</b></li>
+                            <li><b className='text-base gradient'>Design Relay</b></li>
+                            <li><b className='text-base gradient'>Quiz Battle</b></li>
+                            <li><b className='text-base gradient'>Project Competition(Chemical)</b></li>
+                            <li><b className='text-base gradient'>Product Development</b></li>
+                            <li><b className='text-base gradient'>Setu Bandha Re</b></li>
+                            <li><b className='text-base gradient'>Cube Crush Challenge</b></li>
+                            <li><b className='text-base gradient'>The Designer</b></li>
+                            <li><b className='text-base gradient'>Android App Development</b></li>
+                            <li><b className='text-base gradient'>Infinity Hunt</b></li>
+                            <li><b className='text-base gradient'>CAD Clash</b></li>
+                            <li><b className='text-base gradient'>Tech Debate</b></li>
+                            <li><b className='text-base gradient'>Project Competition (E&TC)</b></li>
+                            <li><b className='text-base gradient'>Robo Race(Day 1)</b> </li>
+                            <li><b className='text-base gradient'>Blender  Workshop (Day 1)</b> </li>
+                            <li><b className='text-base gradient'>Reel Rumble (Day 1)</b> </li>
+                    </ol>
+                    </div>
+                    </div>
+                            <hr  className='bg-black/20' />
+            </li>
+            <li>
+                            <hr  className='bg-black/20' />
+                    <div className="timeline-middle">
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                            fill="#5480eb"
+                            className="h-6 w-6 ">
+                            <path
+                            fillRule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                            clipRule="evenodd" />
+                    </svg>
+                    </div>
+                    <div className="timeline-end mb-5 md:mb-10  manrope-paragraph text-black/70 ">
+                    <time className="font-mono italic text-black">25th April, 2025</time>
+                    <div className="text-lg font-black fustat-heading text-black"><b>T</b>echnotsav <b>D</b>ay 2</div>
+                        <p className="text-sm text-justify  mb-4">
+                        Here we go — it’s the grand finale! <span className="font-semibold">Technotsav Day 2</span> is packed with high-energy competitions, innovative showcases, and thrilling moments. Step in with your best ideas, sharpest skills, and unmatched enthusiasm. Whether you're presenting, competing, or cheering on your peers — make this final day unforgettable. Let’s wrap up Technotsav with a bang at <span className="font-semibold">DYPCET</span>!
+                        </p>
+
+                        <span className="font-extrabold text-lg text-black/70 "><b>E</b>vents:</span>
+                        <ol className="list-inside space-y-1">
+                        <li><b className='text-base gradient'>Poster Intelli Quest</b></li>
+                        <li><b className='text-base gradient'>Model Competition</b></li>
+                        <li><b className='text-base gradient'>Code Sprint</b></li>
+                        <li><b className='text-base gradient'>Drone Competition</b></li>
+                        <li><b className='text-base gradient'>IPL Auction</b></li>
+                        <li><b className='text-base gradient'>Technical Paper Presentation</b></li>
+                        <li><b className='text-base gradient'>Robo Race (Day 2)</b></li>
+                        <li><b className='text-base gradient'>Blender 3D Modelling Workshop (Day 2)</b></li>
+                        <li><b className='text-base gradient'>Reel Rumble (Day 2)</b></li>
+                        </ol>
+                    </div>
+                            <hr  className='bg-black/20' />
+            </li>
+            <li>
+                            <hr  className='bg-black/20' />
+                    <div className="timeline-middle">
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                            fill="#5480eb"
+                            className="h-6 w-6 ">
+                            <path
+                            fillRule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                            clipRule="evenodd" />
+                    </svg>
+                    </div>
+                    <div className="timeline-start mb-5 md:mb-10  md:text-end manrope-paragraph text-black/70 ">
+                    <time className="font-mono italic text-black">24th & 25th April, 2025</time>
+                    <div className="text-lg font-black fustat-heading text-black">Prize Distribution & Felicitation</div>
+                    The most awaited and exciting part of Technotsav — the <span className="font-semibold">Prize Distribution & Felicitation</span> — will take place on both days! For single-day events, prizes will be awarded on the same day, while for events spanning two days, the prize distribution will happen on the final day. Celebrate talent, dedication, and creativity as we honor the champions of Technotsav!
+                    </div>
+            </li>
+            </ul>
     </div>
     </>
-  )
+)
 }
