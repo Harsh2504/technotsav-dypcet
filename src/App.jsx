@@ -55,10 +55,10 @@ function App() {
       {showScrollToTop && (
         <div
           onClick={scrollToTop}
-          className="fixed bottom-5 right-5 bg-white hover:bg-blue-500 transition-all ease-in rounded-full p-3 shadow-lg cursor-pointer group"
+          className="fixed bottom-5 right-5 bg-white hover:bg-[#4e78da] transition-all ease-in rounded-full p-3 shadow-lg cursor-pointer group"
           style={{ zIndex: 1000 }}
         >
-          <FaArrowUp className="text-blue-500  group-hover:text-white group-hover:bg-blue-500 text-xl transition-all ease-in " />
+          <FaArrowUp className="text-[#4e78da]  group-hover:text-white  text-xl transition-all ease-in " />
         </div>
       )}
     </>

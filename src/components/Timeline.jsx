@@ -89,9 +89,9 @@ return (
                             <li><b className='text-base gradient'>CAD Clash</b></li>
                             <li><b className='text-base gradient'>Tech Debate</b></li>
                             <li><b className='text-base gradient'>Project Competition (E&TC)</b></li>
-                            <li><b className='text-base gradient'>Robo Race(Day 1)</b> </li>
-                            <li><b className='text-base gradient'>Blender  Workshop (Day 1)</b> </li>
-                            <li><b className='text-base gradient'>Reel Rumble (Day 1)</b> </li>
+                            <li><b className='text-base gradient'>Robo Race(Day 1/2)</b> </li>
+                            <li><b className='text-base gradient'>Blender  Workshop (Day 1/2)</b> </li>
+                            <li><b className='text-base gradient'>Reel Rumble (Day 1/2)</b> </li>
                     </ol>
                     </div>
                     </div>
@@ -114,10 +114,9 @@ return (
                     <div className="timeline-end mb-5 md:mb-10  manrope-paragraph text-black/70 ">
                     <time className="font-mono italic text-black">25th April, 2025</time>
                     <div className="text-lg font-black fustat-heading text-black"><b>T</b>echnotsav <b>D</b>ay 2</div>
-                        <p className="text-sm text-justify  mb-4">
+                      
                         Here we go — it’s the grand finale! <span className="font-semibold">Technotsav Day 2</span> is packed with high-energy competitions, innovative showcases, and thrilling moments. Step in with your best ideas, sharpest skills, and unmatched enthusiasm. Whether you're presenting, competing, or cheering on your peers — make this final day unforgettable. Let’s wrap up Technotsav with a bang at <span className="font-semibold">DYPCET</span>!
-                        </p>
-
+                        <br/><br/>
                         <span className="font-extrabold text-lg text-black/70 "><b>E</b>vents:</span>
                         <ol className="list-inside space-y-1">
                         <li><b className='text-base gradient'>Poster Intelli Quest</b></li>
@@ -126,9 +125,9 @@ return (
                         <li><b className='text-base gradient'>Drone Competition</b></li>
                         <li><b className='text-base gradient'>IPL Auction</b></li>
                         <li><b className='text-base gradient'>Technical Paper Presentation</b></li>
-                        <li><b className='text-base gradient'>Robo Race (Day 2)</b></li>
-                        <li><b className='text-base gradient'>Blender 3D Modelling Workshop (Day 2)</b></li>
-                        <li><b className='text-base gradient'>Reel Rumble (Day 2)</b></li>
+                        <li><b className='text-base gradient'>Robo Race (Day 2/2)</b></li>
+                        <li><b className='text-base gradient'>Blender 3D Modelling Workshop (Day 2/2)</b></li>
+                        <li><b className='text-base gradient'>Reel Rumble (Day 2/2)</b></li>
                         </ol>
                     </div>
                             <hr  className='bg-black/20' />
