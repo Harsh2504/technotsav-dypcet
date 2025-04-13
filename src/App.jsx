@@ -33,7 +33,7 @@ function App() {
     <>
       <Analytics />
       <Router>
-        {/* <Suspense
+      <Suspense
           fallback={
             <div className="flex flex-col gap-6 justify-center items-center w-screen h-screen bg-[#e3e3e3]   p-4">
             <img
@@ -44,7 +44,7 @@ function App() {
             <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-blue-500"></div>
           </div>
           }
-        > */}
+        > 
           <Routes>
             <Route path="/" element={<Landing />} />
             <Route path="/events/cse/:eventname" element={<EventPage department="cse" />} />
@@ -72,7 +72,7 @@ function App() {
           </Routes>
       <Footer />
 
-        {/* </Suspense> */}
+        </Suspense>
 
       </Router>
       {showScrollToTop && (
