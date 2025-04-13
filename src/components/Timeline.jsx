@@ -69,10 +69,11 @@ return (
                     <time className="font-mono italic text-black">24th April, 2025</time>
                     <div className="text-lg font-black fustat-heading text-black">Technotsav <b>D</b>ay 1 </div>
                     <b>Vola!</b> Day 1 is here — <span className="font-semibold">24th April, Thursday</span>! Buckle up and join us at <span className="font-semibold">DYPCET</span> for a day full of energy, innovation, and competition. Come compete, learn, and create across thrilling events. 
-                    <br /><br />
+                   
                    Some events span both days, giving you even more to experience!
-                    <div className="text-sm  text-end">
-                    <span className="font-extrabold text-lg text-black/70 "><b>E</b>vents:</span>
+                   <br /><br />
+                    <div className="text-sm text-start md:text-end">
+                    <span className="font-extrabold text-lg text-black "><b>E</b>vents:</span>
                     <ol className=" list-inside space-y-1">
                             <li><b className='text-base gradient'>Dare to Battle 1.0 </b></li>
                             <li><b className='text-base gradient'>Unsinkable Designs</b></li>
@@ -117,7 +118,7 @@ return (
                       
                         Here we go — it’s the grand finale! <span className="font-semibold">Technotsav Day 2</span> is packed with high-energy competitions, innovative showcases, and thrilling moments. Step in with your best ideas, sharpest skills, and unmatched enthusiasm. Whether you're presenting, competing, or cheering on your peers — make this final day unforgettable. Let’s wrap up Technotsav with a bang at <span className="font-semibold">DYPCET</span>!
                         <br/><br/>
-                        <span className="font-extrabold text-lg text-black/70 "><b>E</b>vents:</span>
+                        <span className="font-extrabold text-lg text-black "><b>E</b>vents:</span>
                         <ol className="list-inside space-y-1">
                         <li><b className='text-base gradient'>Poster Intelli Quest</b></li>
                         <li><b className='text-base gradient'>Model Competition</b></li>
