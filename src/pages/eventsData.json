@@ -453,6 +453,7 @@
 
     "singleEntryFee": "150",
     "groupEntryFee": "600",
+    "groupNote": "Team of 4 members",
     "prizeMoney": {
       "first": "5000",
       "second": "3000",
@@ -493,8 +494,8 @@
     "registration": {
       "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLSeFV3lT4fh_QSWSLjUxoQu47gNMp9KRZtIiTSC_YyBPtDhq0g/viewform?usp=sf_link",
       "qrLink": "https://res.cloudinary.com/dan454ywo/image/upload/v1744402228/968a8529-c781-43b9-a675-4f43f7fb8692.png",
-      "startDate": "11 April 2025",
-      "endDate": "23 April 2025"
+      "startDate": "11 April, 2025",
+      "endDate": "23 April, 2025"
     },
     "others": {
       "warnings": [],
@@ -995,7 +996,8 @@
     "venue": "Geo-Technical Engineering lab, Civil Engineering Department.",
     "eligibleParticipants": "Degree and Diploma Students",
     "singleEntryFee": "100",
-    "groupEntryFee": "100 (Max 2)",
+    "groupEntryFee": "200",
+    "groupNote": "Team of 2 members",
     "prizeMoney": {
       "first": "3000",
       "second": "2000",
@@ -1076,7 +1078,8 @@
     "eligibleParticipants": "Open to all Students of any Department or Year. ** (NOTE: Form Team 4 members).**",
 
     "singleEntryFee": "100",
-    "groupEntryFee": "100 (Max 2)",
+    "groupEntryFee": "200",
+    "groupNote": "Team of 2 members",
     "prizeMoney": {
       "first": "3000",
       "second": "2000",
@@ -1292,7 +1295,8 @@
     "venue": "CSE Building Classroom No. 304",
     "eligibleParticipants": "First year to Final Year Students.",
     "singleEntryFee": "",
-    "groupEntryFee": "400 (Team of 4)",
+    "groupEntryFee": "400",
+    "groupNote": "Team of 4 members",
     "prizeMoney": {
       "first": "3000",
       "second": "2000",
@@ -1354,7 +1358,8 @@
     "eligibleParticipants": "Open to all Students of any Department or Year. ** (NOTE: Form Team 4 members.).**",
 
     "singleEntryFee": "",
-    "groupEntryFee": "400 (Team of 4)",
+    "groupEntryFee": "400",
+    "groupNote": "Team of 4 members",
     "prizeMoney": {
       "first": "3000",
       "second": "2000",
@@ -1445,7 +1450,8 @@
     "eligibleParticipants": " Students from Diploma and Undergraduate (UG) programs are eligible to participate.",
 
     "singleEntryFee": "200",
-    "groupEntryFee": "",
+    "groupEntryFee": "200",
+    "groupNote": "Max Team of 2 members",
     "prizeMoney": {
       "first": "3000",
       "second": "2000",
@@ -1494,7 +1500,7 @@
       },
       {
         "title": "Spot Entry Details",
-        "description": "Spot Entry Fee: ₹200 per team. Spot Entry with Robot Provided: ₹250 per team. Note: Robots provided by the committee will be allotted on a first-come, first-serve basis (limited availability)."
+        "description": "Spot Entry Fee: ₹200 per team. "
       }
     ],
     "eventRounds": [
@@ -1505,8 +1511,8 @@
     "registration": {
       "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLSd_rZd84hAqKXISQynoi3ncQ3XSwo8-cVeeymwln7mrp3Q6Sw/viewform?usp=header",
       "qrLink": "https://res.cloudinary.com/dan454ywo/image/upload/v1744403319/34ca4843-8c4c-4cd8-8245-425bab47479e.png",
-      "startDate": "11 April 2025",
-      "endDate": "23 April 2025"
+      "startDate": "11 April, 2025",
+      "endDate": "23 April, 2025"
     },
     "others": {
       "warnings": [],
@@ -1670,7 +1676,7 @@
 
   {
     "eventName": "Tech Debate",
-    "eventDescription": "",
+    "eventDescription": "The Tech Debate is a competitive platform designed to challenge students’ critical thinking, technical knowledge, and public speaking skills. Open to participants from all departments, this event encourages dynamic discourse on pressing technical topics through structured rounds of debate and discussion.",
     "hostDepartment": "MECH",
     "eventDay": "1",
     "startTime": "10:00 AM",
@@ -1678,7 +1684,8 @@
     "venue": "Classroom 226",
     "eligibleParticipants": "Open for All",
     "singleEntryFee": "100",
-    "groupEntryFee": "200 (Max 2P)",
+    "groupEntryFee": "200",
+    "groupNote": "Max Team of 2 members",
     "prizeMoney": {
       "first": "3000",
       "second": "2000",
@@ -1738,8 +1745,8 @@
     "registration": {
       "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLSd_rZd84hAqKXISQynoi3ncQ3XSwo8-cVeeymwln7mrp3Q6Sw/viewform?usp=header",
       "qrLink": "https://res.cloudinary.com/dan454ywo/image/upload/v1744403319/34ca4843-8c4c-4cd8-8245-425bab47479e.png",
-      "startDate": "11 April 2025",
-      "endDate": "23 April 2025"
+      "startDate": "11 April, 2025",
+      "endDate": "23 April, 2025"
     },
     "others": {
       "warnings": [],
@@ -1767,52 +1774,63 @@
 
   {
     "eventName": "Project Competition",
-    "eventDescription": "",
+    "eventDescription": "The Project Competition is an opportunity for students to present their technical ideas and solutions to real-world problems through working models or prototypes. Participants design and implement projects individually or in teams, aiming to demonstrate creativity, technical knowledge, and practical application.",
     "hostDepartment": "E&TC",
     "eventDay": "1",
     "startTime": "10:00 AM",
-    "endTime": "4:00 PM",
-    "venue": "E&TC Dept. Labs",
-    "eligibleParticipants": "Any Project from Electronics & Telecommunication field",
+    "endTime": "5:30 PM",
+    "venue": "Labs of the Electronics and Telecommunication (E&TC) Department. - D.Y. Patil College of Engineering & Technology (DYPCET), Kolhapur",
+    "eligibleParticipants": "Students from any department, ranging from First Year to Final Year.",
     "singleEntryFee": "100",
-    "groupEntryFee": "500",
+    "groupEntryFee": "200 to ₹500",
+    "groupNote": "Teams of 2-5 members. Pay according to team size (2 members: 200, 3 members: 300, etc.).",
     "prizeMoney": {
       "first": "3000",
       "second": "2000",
       "third": "1000"
     },
-    "rulesAndRegulations": [
+ "rulesAndRegulations": [
+  {
+    "title": "Team Size Limit",
+    "description": "Max 5 participants per team are allowed."
+  },
+  {
+    "title": "Registration Requirement",
+    "description": "Only the registered participants will be allowed to participate in the event."
+  },
+  {
+    "title": "Own Equipment Policy",
+    "description": "The participants should bring their own Laptop/Systems for the presentation/demonstration of their project."
+  },
+  {
+    "title": "Project Readiness",
+    "description": "The participants should ensure that they have the necessary hardware/software required for their project."
+  },
+  {
+    "title": "Participation Certificates",
+    "description": "Every participating member will receive a certificate after the event."
+  },
+  {
+    "title": "Final Judgment",
+    "description": "All decisions made by the judges and organizing committee are final and binding."
+  },
+  {
+    "title": "Rule Modification",
+    "description": "The organizing committee reserves the right to modify the rules at any time."
+  }
+],
+    "eventRounds": [
       {
-        "title": "",
-        "description": " Max 5 Participant per team are allowed. "
-      },
-      {
-        "title": "",
-        "description": "Only the registered participants will be allowed to participate in the event."
-      },
-      {
-        "title": "",
-        "description": "The participants should bring their own Laptop/Systems for the presentation / demonstration of their Project."
-      },
-      {
-        "title": "",
-        "description": " The participants should ensure that they have a hardware/software with them required for their Project."
-      },
-      {
-        "title": "",
-        "description": "Every Participated members will get certificates after event "
-      },
-      {
-        "title": "",
-        "description": "Judge's decision will be Final."
+        "title": "Project Expo & Evaluation",
+        "description": "Participants need to demonstrate and explain the project to the judges. Projects are judged based on innovation, feasibility, design, and presentation.",
+        "startTime": "10:00 AM"
       }
     ],
-    "eventRounds": [],
     "registration": {
       "registrationFormLink": "https://forms.gle/uGh83F49w3MmtauN9",
       "qrLink": "https://res.cloudinary.com/dan454ywo/image/upload/v1744403127/ae630627-2775-4785-a464-3e048f982e13.png",
-      "startDate": "11 April 2025",
-      "endDate": "23 April 2025"
+      "startDate": "11 April, 2025",
+      "endDate": "23 April, 2025"
     },
     "others": {
       "warnings": [],
@@ -1820,20 +1838,33 @@
       "map": ""
     },
     "sponsors": [],
-    "faqs": []
+    "faqs": [],
+    "contacts": [
+      {
+        "role": "Student Coordinator",
+        "name": "Dheeraj Rane",
+        "phone": "7058873507"
+      },
+      {
+        "role": "Student Coordinator",
+        "name": "Shoyab Shaikh",
+        "phone": "9503139158"
+      }
+    ]
   },
 
   {
     "eventName": "Robo Soccer",
-    "eventDescription": "",
+    "eventDescription": "RoboSoccer is a competitive event where players control their custom-built robots to play soccer against other teams. It combines robotics, coding, and strategy in an exciting match of skill, precision, and innovation.",
     "hostDepartment": "E&TC",
     "eventDay": "1",
     "startTime": "10:00 AM",
     "endTime": "4:00 PM",
-    "venue": "College Lawn",
-    "eligibleParticipants": "First year to Final Year Students.",
+    "venue": "College Lawn, D.Y. Patil College of Engineering & Technology (DYPCET), Kolhapur",
+    "eligibleParticipants": "Students from any department, ranging from First Year to Final Year.",
     "singleEntryFee": "100",
-    "groupEntryFee": "200 (2P) - 400 (4P)",
+    "groupEntryFee": "200 to ₹400",
+    "groupNote": "Teams of 2 to 4 members. Pay according to team size (2 members: 200, 3 members: 300, etc.).",
     "prizeMoney": {
       "first": "3000",
       "second": "2000",
@@ -1841,32 +1872,45 @@
     },
     "rulesAndRegulations": [
       {
-        "title": "",
+        "title": "Team Size Limit",
         "description": "There shall be minimum 2 and maximum 4 members in a team."
       },
       {
-        "title": "",
-        "description": "Single Attachment Rule: Each robot is allowed only one attachment for hitting or controlling the ball."
+        "title": "Single Attachment Rule",
+        "description": "Each Robot is allowed only one attachment for hitting or controlling the ball."
       },
       {
-        "title": "",
-        "description": "Qualification Criteria: Any team that scores maximum goals within the 2 halfs of 3-minute match will qualify for the next round. "
+        "title": "Qualification Criteria",
+        "description": "Any team that scores maximum goals within the 2 halves of a 3-minute match will qualify for the next round."
       },
       {
-        "title": "",
-        "description": "Judge's Decision: The decisions made by the judges regarding results, robot specifications, and other event-related issues are final and binding."
+        "title": "Robot Specifications",
+        "description": "Size: 30*30*30, Weight 5 kg, Maximum Voltage: 24volts."
       },
       {
-        "title": "",
-        "description": "Size: 25*20*157. Weight 3 kg"
+        "title": "Judge's Decision",
+        "description": "The decisions made by the judges regarding results, robot specifications, and other event-related issues are final and binding."
+      },
+      {
+        "title": "Final Judgment",
+        "description": "All decisions made by the judges and organizing committee are final and binding."
+      },
+      {
+        "title": "Rule Modification",
+        "description": "The organizing committee reserves the right to modify the rules at any time."
       }
     ],
-    "eventRounds": [],
+    "eventRounds": [{
+      "title": "GoalGear Showdown",
+      "description": "In this round, each team will compete to score as many goals as possible within two halves of a 3-minute match. The robot with the maximum goals will qualify for the next match. ",
+      "startTime":"10:00 AM"
+    }
+    ],
     "registration": {
       "registrationFormLink": "https://forms.gle/uGh83F49w3MmtauN9",
       "qrLink": "https://res.cloudinary.com/dan454ywo/image/upload/v1744403127/ae630627-2775-4785-a464-3e048f982e13.png",
-      "startDate": "11 April 2025",
-      "endDate": "23 April 2025"
+      "startDate": "11 April, 2025",
+      "endDate": "23 April, 2025"
     },
     "others": {
       "warnings": [],
@@ -1874,61 +1918,82 @@
       "map": ""
     },
     "sponsors": [],
-    "faqs": []
+    "faqs": [],	 
+    "contacts": [
+      {
+        "role": "Student Coordinator",
+        "name": "Suyash Desai",
+        "phone": "8975485090"
+      },
+      {
+        "role": "Student Coordinator",
+        "name": "Padmanish Patil",
+        "phone": "8830569592"
+      }
+    ]
   },
 
   {
     "eventName": "Drone competition",
-    "eventDescription": "",
+    "eventDescription": "A drone competition is an event where individuals or teams design, build, and operate drones to complete specific tasks or challenges. These competitions test participants' skills in drone engineering, flight control, programming, and problem-solving. They're popular among students, hobbyists, and professionals in the fields of robotics, electronics, and aerospace. The event will be held from 10:00 AM to approximately 5:30 PM.",
     "hostDepartment": "E&TC",
     "eventDay": "2",
-    "startTime": "9:30 AM",
-    "endTime": "3:30 PM",
-    "venue": "College Lawn  ",
-    "eligibleParticipants": "First year to Final Year Students.",
+    "startTime": "10:00 AM",
+    "endTime": "5:30 PM",
+    "venue": "College Lawn, D.Y. Patil College of Engineering & Technology (DYPCET), Kolhapur",
+    "eligibleParticipants": "Students from any department, ranging from First Year to Final Year.",
     "singleEntryFee": "100",
-    "groupEntryFee": "200 (2P) - 500 (Max 5P)",
+    "groupEntryFee": "200 to ₹500",
+    "groupNote": "Teams of 2-5 members. Pay according to team size (2 members: 200, 3 members: 300, etc.).",
     "prizeMoney": {
       "first": "3000",
       "second": "2000",
       "third": "1000"
     },
-    "rulesAndRegulations": [
+      "rulesAndRegulations": [
       {
-        "title": "",
-        "description": "Drone should be fly only in given area."
+        "title": "Flight Zone Restriction",
+        "description": "Drones must be flown only within the designated area marked by the organizers."
       },
       {
-        "title": "",
-        "description": "All the connection and control system should be check properly before flight."
+        "title": "Pre-Flight Check",
+        "description": "All connections and control systems must be thoroughly checked before the flight begins."
       },
       {
-        "title": "",
-        "description": "Drone pilot should be well experienced."
+        "title": "Pilot Experience",
+        "description": "The drone pilot must be experienced and capable of handling emergency situations."
       },
       {
-        "title": "",
-        "description": "Only stable Drone are allowed to fly"
+        "title": "Drone Stability Requirement",
+        "description": "Only stable and well-balanced drones will be allowed to fly during the event."
       },
       {
-        "title": "",
-        "description": "Take-off and landing should be in safe way."
+        "title": "Safe Take-off and Landing",
+        "description": "Take-off and landing must be carried out in a safe and controlled manner."
       },
       {
-        "title": "",
-        "description": "Under any uncertain conditions / malfunctions occurred during the take away, the drone should be moved away from the crowded area & should be landed at safe place."
+        "title": "Emergency Protocol",
+        "description": "In case of any malfunction or unexpected behavior, the drone must be moved away from crowds and landed safely."
       },
       {
-        "title": "",
-        "description": "Selection will be based on application of drone, how it will be helpful to the society. Judge’s decision will be final."
+        "title": "Evaluation Criteria",
+        "description": "Selection will be based on the societal application of the drone project. Judge’s decision will be final."
+      },
+      {
+        "title": "Final Judgment",
+        "description": "All decisions made by the judges and organizing committee are final and binding."
+      },
+      {
+        "title": "Rule Modification",
+        "description": "The organizing committee reserves the right to modify the rules at any time."
       }
     ],
     "eventRounds": [],
     "registration": {
       "registrationFormLink": "https://forms.gle/uGh83F49w3MmtauN9",
       "qrLink": "https://res.cloudinary.com/dan454ywo/image/upload/v1744403127/ae630627-2775-4785-a464-3e048f982e13.png",
-      "startDate": "11 April 2025",
-      "endDate": "23 April 2025"
+      "startDate": "11 April, 2025",
+      "endDate": "23 April, 2025"
     },
     "others": {
       "warnings": [],
@@ -1936,7 +2001,19 @@
       "map": ""
     },
     "sponsors": [],
-    "faqs": []
+    "faqs": [],
+    "contacts": [
+      {
+        "role": "Student Coordinator",
+        "name": "Yashraj Patil",
+        "phone": "7083640901"
+      },
+      {
+        "role": "Student Coordinator",
+        "name": "Ishita Chougale",
+        "phone": "9022143314"
+      }
+    ]
   },
 
 
@@ -2039,7 +2116,8 @@
     "venue": "DY Patil College of Engineering & Technology (DYPCET), Kolhapur, **(NOTE: Block/Room details will be shared before the event)**",
     "eligibleParticipants": "Open to all students of any department or year. (NOTE: Form a team of 3-4 members).",
     "singleEntryFee": "100",
-    "groupEntryFee": "300 (3P) - 400 (4P)",
+    "groupEntryFee": "300 to ₹400 ",
+    "groupNote": "Teams of 3 to 4 members. Pay according to team size (2 members: 200, 3 members: 300, etc.).",
     "prizeMoney": {
       "first": "5000",
       "second": "3000",
@@ -2094,8 +2172,8 @@
     "registration": {
       "registrationFormLink": "https://docs.google.com/forms/d/e/1FAIpQLSfyYVfahF4HxNZc7Zn6KXUch6lsJ4yoabYTJMSvKOSEhrkbsw/viewform?usp=header",
       "qrLink": "https://res.cloudinary.com/dan454ywo/image/upload/v1744401589/c1c99d7b-912d-4bf3-8616-db8dbc4dd2f0.png",
-      "startDate": "11 April 2025",
-      "endDate": "23 April 2025"
+      "startDate": "11 April, 2025",
+      "endDate": "23 April, 2025"
     },
     "others": {
       "warnings": [],
@@ -2211,15 +2289,16 @@
 
   {
     "eventName": "Technical Paper Presentation",
-    "eventDescription": "",
+    "eventDescription": "The Technical Paper Presentation Competition is a platform designed to encourage students from all departments to engage in scholarly discourse and present their original research, innovative ideas, and technological advancements. This offline event aims to promote critical thinking, effective communication, and interdisciplinary collaboration through well-structured presentations evaluated by a panel of experts.",
     "hostDepartment": "TECHL",
     "eventDay": "2",
     "startTime": "9:00 AM",
     "endTime": "2:00 PM",
     "venue": "Lab 1 and 2 AIML",
     "eligibleParticipants": "Open for all department",
-    "singleEntryFee": "100 (Non Refundable)",
-    "groupEntryFee": "",
+    "singleEntryFee": "100",
+    "groupEntryFee": "200 to ₹400",
+    "groupNote": "Teams of 2-4 members. Pay according to team size (2 members: 200, 3 members: 300, etc.).",
     "prizeMoney": {
       "first": "7000",
       "second": "5000",
@@ -2256,19 +2335,19 @@
       },
       {
         "title": "Registration/Deadline for paper submission",
-        "description": "21 April 2025"
+        "description": "21 April, 2025"
       },
       {
         "title": "Acceptance will be declared by ",
-        "description": "22 April 2025(via mail)"
+        "description": "22 April, 2025(via mail)"
       }
     ],
     "eventRounds": [],
     "registration": {
       "registrationFormLink": "https://forms.gle/LETfKW8fReEtLX4D8 ",
       "qrLink": "https://res.cloudinary.com/dan454ywo/image/upload/v1744401338/df01ca51-e635-41e8-bb97-f2e5502aa46b.png",
-      "startDate": "11 April 2025",
-      "endDate": "21 April 2025"
+      "startDate": "11 April, 2025",
+      "endDate": "21 April, 2025"
     },
     "others": {
       "warnings": [],

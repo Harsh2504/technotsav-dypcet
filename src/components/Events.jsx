@@ -265,7 +265,7 @@ const Events = () => {
       Quickly jump to your department's events by clicking below ..
     </p>
 
-    <div className="flex flex-wrap justify-center items-center gap-4 mb-10 px-5 md:px-40">
+    <div className="flex flex-wrap justify-center items-center gap-2 md:gap-4 mb-10 px-5 md:px-40">
       {[
         { id: 'techl', label: 'Techno Highlights' },
         { id: 'aiml', label: 'AIML' },

@@ -5,6 +5,7 @@ const EventRegisteration = ({
     singleEntryFee,
     groupEntryFee,
     registration,
+    groupNote,
     ref
     
 }) => {
@@ -47,8 +48,14 @@ const EventRegisteration = ({
                                 
                                 className="bg-white text-[#3f66b6] px-4 py-1 rounded-full hover:bg-[linear-gradient(to_bottom,_#30538e,_#5c89ff)] hover:text-white transition-all fustat-heading text-md"
                             >
-                                ₹{groupEntryFee}
+                                ₹{groupEntryFee} 
                             </p>
+                            <p className={`text-[10px] w-60 my-2 font-medium mb-2 text-[#8d8d8d] fustat-heading ${
+                                    groupNote && groupNote.length > 25 ? 'text-justify' : 'text-center'
+                                }`}
+                                >
+                                {groupNote ? '***' + groupNote : ''}
+                                </p>
                         </div>
                             : ""}
                     </div>
