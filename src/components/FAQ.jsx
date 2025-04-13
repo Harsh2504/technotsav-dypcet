@@ -3,29 +3,46 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Plus, Minus } from 'lucide-react'; 
 const faqs = [
   {
-    question: "What's the best thing about Switzerland?",
-    answer: "I don't know, but the flag is a big plus.",
+    "question": "Who can participate in Technotsav?",
+    "answer": "Technotsav is open to students from engineering and technical backgrounds across the country. Whether you’re from diploma or degree programs, you’re welcome!"
   },
   {
-    question: "How do you make holy water?",
-    answer: "You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aut tempora vitae odio inventore fuga aliquam nostrum quod porro.",
+    "question": "Can I participate alone?",
+    "answer": "Yes, you can register as an individual or in a group of up to 5 members, depending on the event requirements."
   },
   {
-    question: "What do you call someone with no body and no nose?",
-    answer: "Nobody knows.",
+    "question": "How do I register for events?",
+    "answer": "You can register online through the official Technotsav 2K25 website. Browse through the event list and register for the ones that excite you the most!"
   },
   {
-    question: "Why do you never see elephants hiding in trees?",
-    answer: "Because they're so good at it.",
+    "question": "Is there a registration fee?",
+    "answer": "Some events may have a nominal registration fee. Specific details will be mentioned on the respective event registration pages."
   },
   {
-    question: "Why can't you hear a pterodactyl go to the bathroom?",
-    answer: "Because the 'P' is silent.",
+    "question": "Are there any prizes or certificates?",
+    "answer": "Yes! Winners and top performers will receive exciting prizes, certificates, and recognition during the felicitation ceremony. All participants will also receive certificates for their involvement in the events."
+  },  
+  {
+    "question": "Can I participate in multiple events?",
+    "answer": "Absolutely! You are encouraged to participate in as many events as your schedule allows. Just ensure there are no timing clashes."
   },
   {
-    question: "Why did the invisible man turn down the job offer?",
-    answer: "He couldn’t see himself doing it.",
+    "question": "What kind of events and workshops are included?",
+    "answer": "Technotsav features a wide range of events including coding contests, design challenges, technical paper presentations, startup pitching, bridge building, drone racing, and more. In addition, selected departments are hosting workshops like Blender 3D Modelling to provide hands-on learning experiences for participants."
+  },  
+  {
+    "question": "Where will the fest be held and how do I reach there?",
+    "answer": "Technotsav–2K25 will take place at D. Y. Patil College of Engineering & Technology, Kasaba Bawada, Kolhapur. The college is well-connected by road and rail. You can reach Kolhapur via train or bus, and from the station or central bus stand, local auto-rickshaws or cabs can take you directly to the campus."
+  },  
+  {
+    "question": "What if an event spans two days?",
+    "answer": "If an event has multiple phases, the final rounds or prize distribution will happen on the last day. Single-day events will be wrapped up with felicitation on the same day."
+  },
+  {
+    "question": "How do I stay updated about event schedules?",
+    "answer": "You will be added to event-specific WhatsApp groups after registration for timely updates. Additionally, follow our official social media handles and website for real-time announcements and detailed schedules."
   }
+  
 ];
 
 export default function FAQ() {

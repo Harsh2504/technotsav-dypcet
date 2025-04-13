@@ -9,12 +9,12 @@ export default function Footer() {
                 <div className="mb-6 md:mb-0">
                     <a href="/" className="flex items-center">
                         <img src="https://res.cloudinary.com/dan454ywo/image/upload/v1744450467/f3f786dc-77ea-4d4a-b707-fbf5b358b046.png" className="h-10 me-3 scale-150" alt="DYP Logo" />
-                        <span className="self-center text-2xl font-semibold whitespace-nowrap fustat-heading ">Technotsav</span>
+                        <span className="self-center text-2xl font-semibold whitespace-nowrap fustat-heading gradient">Technotsav</span>
                     </a>
                 </div>
                 <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                     <div>
-                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase fustat-heading ">Official</h2>
+                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase fustat-heading gradient">Official</h2>
                         <ul className="text-gray-500 font-medium">
                             <li className="mb-4">
                                 <a href="https://coek.dypgroup.edu.in/" className="hover:underline ">DYPCET</a>
@@ -25,7 +25,7 @@ export default function Footer() {
                         </ul>
                     </div>
                     <div>
-                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase fustat-heading">Follow us</h2>
+                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase fustat-heading gradient">Follow us</h2>
                         <ul className="text-gray-500 font-medium">
                             <li className="mb-4">
                                 <a href="https://www.instagram.com/dypcet_official/" className="hover:underline ">Instagram</a>
@@ -36,7 +36,7 @@ export default function Footer() {
                         </ul>
                     </div>
                     <div>
-                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase fustat-heading">Legal</h2>
+                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase fustat-heading gradient">Legal</h2>
                         <ul className="text-gray-500  font-medium">
                             <li className="mb-4">
                                 <a href="#" className="hover:underline">Privacy Policy</a>

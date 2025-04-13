@@ -23,7 +23,8 @@ return (
                     <time className="font-mono italic text-black">11th April, 2025</time>
 
                     <div className="text-lg font-black fustat-heading text-black"><b>R</b>egistration <b>S</b>tarts</div>
-                            Registration for <span className="font-semibold">Technotsav 2025</span> is now open! Explore exciting tech events and Register for the ones you love.  Join us at <span className="font-semibold">D.Y. Patil College of Engineering & Technology, Kolhapur</span> and be part of the ultimate tech fest experience. Welcome aboard!
+                    Registration for <b className="gradient">Technotsav 2025</b> is now open! Explore <b className="gradient">exciting tech events</b> and register for the ones you love. Join us at <b className="gradient">D.Y. Patil College of Engineering & Technology, Kolhapur</b> and be part of the ultimate tech fest experience. <b className="gradient">Welcome aboard!</b>
+
                     </div>
                             <hr  className='bg-black/20' />
             </li>
@@ -44,9 +45,10 @@ return (
                     <div className="timeline-end mb-5 md:mb-10 manrope-paragraph text-black/70 ">
                     <time className="font-mono italic text-black">23th April, 2025</time>
                     <div className="text-lg font-black fustat-heading text-black">Registration Ends</div>
-                    Registrations will officially close on <span className="font-semibold">23rd April, 2025</span>! Don’t miss your chance to be a part of Technotsav 2025. 
+                    Registrations will officially close on <b className="gradient">23rd April, 2025</b>! Don’t miss your chance to be a part of <b className="gradient">Technotsav 2025</b>.
 
-                    Grab your spot, compete for exciting prizes, and experience the thrill of innovation. Register now—or you might just regret missing out!
+                    Grab your spot, <b className="gradient">compete for exciting prizes</b>, and experience the <b className="gradient">thrill of innovation</b>. Register now—or you might just regret missing out!
+
 
                     </div>
                             <hr  className='bg-black/20' />
@@ -68,9 +70,10 @@ return (
                     <div className="timeline-start mb-5 md:mb-10  md:text-end manrope-paragraph text-black/70 ">
                     <time className="font-mono italic text-black">24th April, 2025</time>
                     <div className="text-lg font-black fustat-heading text-black">Technotsav <b>D</b>ay 1 </div>
-                    <b>Vola!</b> Day 1 is here — <span className="font-semibold">24th April, Thursday</span>! Buckle up and join us at <span className="font-semibold">DYPCET</span> for a day full of energy, innovation, and competition. Come compete, learn, and create across thrilling events. 
-                   
-                   Some events span both days, giving you even more to experience!
+                    <b className="gradient">Vola!</b> Day 1 is here — <b className="gradient">24th April, Thursday</b>! Buckle up and join us at <b className="gradient">DYPCET</b> for a day full of <b className="gradient">energy, innovation, and competition</b>. Come compete, learn, and create across thrilling events.
+
+                    Some events span both days, giving you even <b className="gradient">more to experience!</b>
+
                    <br /><br />
                     <div className="text-sm text-start md:text-end">
                     <span className="font-extrabold text-lg text-black "><b>E</b>vents:</span>
@@ -116,7 +119,8 @@ return (
                     <time className="font-mono italic text-black">25th April, 2025</time>
                     <div className="text-lg font-black fustat-heading text-black"><b>T</b>echnotsav <b>D</b>ay 2</div>
                       
-                        Here we go — it’s the grand finale! <span className="font-semibold">Technotsav Day 2</span> is packed with high-energy competitions, innovative showcases, and thrilling moments. Step in with your best ideas, sharpest skills, and unmatched enthusiasm. Whether you're presenting, competing, or cheering on your peers — make this final day unforgettable. Let’s wrap up Technotsav with a bang at <span className="font-semibold">DYPCET</span>!
+                    Here we go — it’s the grand finale! <b className="gradient">Technotsav Day 2</b> is packed with <b className="gradient">high-energy competitions</b>, <b className="gradient">innovative showcases</b>, and <b className="gradient">thrilling moments</b>. Step in with your best ideas, sharpest skills, and unmatched enthusiasm. Whether you're<b className="gradient"> presenting</b>, <b className="gradient">competing</b>, or <b className="gradient">cheering</b> on your peers — make this final day unforgettable. Let’s wrap up <b className='gradient'> Technotsav</b> with a bang at <b className="gradient">DYPCET</b>!
+
                         <br/><br/>
                         <span className="font-extrabold text-lg text-black "><b>E</b>vents:</span>
                         <ol className="list-inside space-y-1">
@@ -150,7 +154,8 @@ return (
                     <div className="timeline-start mb-5 md:mb-10  md:text-end manrope-paragraph text-black/70 ">
                     <time className="font-mono italic text-black">24th & 25th April, 2025</time>
                     <div className="text-lg font-black fustat-heading text-black">Prize Distribution & Felicitation</div>
-                    The most awaited and exciting part of Technotsav — the <span className="font-semibold">Prize Distribution & Felicitation</span> — will take place on both days! For single-day events, prizes will be awarded on the same day, while for events spanning two days, the prize distribution will happen on the final day. Celebrate talent, dedication, and creativity as we honor the champions of Technotsav!
+                    The most awaited and exciting part of Technotsav — the <b className="gradient">Prize Distribution & Felicitation</b> — will take place on both days! For prize distribution will happen on the <b className="gradient">final day</b>. Celebrate <b className="gradient">talent</b>, <b className="gradient">dedication</b>, and <b className="gradient">creativity</b> as we honor the <b className="gradient">champions </b> of Technotsav!
+
                     </div>
             </li>
             </ul>

@@ -16,6 +16,12 @@ html,body{
     color:#000000;
 }
 
+/* Change text highlight background and text color */
+::selection {
+  background-color: #5077dc; /* Highlight background color */
+  color: #ffffff; /* Highlighted text color */
+}
+
 .fustat-heading {
     font-family: "Fustat", sans-serif;
     font-optical-sizing: auto;
@@ -49,3 +55,4 @@ html,body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
