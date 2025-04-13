@@ -36,7 +36,7 @@ const Events = () => {
               title: 'Reel Rumble',
               description: 'A solo reel-making contest capturing the essence of Technotsav over two days. Shoot, edit, and submit a 90-second reel to showcase your creativity and content creation skills.',
               logo: 'https://res.cloudinary.com/dan454ywo/image/upload/v1744454061/reel_lzxlsl.png',
-              formLink: '', // No separate form link provided, uses coordinator submission
+              formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSf3T2hrqSvEhGkFUhoCeXo3DYO6KvfncZOSUS4OS_aldHDWBQ/viewform?usp=sharing', // No separate form link provided, uses coordinator submission
               route: '/events/techl/reel-rumble',
             },
             
