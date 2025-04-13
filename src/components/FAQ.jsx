@@ -63,10 +63,10 @@ export default function FAQ() {
             <div key={index} className="border-b pb-4">
               <button
                 onClick={() => toggleFAQ(index)}
-                className="w-full text-left flex justify-between items-center text-lg font-medium text-gray-900 hover:text-[#4f79dd] transition-colors duration-200 fustat-heading"
+                className="w-full text-left flex justify-between items-center text-lg group font-medium text-gray-900 active:text-[#4f79dd] hover:text-[#4f79dd] transition-colors duration-200 fustat-heading"
               >
                 {faq.question}
-                <span className="ml-2 text-black hover:text-[#4f79dd]">
+                <span className="ml-2 text-black group-hover:text-[#4f79dd] group-active:text-[#4f79dd]">
                     {openIndex === index ? (
                         <Minus size={20} />
                     ) : (
