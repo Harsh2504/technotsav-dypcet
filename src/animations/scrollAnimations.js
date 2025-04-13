@@ -84,5 +84,6 @@ gsap.utils.toArray(".fade-up").forEach((el,index) => {
         { opacity: 0, y: 50 }, 
         { opacity: 1, y: 0, duration: 2, delay: index * 0.5, ease: "power2.out" }
     );
+    console.log("Fade up animation applied to element:", el);
 });
 };

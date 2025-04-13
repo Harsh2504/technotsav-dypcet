@@ -5,11 +5,11 @@ const EventRounds = ({ rounds }) => {
 
   return (
     <div className='px-5 md:px-40 py-10 min-h-screen'>
-      <h2 className="text-xl md:text-3xl font-bold text-center text-gray-800 fustat-heading">Event</h2>
-      <h1 className="text-5xl md:text-7xl font-bold text-center fustat-heading gradient">Rounds</h1>
-      <div className='flex flex-col md:flex-row py-10 justify-center items-center md:items-start gap-10 flex-wrap'>
+      <h2 className="element-fade  text-xl md:text-3xl font-bold text-center text-gray-800 fustat-heading">Event</h2>
+      <h1 className="element-fade  text-5xl md:text-7xl font-bold text-center fustat-heading gradient">Rounds</h1>
+      <div className='flex flex-col md:flex-row py-10 justify-center items-center md:items-start gap-10 flex-wrap  '>
         {rounds.map((round, index) => (
-          <div key={index} className='flex flex-col justify-center items-center w-full md:w-1/4 md:my-4'>
+          <div key={index} className='flex flex-col justify-center items-center w-full md:w-1/4 md:my-4 element-fade'>
             <h1 className='text-5xl md:text-7xl fustat-heading text-black/90'>
               {String(index + 1).padStart(2, '0')}
             </h1>

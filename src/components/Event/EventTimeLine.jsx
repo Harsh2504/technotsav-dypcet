@@ -4,14 +4,14 @@ export default function EventTimeLine({eventName, eventRounds,registration,event
 return (
     <div className='px-5 md:px-40 py-5 md:py-10 min-h-screen'>
 
-        <h2 className="text-xl md:text-3xl font-bold text-center text-gray-800 fustat-heading">Event</h2>
-        <h1 className="text-5xl md:text-7xl font-bold text-center fustat-heading gradient">Timeline</h1>
+        <h2 className="element-fade text-xl md:text-3xl font-bold text-center text-gray-800 fustat-heading">Event</h2>
+        <h1 className="element-fade text-5xl md:text-7xl font-bold text-center fustat-heading gradient">Timeline</h1>
         <div className='px-5 md:px-50 py-10'>
             <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
 
             {/* Start Node of Timeline */}
             <li>
-                <div className="timeline-middle">
+                <div className="timeline-middle ">
                 <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -23,7 +23,7 @@ return (
                         clipRule="evenodd" />
                 </svg>
                 </div>
-                <div className="timeline-start mb-5 md:mb-10 md:text-end manrope-paragraph text-black/70 " >
+                <div className="timeline-start mb-5 md:mb-10 md:text-end manrope-paragraph text-black/70 element-fade" >
                 <time className="font-mono italic text-black">{registration.startDate}</time>
 
                 <div className="text-lg font-black fustat-heading text-black">Registration Starts</div>
@@ -48,7 +48,7 @@ return (
                     clipRule="evenodd" />
                     </svg>
                     </div>
-                    <div className="timeline-end mb-5 md:mb-10 manrope-paragraph text-black/70 ">
+                    <div className="timeline-end mb-5 md:mb-10 manrope-paragraph text-black/70 element-fade">
                     <time className="font-mono italic text-black">{registration.endDate}</time>
                     <div className="text-lg font-black fustat-heading text-black">Registration Ends</div>
                     Last call to register! Don’t miss your chance to learn, compete, and win. Lock in your spot before it’s too late!
@@ -71,7 +71,7 @@ return (
                             clipRule="evenodd" />
                     </svg>
                 </div>
-                <div className="timeline-start mb-5 md:mb-10 md:text-end manrope-paragraph text-black/70">
+                <div className="timeline-start mb-5 md:mb-10 md:text-end manrope-paragraph text-black/70 element-fade">
                     <time className="font-mono italic text-black">
                         {eventDay == 1 ? "24th April, 2025" : eventDay == 2 ? "25th April, 2025" : "24th & 25th April, 2025"}
                     </time>
@@ -97,7 +97,7 @@ return (
                                         clipRule="evenodd" />
                                 </svg>
                         </div>
-                        <div className={index % 2 === 0 ?"timeline-end mb-5 md:mb-10 manrope-paragraph text-black/70": "timeline-start mb-10 md:text-end manrope-paragraph text-black/70 "  }>
+                        <div className={index % 2 === 0 ?"timeline-end mb-5 md:mb-10 manrope-paragraph text-black/70 element-fade": "timeline-start mb-10 md:text-end manrope-paragraph text-black/70 element-fade"  }>
                                 <time className="font-mono italic text-black">{round.startTime ? round.startTime : "Time will be conveyed soon."}</time>
                                 <div className="text-lg font-black fustat-heading text-black">{round.title}</div>
                                 {round.description}
@@ -122,7 +122,7 @@ return (
                                 clipRule="evenodd" />
                         </svg>
                         </div>
-                        <div className={eventRounds.length % 2 === 0 ? "timeline-end mb-5 md:mb-10 md:text-start manrope-paragraph text-black/70" : "timeline-start mb-10 md:text-end manrope-paragraph text-black/70 " }>
+                        <div className={eventRounds.length % 2 === 0 ? "timeline-end mb-5 md:mb-10 md:text-start manrope-paragraph text-black/70 element-fade" : "timeline-start mb-10 md:text-end manrope-paragraph text-black/70 element-fade" }>
                         <time className="font-mono italic text-black">{eventDay == 1 ? "24th April, 2025" : "25th April, 2025"}</time>
                         <div className="text-lg font-black fustat-heading text-black">End of Event</div>      
                         {eventName== "Reel Rumble" ? "The event will conclude with an exciting closing ceremony, where the winning reels will be highlighted and the prize distribution will take place. Don’t miss the chance to celebrate the champions and capture unforgettable moments!"

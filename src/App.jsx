@@ -5,7 +5,10 @@ import Footer from './components/Footer';
 import './index.css';
 import { Analytics } from '@vercel/analytics/react';
 import { FaArrowUp } from 'react-icons/fa';
-
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { initScrollAnimations } from "./animations/scrollAnimations";
+gsap.registerPlugin(ScrollTrigger);
 // Lazy load components
 const Landing = lazy(() => import('./pages/Landing'));
 const EventPage = lazy(() => import('./pages/EventPage'));
@@ -13,7 +16,10 @@ const EventEntry = lazy(() => import('./pages/EventEntry'));
 
 function App() {
   const [showScrollToTop, setShowScrollToTop] = useState(false);
-
+ useEffect(() => {
+    initScrollAnimations(); // Initialize scroll animations
+ 
+  }, []); 
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
@@ -35,13 +41,13 @@ function App() {
       <Router>
       <Suspense
           fallback={
-            <div className="flex flex-col gap-6 justify-center items-center w-screen h-screen bg-[#e3e3e3]   p-4">
+            <div className=" flex flex-col gap-6 justify-center items-center w-screen h-screen bg-[#e3e3e3]   p-4">
             <img
               src="https://res.cloudinary.com/dan454ywo/image/upload/v1744450467/f3f786dc-77ea-4d4a-b707-fbf5b358b046.png"
-              className="w-35 h-35"
+              className="w-35 h-35 "
               alt="DYP Logo"
             />
-            <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-blue-500"></div>
+            <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-blue-500 "></div>
           </div>
           }
         > 
@@ -60,10 +66,10 @@ function App() {
               path="*"
               element={
                 <div className="flex flex-col justify-center items-center w-screen min-h-screen bg-[#e3e3e3] bg-[radial-gradient(#00000089,transparent_2px)] [background-size:20px_20px] p-4">
-                  <h1 className="text-8xl sm:text-8xl md:text-8xl lg:text-9xl font-bold text-center gradient mb-6 sm:mb-8 fustat-heading">
+                  <h1 className="element-fade text-8xl sm:text-8xl md:text-8xl lg:text-9xl font-bold text-center gradient mb-6 sm:mb-8 fustat-heading">
                     404
                   </h1>
-                  <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-black/80 font-bold text-center manrope-paragraph max-w-4xl">
+                  <p className="element-fade text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-black/80 font-bold text-center manrope-paragraph max-w-4xl">
                     Page Not Found
                   </p>
                 </div>

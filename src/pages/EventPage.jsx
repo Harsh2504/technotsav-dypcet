@@ -13,7 +13,13 @@ import EventTimeline from "../components/Event/EventTimeLine";
 import { HiChevronLeft } from "react-icons/hi";
 import eventsDataPool from "./eventsData.json";
 import EventContacts from "../components/Event/EventContacts";
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { initScrollAnimations } from "../animations/scrollAnimations";
+gsap.registerPlugin(ScrollTrigger);
+
+
 const EventPage = ({ department }) => {
   const registrationRef = useRef(null);
 
@@ -21,6 +27,7 @@ const EventPage = ({ department }) => {
   const [eventData, setEventData] = useState(null);
 
   useEffect(() => {
+
     const formattedName = eventname.replace(/-/g, " ").toLowerCase();//infinity-hunt ---> infinty hunt
 
     const foundEvent = eventsDataPool.find(
@@ -33,15 +40,19 @@ const EventPage = ({ department }) => {
     setEventData(foundEvent || null);
   }, [department, eventname]);
 
+  useEffect(() => {
+    initScrollAnimations(); // Initialize scroll animations
+ 
+  }, []);  
 
   console.log(eventData);
   if (!eventData) {
     return (
-      <div className='flex flex-col justify-center items-center w-screen min-h-screen bg-[#e3e3e3] bg-[radial-gradient(#00000089,transparent_2px)] [background-size:20px_20px] p-4'>
-        <h1 className='text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-center gradient mb-6 sm:mb-8 fustat-heading'>
+      <div className=' flex flex-col justify-center items-center w-screen min-h-screen bg-[#e3e3e3] bg-[radial-gradient(#00000089,transparent_2px)] [background-size:20px_20px] p-4'>
+        <h1 className='fade-up text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-center gradient mb-6 sm:mb-8 fustat-heading'>
           Event Not Found
         </h1>
-        <p className='text-lg sm:text-xl md:text-2xl lg:text-2xl text-black/80 font-semibold text-center manrope-paragraph max-w-3xl'>
+        <p className='fade-up text-lg sm:text-xl md:text-2xl lg:text-2xl text-black/80 font-semibold text-center manrope-paragraph max-w-3xl'>
           The event you're looking for doesn't exist or is still loading.<br className='hidden sm:block' />Please check back later or verify the event link.
         </p>
       </div>
@@ -56,18 +67,16 @@ const EventPage = ({ department }) => {
     }
   };
   
-  useEffect(() => {
-    initScrollAnimations(); // Initialize scroll animations
-  }, []);
+
   
 
   return (
     <div className="text-black">
         <button 
         onClick={() => window.history.back()} 
-        className="fixed hidden top-5 left-5 border-2 md:flex justify-center items-center gap-1 text-[#365b9e] duration-200 cursor-pointer border-[#365b9e] transition-all ease-in-out hover:bg-[linear-gradient(to_bottom,_#30538e,_#5c89ff)] rounded-xl hover:text-white px-4 py-2 font-black md:font-bold fustat-heading active:scale-95 "
+        className=" fixed hidden top-5 left-5 border-2 md:flex justify-center items-center gap-1 text-[#365b9e] duration-200 cursor-pointer border-[#365b9e] transition-all ease-in-out hover:bg-[linear-gradient(to_bottom,_#30538e,_#5c89ff)] rounded-xl hover:text-white px-4 py-2 font-black md:font-bold fustat-heading active:scale-95 "
       >
-        <HiChevronLeft className="text-2xl" />
+        <HiChevronLeft className="text-2xl " />
         Back
       </button>
         <button 

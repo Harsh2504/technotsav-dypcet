@@ -12,9 +12,9 @@ const EventRegisteration = ({
 }) => {
     return (
         <section className="max-w-3xl mx-auto px-4 py-10" ref={ref} id="registration">
-            <h2 className="text-xl md:text-3xl font-bold text-center text-gray-800 fustat-heading">Event</h2>
-            <h1 className="text-5xl md:text-7xl font-bold text-center fustat-heading gradient h-20 md:h-24">Registration</h1>
-            <div className="bg-white rounded-2xl shadow-md p-6 space-y-6 bg-[linear-gradient(10deg,_#0a0a0a,_#1c1c1c,_#3e3e3e,_#1c1c1c,_#0a0a0a)]">
+            <h2 className="text-xl md:text-3xl font-bold text-center text-gray-800 fustat-heading element-fade">Event</h2>
+            <h1 className="text-5xl md:text-7xl font-bold text-center fustat-heading gradient h-20 md:h-24 element-fade">Registration</h1>
+            <div className="bg-white rounded-2xl shadow-md p-6 space-y-6 bg-[linear-gradient(10deg,_#0a0a0a,_#1c1c1c,_#3e3e3e,_#1c1c1c,_#0a0a0a)] element-fade-cards">
                 <div className="text-center">
                     <p className="text-sm text-[#3f66b6] manrope-paragraph">
                         Register Between:{" "}
