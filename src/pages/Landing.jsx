@@ -171,7 +171,7 @@ export default function Landing() {
             Download Poster
           </button>
         </div>
-      <div className="flex flex-col justify-center items-center w-screen min-h-screen overflow-x-hidden py-10 px-10 md:px-40">
+      <div className="flex flex-col justify-center items-center w-screen min-h-screen overflow-x-hidden py-10 px-10 md:px-42">
 
         <h1 className="text-3xl font-bold text-center text-gray-800 mb-8 fustat-heading">
           What's <span className="gradient text-5xl">Technotsav?</span>
