@@ -13,7 +13,7 @@ import EventTimeline from "../components/Event/EventTimeLine";
 import { HiChevronLeft } from "react-icons/hi";
 import eventsDataPool from "./eventsData.json";
 import EventContacts from "../components/Event/EventContacts";
-
+import { initScrollAnimations } from "../animations/scrollAnimations";
 const EventPage = ({ department }) => {
   const registrationRef = useRef(null);
 
@@ -32,6 +32,7 @@ const EventPage = ({ department }) => {
     console.log("🔍 Found Event:", foundEvent); // clearer logging
     setEventData(foundEvent || null);
   }, [department, eventname]);
+
 
   console.log(eventData);
   if (!eventData) {
@@ -54,7 +55,11 @@ const EventPage = ({ department }) => {
       registrationRef.current.scrollIntoView({ behavior: 'smooth' });
     }
   };
-
+  
+  useEffect(() => {
+    initScrollAnimations(); // Initialize scroll animations
+  }, []);
+  
 
   return (
     <div className="text-black">

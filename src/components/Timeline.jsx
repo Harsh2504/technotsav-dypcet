@@ -54,10 +54,10 @@ return (
                     Registration for <b className="gradient">Technotsav 2025</b> is now open! Explore <b className="gradient">exciting tech events</b> and register for the ones you love. Join us at <b className="gradient">D.Y. Patil College of Engineering & Technology, Kolhapur</b> and be part of the ultimate tech fest experience. <b className="gradient">Welcome aboard!</b>
 
                     </div>
-                            <hr  className='bg-black/20' />
+                            <hr  className='bg-black/20 element-fade-down' />
             </li>
             <li>
-                            <hr  className='bg-black/20' />
+                            <hr  className='bg-black/20 element-fade' />
                     <div className="timeline-middle">
                     <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -79,10 +79,10 @@ return (
 
 
                     </div>
-                            <hr  className='bg-black/20' />
+                            <hr  className='bg-black/20 element-fade-down' />
             </li>
             <li>
-                            <hr  className='bg-black/20' />
+                            <hr  className='bg-black/20 element-fade' />
                     <div className="timeline-middle">
                     <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -159,10 +159,10 @@ return (
                     </ol>
                     </div>
                     </div>
-                            <hr  className='bg-black/20' />
+                            <hr  className='bg-black/20 element-fade-down' />
             </li>
             <li>
-                            <hr  className='bg-black/20' />
+                            <hr  className='bg-black/20 element-fade' />
                     <div className="timeline-middle">
                     <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -195,10 +195,10 @@ return (
                         <li><b className='text-base gradient'>Reel Rumble (Day 2/2)</b></li>
                         </ol>
                     </div>
-                            <hr  className='bg-black/20' />
+                            <hr  className='bg-black/20 element-fade-down' />
             </li>
             <li>
-                            <hr  className='bg-black/20' />
+                            <hr  className='bg-black/20 element-fade' />
                     <div className="timeline-middle">
                     <svg
                             xmlns="http://www.w3.org/2000/svg"

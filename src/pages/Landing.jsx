@@ -12,6 +12,7 @@ import { RxCross2 } from "react-icons/rx";
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { initScrollAnimations } from "../animations/scrollAnimations";
 gsap.registerPlugin(ScrollTrigger);
 // Required for accessibility
 Modal.setAppElement("#root");
@@ -45,202 +46,10 @@ export default function Landing() {
       imageRef.current.style.transform = `translate(0, 0) scale(1)`;
     }
   };
+
+
   useEffect(() => {
-    gsap.utils.toArray(".element-fade").forEach((el) => {
-      gsap.set(el, { opacity: 0, y: 50 });
-      ScrollTrigger.create({
-        trigger: el,
-        start: "top 80%",
-        end: "bottom 10%",
-        // markers: true, // remove in production
-  
-        onEnter: () => {
-          gsap.fromTo(
-            el,
-            { opacity: 0, y: 50 },
-            {
-              opacity: 1,
-              y: 0,
-              duration: 1,
-              ease: "power2.out",
-            }
-          );
-        },
-  
-        onLeave: () => {
-          gsap.to(el, {
-            opacity: 0,
-            y: -50,
-            duration: 1,
-            ease: "power2.out",
-          });
-        },
-  
-        onEnterBack: () => {
-          gsap.to(el, {
-            opacity: 1,
-            y: 0,
-            duration: 1,
-            ease: "power2.out",
-          });
-        },
-  
-        onLeaveBack: () => {
-          gsap.to(el, {
-            opacity: 0,
-            y: 50,
-            duration: 1,
-            ease: "power2.out",
-          });
-        },
-      });
-    });
-
-    gsap.utils.toArray(".element-fade-in-left").forEach((el) => {
-      gsap.set(el, { opacity: 0, x: -50 });
-      ScrollTrigger.create({
-        trigger: el,
-        start: "top 80%",
-        end: "bottom 10%",
-        // markers: true, // remove in production
-  
-        onEnter: () => {
-            gsap.fromTo(
-            el,
-            { opacity: 0, x: -50 },
-            {
-              opacity: 1,
-              x: 0,
-              duration: 1,
-              ease: "power2.out",
-            }
-            );
-          },
-        
-          onLeave: () => {
-            // No animation on leave
-          },
-        
-          onEnterBack: () => {
-          gsap.to(el, {
-            opacity: 1,
-            x: 0,
-            duration: 1,
-            ease: "power2.out",
-          });
-        },
-  
-        onLeaveBack: () => {
-          gsap.to(el, {
-            opacity: 0,
-            x: -50,
-            duration: 1,
-            ease: "power2.out",
-          });
-        },
-      });
-    });
-
-
-    gsap.utils.toArray(".element-fade-in-right").forEach((el) => {
-      gsap.set(el, { opacity: 0, x: 50 });
-      ScrollTrigger.create({
-        trigger: el,
-        start: "top 80%",
-        end: "bottom 10%",
-        // markers: true, // remove in production
-  
-        onEnter: () => {
-            gsap.fromTo(
-            el,
-            { opacity: 0, x: 50 },
-            {
-              opacity: 1,
-              x: 0,
-              duration: 1,
-              ease: "power2.out",
-            }
-            );
-          },
-        
-          onLeave: () => {
-            // No animation on leave
-          },
-        
-          onEnterBack: () => {
-          gsap.to(el, {
-            opacity: 1,
-            x: 0,
-            duration: 1,
-            ease: "power2.out",
-          });
-        },
-  
-        onLeaveBack: () => {
-          gsap.to(el, {
-            opacity: 0,
-            x: 50,
-            duration: 1,
-            ease: "power2.out",
-          });
-        },
-      });
-    });
-
-
-    gsap.utils.toArray(".element-fade-cards").forEach((el, index) => {
-      // Set initial state
-      gsap.set(el, { opacity: 0, y: 50 });
-  
-      ScrollTrigger.create({
-        trigger: el,
-        start: "top 80%",
-        end: "bottom 20%",
-        // markers: true, // remove in production
-  
-        onEnter: () => {
-          gsap.fromTo(
-            el,
-            { opacity: 0, y: 50 },
-            {
-              opacity: 1,
-              y: 0,
-              duration: 0.5,
-              stagger: 0.1, 
-              ease: "power2.out",
-            }
-          );
-        },
-  
-        onLeave: () => {
-          gsap.to(el, {
-            opacity: 0,
-            y: -50,
-            duration: 1,
-            ease: "power2.out",
-          });
-        },
-  
-        onEnterBack: () => {
-          gsap.to(el, {
-            opacity: 1,
-            y: 0,
-            duration: 0.5,
-            stagger: 0.1, 
-            ease: "power2.out",
-          });
-        },
-  
-        onLeaveBack: () => {
-          gsap.to(el, {
-            opacity: 0,
-            y: 50,
-            duration: 1,
-            ease: "power2.out",
-          });
-        },
-      });
-    });
+    initScrollAnimations(); // Initialize scroll animations
   }, []);
   
 
@@ -253,7 +62,7 @@ export default function Landing() {
       <img
         src={dypcet_logo}
         alt="Dypcet Logo"
-        className="w-60 md:w-80 object-cover absolute top-40 md:top-30  left-1/2  transform -translate-x-1/2 z-10"
+        className="w-60 md:w-80 object-cover absolute top-40 md:top-30  left-1/2  transform -translate-x-1/2 z-10 fade-up"
       />
 
       {/* <div className="absolute bottom-10  left-1/2  transform -translate-x-1/2 flex flex-col items-center justify-center opacity-70">  
@@ -285,14 +94,7 @@ export default function Landing() {
         className="absolute hidden md:block inset-0 w-full h-full object-cover transition-transform duration-200 ease-out scale-105  pointer-events-none"
       />
         {/* <div className="absolute inset-0 bg-black opacity-50"></div> */}
-        <div className="absolute bottom-10  left-1/2  transform -translate-x-1/2 flex flex-col items-center justify-center opacity-70">
-          <img
-            src={mouseScroll}
-            alt="Mouse Scroll"
-            className="animate-bounce  w-15 h-15 object-cover"
-          />
-          <p className="text-white text-base md:text-xl fustat-heading">Scroll for More</p>
-        </div>
+        
         <div
           className="absolute inset-0 bg-fixed bg-cover bg-center"
           style={{
@@ -301,18 +103,18 @@ export default function Landing() {
             zIndex: "-1",
           }}
         ></div>
-        <p className="absolute top-70 md:top-71 text-center md:left-42 text-2xl md:text-4xl font-bold text-white/50 fustat-heading">
+        <p className="absolute top-70 md:top-71 text-center md:left-42 text-2xl md:text-4xl font-bold text-white/50 fustat-heading fade-up">
           DYPCET
         </p>
-        <p className="title absolute text-5xl top-76 md:top-75 md:text-9xl font-bold text-transparent opacity-90 bg-clip-text bg-gradient-to-r from-[#cccee9] via-[#92adfa] to-[#99fffd] spacecrusaders-heading text-center">
+        <p className="title absolute text-5xl top-76 md:top-75 md:text-9xl font-bold text-transparent opacity-90 bg-clip-text bg-gradient-to-r from-[#cccee9] via-[#92adfa] to-[#99fffd] spacecrusaders-heading text-center fade-up">
           Technotsav 2K25
         </p>
-        <p className="absolute top-102 md:top-106 text-center md:right-42 text-xl md:text-2xl font-bold text-white/80 fustat-heading">
+        <p className="absolute top-102 md:top-106 text-center md:right-42 text-xl md:text-2xl font-bold text-white/80 fustat-heading fade-up">
             24th & 25th April  
         </p>
 
         {/* Buttons */}
-        <div className="absolute hidden bottom-45 md:bottom-50 left-1/2 transform -translate-x-1/2 md:flex gap-3 flex-col md:flex-row items-center justify-center">
+        <div className="absolute hidden bottom-45 md:bottom-50 left-1/2 transform -translate-x-1/2 md:flex gap-3 flex-col md:flex-row items-center justify-center fade-up">
           {/* <button
             onClick={handleViewPoster}
             className="border-2 text-white w-40 md:w-40 hidden md:block hover:border-[#365b9e] transition-all ease-in-out hover:bg-gradient-to-b from-[#30538e] to-[#5c89ff] rounded-xl px-4 py-3 font-bold fustat-heading active:scale-95"
@@ -332,16 +134,23 @@ export default function Landing() {
             Download Poster
           </button>
         </div>
-
+        <div className="absolute bottom-10  left-1/2  transform -translate-x-1/2 flex flex-col items-center justify-center opacity-70 ">
+          <img
+            src={mouseScroll}
+            alt="Mouse Scroll"
+            className="animate-bounce  w-15 h-15 object-cover fade-up"
+          />
+          <p className="text-white text-base md:text-xl fustat-heading fade-up">Scroll for More</p>
+        </div>
         {/* Modal */}
         <Modal
           isOpen={isModalOpen}
           onRequestClose={() => setIsModalOpen(false)}
           contentLabel="Technotsav Poster"
-          className="w-[90%] max-w-3xl p-4 md:bg-white rounded-xl shadow-lg outline-none max-h-[90vh] overflow-y-auto"
+          className="w-[90%] max-w-3xl p-4 md:bg-white rounded-xl shadow-lg outline-none max-h-[90vh] overflow-y-auto "
           overlayClassName="fixed w-screen h-screen inset-0 bg-black/70 backdrop-blur-sm flex justify-center items-center z-50"
         >
-          <div className="flex flex-col items-end mb-2 justify-center">
+          <div className="flex flex-col items-end mb-2 justify-center ">
             <button
               onClick={() => setIsModalOpen(false)}
               className="p-1 md:p-2 text-white md:text-black bg-red-500 md:bg-white  hover:bg-black/20 rounded-full font-semibold"

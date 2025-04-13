@@ -332,7 +332,7 @@ const Events = () => {
             </h1>
 
             <div
-              className={`grid gap-10 justify-center  ${
+              className={`grid gap-10 justify-center element-fade ${
           dept.name === 'Techno Highlights'
             ? 'grid-cols-1 md:grid-cols-2'
             : dept.events.length === 2
