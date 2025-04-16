@@ -13,6 +13,7 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { initScrollAnimations } from "../animations/scrollAnimations";
+import Map from "../components/Map";
 gsap.registerPlugin(ScrollTrigger);
 // Required for accessibility
 Modal.setAppElement("#root");
@@ -226,6 +227,7 @@ export default function Landing() {
       </div>
       <Events />
       <Timeline />
+      <Map/>
       <FAQ />
     </div>
   );

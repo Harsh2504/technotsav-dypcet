@@ -17,6 +17,7 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { initScrollAnimations } from "../animations/scrollAnimations";
+import Map from "../components/Map";
 gsap.registerPlugin(ScrollTrigger);
 
 
@@ -108,6 +109,7 @@ const EventPage = ({ department }) => {
       <EventOther {...eventData.others} />
       <EventSponsers sponsors={eventData.sponsors} />
       <EventFAQ faqs={eventData.faqs} />
+      
       <EventContacts contacts={eventData.contacts} />
     </div>
   );
