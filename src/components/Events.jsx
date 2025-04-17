@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 import EventCard from './EventCard';
 import poster from "/images/poster.jpg";
+import WhatTechno from './WhatTechno';
 const Events = () => {
   const departmentRefs = useRef({});
 
@@ -308,6 +309,9 @@ const Events = () => {
         </>
       ))}
     </div>
+
+      <WhatTechno/>
+
     {eventData.departments.map((department, index) => {
         const [key, dept] = Object.entries(department)[0];
 
@@ -341,7 +345,7 @@ const Events = () => {
               }`}
             >
               {dept.events.map((event, idx) => (
-          <EventCard key={event.title + idx} dept={event} />
+          <EventCard key={event.title + idx} dept={event} animToggle={true} />
               ))}
             </div>
           </div>

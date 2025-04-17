@@ -8,6 +8,7 @@ import { FaArrowUp } from 'react-icons/fa';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { initScrollAnimations } from "./animations/scrollAnimations";
+import DepartmentEvents from './pages/DepartmentEvents';
 gsap.registerPlugin(ScrollTrigger);
 // Lazy load components
 const Landing = lazy(() => import('./pages/Landing'));
@@ -61,6 +62,7 @@ function App() {
             <Route path="/events/chem/:eventname" element={<EventPage department="chem" />} />
             <Route path="/events/e&tc/:eventname" element={<EventPage department="e&tc" />} />
             <Route path="/events/techl/:eventname" element={<EventPage department="techl" />} />
+            <Route path="/events/:dept" element={<DepartmentEvents/>} />
             <Route path="/events/entry/" element={<EventEntry />} />
             <Route
               path="*"
