@@ -4,6 +4,7 @@ import EventCard from '../components/EventCard'; // assuming you have this compo
 import dypcet_logo from "/images/DYPCET_white.png";
 import bg from "/images/bg.jpg";
 import { useRef } from 'react';
+import { HiChevronLeft } from "react-icons/hi";
 import mouseScroll from "/images/mouseScroll.png";
 const DepartmentEvents = () => {
     const { dept } = useParams();
@@ -282,6 +283,20 @@ const DepartmentEvents = () => {
 
     return (
         <div>
+            <button 
+                    onClick={() => window.location.href="/"} 
+                    className=" fixed hidden top-5 left-5 border-2 md:flex justify-center items-center gap-1 text-[#365b9e] duration-200 cursor-pointer border-[#365b9e] transition-all ease-in-out hover:bg-[linear-gradient(to_bottom,_#30538e,_#5c89ff)] rounded-xl hover:text-white px-4 py-2 font-black md:font-bold fustat-heading active:scale-95 "
+                  >
+                    <HiChevronLeft className="text-2xl " />
+                    Back
+                  </button>
+                    <button 
+                    onClick={() => window.location.href="/"} 
+                    className="absolute  md:hidden top-5 left-5 border-2 flex justify-center items-center gap-1 text-base text-white duration-200 cursor-pointer border-[#365b9e] transition-all ease-in-out bg-[linear-gradient(to_bottom,_#30538e,_#5c89ff)] rounded-xl  px-2 py-2  font-medium fustat-heading active:scale-95 "
+                  >
+                    <HiChevronLeft className="text-xl" />
+                   Back
+                  </button>
             {/* <div>
                 <img
                     src={dypcet_logo}
@@ -358,7 +373,7 @@ const DepartmentEvents = () => {
 
             </div>  */}
             <div
-                className={`flex flex-col justify-center items-center py-10 md:py-20 px-5 md:px-40 w-screen min-h-screen bg-gradient-to-b from-[#e3e3e3] via-[#e3e3e3] to-[#ccd8e3]`}
+                className={`flex flex-col justify-center items-center py-20 md:py-20 px-5 md:px-40 w-screen min-h-screen bg-gradient-to-b from-[#e3e3e3] via-[#e3e3e3] to-[#ccd8e3]`}
             >
                 <h1 className="text-4xl md:text-6xl font-bold fustat-heading text-center mb-10 element-fade">
                     {deptData.name.split(' ').map((word, i) => (

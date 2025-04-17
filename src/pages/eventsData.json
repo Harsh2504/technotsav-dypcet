@@ -2355,7 +2355,12 @@
       "map": ""
     },
     "sponsors": [],
-    "faqs": []
+    "faqs": [],
+    "contacts": [{
+      "role": "Student Coordinator",
+      "name": "Siddhi Lokare",
+      "phone": "8767195191"
+    }]
   }
   
 ]

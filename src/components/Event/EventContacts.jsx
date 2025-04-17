@@ -13,7 +13,7 @@ export default function EventContacts({ contacts }) {
     if (!contacts || contacts.length === 0) {
         return null; // Render nothing if there are no contacts
     }
-
+    console.log(contacts)
     return (
         <div className="w-[80vw] mx-auto px-4 py-5 md:py-10">
             <h2 className="text-xl md:text-3xl font-bold text-center element-fade text-gray-800 mb-3 fustat-heading">
