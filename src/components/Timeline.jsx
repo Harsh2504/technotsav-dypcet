@@ -108,7 +108,7 @@ return (
                     <ol className=" list-inside space-y-1">
                             <li><b className='text-base gradient'>Dare to Battle 1.0 </b></li>
                             <li><b className='text-base gradient'>Unsinkable Designs</b></li>
-                            <li><b className='text-base gradient'>Launch Pad</b></li>
+                            <li><b className='text-base gradient'>Poster Intelli Quest</b></li>
                             <li><b className='text-base gradient'>Design Relay</b></li>
                             <li><b className='text-base gradient'>Quiz Battle</b></li>
                             <li><b className='text-base gradient'>Project Competition(Chemical)</b></li>
@@ -140,7 +140,7 @@ return (
                     <ol className=" list-inside space-y-1">
                             <li><b className='text-base gradient'>Dare to Battle 1.0 </b></li>
                             <li><b className='text-base gradient'>Unsinkable Designs</b></li>
-                            <li><b className='text-base gradient'>Launch Pad</b></li>
+                            <li><b className='text-base gradient'>Poster Intelli Quest</b></li>
                             <li><b className='text-base gradient'>Design Relay</b></li>
                             <li><b className='text-base gradient'>Quiz Battle</b></li>
                             <li><b className='text-base gradient'>Project Competition(Chemical)</b></li>
@@ -184,7 +184,7 @@ return (
                         <br/><br/>
                         <span className="font-extrabold text-lg text-black "><b>E</b>vents:</span>
                         <ol className="list-inside space-y-1">
-                        <li><b className='text-base gradient'>Poster Intelli Quest</b></li>
+                        <li><b className='text-base gradient'>Launch Pad</b></li>
                         <li><b className='text-base gradient'>Model Competition</b></li>
                         <li><b className='text-base gradient'>Code Sprint</b></li>
                         <li><b className='text-base gradient'>Drone Competition</b></li>
